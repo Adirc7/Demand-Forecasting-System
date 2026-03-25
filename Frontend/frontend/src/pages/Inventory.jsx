@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getAlerts, acknowledge_alert, setOverrideThreshold } from '../services/api';
+import { getAlerts, acknowledge_alert, setOverrideThreshold, updateInventory } from '../services/api';
 import WhyPopup from '../components/WhyPopup';
 import './Inventory.css';
 
@@ -25,10 +25,24 @@ export default function Inventory() {
     const handleAcknowledge = async (sku) => {
         try {
             await acknowledge_alert(sku);
-            // Refresh to show the updated state
-            await loadAlerts();
+            // ZERO-READ UPDATE: Instantly modify local state instead of doing costly DB fetch
+            setAlerts(prev => prev.map(a => a.sku === sku ? { ...a, acknowledged: true } : a));
         } catch (e) {
             setErr("Failed to acknowledge alert: " + e.message);
+        }
+    };
+
+    const handleArrived = async (sku, current_stock) => {
+        const qty = prompt(`🚚 TRUCK ARRIVED: Enter total physical stock received for ${sku}:`);
+        if (!qty || isNaN(qty) || parseInt(qty) <= 0) return;
+        
+        try {
+            // Update database physically
+            await updateInventory(sku, { current_stock: current_stock + parseInt(qty), acknowledged: false });
+            // ZERO-READ REMOVAL: Instantly clear the alert from the screen locally
+            setAlerts(prev => prev.filter(a => a.sku !== sku));
+        } catch (e) {
+            setErr("Failed to verify arrival: " + e.message);
         }
     };
 
@@ -117,9 +131,19 @@ export default function Inventory() {
                                     <div className="model-tag">{a.mode} • {a.confidence.split(' ')[0]}</div>
                                     <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                                         {a.acknowledged ? (
-                                            <div style={{ fontSize: '9px', color: '#64748b', border: '1px solid #334155', padding: '4px 8px', borderRadius: '2px', background: 'rgba(51,65,85,.1)', fontFamily: "'Orbitron', monospace", letterSpacing: '1px' }}>
-                                                ORDER PLACED ✓
-                                            </div>
+                                            <>
+                                                <div style={{ fontSize: '9px', color: '#64748b', border: '1px solid #334155', padding: '4px 8px', borderRadius: '2px', background: 'rgba(51,65,85,.1)', fontFamily: "'Orbitron', monospace", letterSpacing: '1px' }}>
+                                                    ORDER PLACED ✓
+                                                </div>
+                                                <button
+                                                    onClick={() => handleArrived(a.sku, a.current_stock)}
+                                                    style={{ fontSize: '9px', color: '#22c55e', border: '1px solid rgba(34,197,94,.4)', padding: '4px 8px', borderRadius: '2px', background: 'transparent', cursor: 'pointer', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', transition: 'all 0.2s', marginLeft: '8px' }}
+                                                    onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(34,197,94,.1)'; e.currentTarget.style.boxShadow = '0 0 8px rgba(34,197,94,.3)'; }}
+                                                    onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.boxShadow = 'none'; }}
+                                                >
+                                                    TRUCK ARRIVED ➔
+                                                </button>
+                                            </>
                                         ) : (
                                             <button
                                                 onClick={() => handleAcknowledge(a.sku)}

@@ -1,0 +1,1001 @@
+date,sku,product_name,category,quantity,amount,status,order_id,created_by,current_stock,lead_time_days,service_level,avg_daily_sales_sku,demand_std_sku,safety_stock,reorder_point,reorder_flag,stock_cover_days
+2025-12-06,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,3,2600,Delivered,ORD-DEC-0001,Mr.Ilham,9,5,0.95,5.0,1.91,7.03,32.03,1,1.8
+2025-12-11,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,7,3100,Shipped,ORD-DEC-0002,Hakeem,192,5,0.95,5.0,1.91,7.03,32.03,0,38.4
+2025-12-12,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,8,2800,Shipped,ORD-DEC-0003,Nazlin,184,5,0.95,5.0,1.91,7.03,32.03,0,36.8
+2025-12-17,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,3,2700,Packed,ORD-DEC-0004,Hakeem,181,5,0.95,5.0,1.91,7.03,32.03,0,36.2
+2025-12-20,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,5,2700,Shipped,ORD-DEC-0005,Murshid,176,5,0.95,5.0,1.91,7.03,32.03,0,35.2
+2025-12-25,DC-1000,Vitamin D3 5000IU Capsules,Health & Supplements,4,2900,Cancelled,ORD-DEC-0006,Murshid,172,5,0.95,5.0,1.91,7.03,32.03,0,34.4
+2025-12-14,DC-1001,Magnesium Glycinate 400mg,Health & Supplements,7,4700,Shipped,ORD-DEC-0007,Nazlin,137,4,0.95,6.2,2.93,9.64,34.44,0,22.1
+2025-12-15,DC-1001,Magnesium Glycinate 400mg,Health & Supplements,6,4100,Packed,ORD-DEC-0008,Nazlin,131,4,0.95,6.2,2.93,9.64,34.44,0,21.13
+2025-12-22,DC-1001,Magnesium Glycinate 400mg,Health & Supplements,7,4700,Delivered,ORD-DEC-0009,Nazlin,13,4,0.95,6.2,2.93,9.64,34.44,1,2.1
+2025-12-24,DC-1001,Magnesium Glycinate 400mg,Health & Supplements,1,4300,Packed,ORD-DEC-0010,Mr.Ilham,123,4,0.95,6.2,2.93,9.64,34.44,0,19.84
+2025-12-26,DC-1001,Magnesium Glycinate 400mg,Health & Supplements,10,4200,Packed,ORD-DEC-0011,Murshid,113,4,0.95,6.2,2.93,9.64,34.44,0,18.23
+2025-12-08,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,7,7300,Shipped,ORD-DEC-0012,Hakeem,164,7,0.95,6.67,2.05,8.92,55.61,0,24.59
+2025-12-20,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,5,7400,Shipped,ORD-DEC-0013,Nazlin,159,7,0.95,6.67,2.05,8.92,55.61,0,23.84
+2025-12-21,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,9,7000,Pending,ORD-DEC-0014,Murshid,34,7,0.95,6.67,2.05,8.92,55.61,1,5.1
+2025-12-23,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,8,6800,Shipped,ORD-DEC-0015,Murshid,14,7,0.95,6.67,2.05,8.92,55.61,1,2.1
+2025-12-24,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,8,7000,Shipped,ORD-DEC-0016,Mr.Ilham,134,7,0.95,6.67,2.05,8.92,55.61,0,20.09
+2025-12-31,DC-1002,Vitamin D3 5000IU Capsules,Health & Supplements,3,7200,Packed,ORD-DEC-0017,Murshid,131,7,0.95,6.67,2.05,8.92,55.61,0,19.64
+2025-12-02,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,9,7000,Packed,ORD-DEC-0018,Nazlin,120,6,0.95,6.71,2.6,10.48,50.74,0,17.88
+2025-12-08,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,8,5900,Packed,ORD-DEC-0019,Hakeem,112,6,0.95,6.71,2.6,10.48,50.74,0,16.69
+2025-12-09,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,5,7100,Shipped,ORD-DEC-0020,Murshid,34,6,0.95,6.71,2.6,10.48,50.74,1,5.07
+2025-12-13,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,1,5900,Pending,ORD-DEC-0021,Mr.Ilham,106,6,0.95,6.71,2.6,10.48,50.74,0,15.8
+2025-12-15,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,8,6400,Packed,ORD-DEC-0022,Murshid,30,6,0.95,6.71,2.6,10.48,50.74,1,4.47
+2025-12-23,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,8,5800,Pending,ORD-DEC-0023,Murshid,14,6,0.95,6.71,2.6,10.48,50.74,1,2.09
+2025-12-24,DC-1003,Vitamin D3 5000IU Capsules,Health & Supplements,8,6400,Shipped,ORD-DEC-0024,Mr.Ilham,35,6,0.95,6.71,2.6,10.48,50.74,1,5.22
+2025-12-10,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,5,3800,Packed,ORD-DEC-0025,Hakeem,188,3,0.95,6.43,2.77,7.89,27.18,0,29.24
+2025-12-21,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,10,3700,Packed,ORD-DEC-0026,Nazlin,178,3,0.95,6.43,2.77,7.89,27.18,0,27.68
+2025-12-24,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,1,3400,Shipped,ORD-DEC-0027,Hakeem,177,3,0.95,6.43,2.77,7.89,27.18,0,27.53
+2025-12-25,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,6,3500,Packed,ORD-DEC-0028,Mr.Ilham,171,3,0.95,6.43,2.77,7.89,27.18,0,26.59
+2025-12-26,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,6,3900,Shipped,ORD-DEC-0029,Murshid,165,3,0.95,6.43,2.77,7.89,27.18,0,25.66
+2025-12-29,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,8,3800,Delivered,ORD-DEC-0030,Hakeem,157,3,0.95,6.43,2.77,7.89,27.18,0,24.42
+2025-12-31,DC-1004,Turmeric Curcumin 1500mg Supplement,Health & Supplements,9,3800,Pending,ORD-DEC-0031,Murshid,148,3,0.95,6.43,2.77,7.89,27.18,0,23.02
+2025-12-05,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,2,4300,Pending,ORD-DEC-0032,Hakeem,174,7,0.95,5.86,3.68,16.02,57.04,0,29.69
+2025-12-13,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,9,4300,Pending,ORD-DEC-0033,Hakeem,40,7,0.95,5.86,3.68,16.02,57.04,1,6.83
+2025-12-14,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,10,4600,Packed,ORD-DEC-0034,Hakeem,155,7,0.95,5.86,3.68,16.02,57.04,0,26.45
+2025-12-20,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,9,4600,Packed,ORD-DEC-0035,Mr.Ilham,146,7,0.95,5.86,3.68,16.02,57.04,0,24.91
+2025-12-23,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,2,4300,Packed,ORD-DEC-0036,Mr.Ilham,144,7,0.95,5.86,3.68,16.02,57.04,0,24.57
+2025-12-23,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,8,4500,Delivered,ORD-DEC-0037,Murshid,136,7,0.95,5.86,3.68,16.02,57.04,0,23.21
+2025-12-26,DC-1005,Magnesium Glycinate 400mg,Health & Supplements,1,4100,Packed,ORD-DEC-0038,Mr.Ilham,135,7,0.95,5.86,3.68,16.02,57.04,0,23.04
+2025-12-01,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,4,6300,Pending,ORD-DEC-0039,Mr.Ilham,179,4,0.95,4.0,2.39,7.86,23.86,0,44.75
+2025-12-05,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,3,6700,Packed,ORD-DEC-0040,Nazlin,176,4,0.95,4.0,2.39,7.86,23.86,0,44.0
+2025-12-06,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,1,7200,Delivered,ORD-DEC-0041,Hakeem,15,4,0.95,4.0,2.39,7.86,23.86,1,3.75
+2025-12-15,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,7,7600,Packed,ORD-DEC-0042,Mr.Ilham,20,4,0.95,4.0,2.39,7.86,23.86,1,5.0
+2025-12-19,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,8,7600,Packed,ORD-DEC-0043,Mr.Ilham,160,4,0.95,4.0,2.39,7.86,23.86,0,40.0
+2025-12-23,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,2,7600,Packed,ORD-DEC-0044,Mr.Ilham,158,4,0.95,4.0,2.39,7.86,23.86,0,39.5
+2025-12-27,DC-1006,Turmeric Curcumin 1500mg Supplement,Health & Supplements,3,7400,Shipped,ORD-DEC-0045,Mr.Ilham,155,4,0.95,4.0,2.39,7.86,23.86,0,38.75
+2025-12-16,DC-1007,Collagen Peptides Powder 500g,Health & Supplements,1,7400,Pending,ORD-DEC-0046,Murshid,268,6,0.95,2.5,1.66,6.69,21.69,0,107.2
+2025-12-24,DC-1007,Collagen Peptides Powder 500g,Health & Supplements,3,8000,Pending,ORD-DEC-0047,Hakeem,265,6,0.95,2.5,1.66,6.69,21.69,0,106.0
+2025-12-24,DC-1007,Collagen Peptides Powder 500g,Health & Supplements,1,7100,Shipped,ORD-DEC-0048,Hakeem,264,6,0.95,2.5,1.66,6.69,21.69,0,105.6
+2025-12-26,DC-1007,Collagen Peptides Powder 500g,Health & Supplements,5,7900,Shipped,ORD-DEC-0049,Nazlin,259,6,0.95,2.5,1.66,6.69,21.69,0,103.6
+2025-12-06,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,5,8700,Packed,ORD-DEC-0050,Nazlin,321,3,0.95,3.57,2.5,7.12,17.83,0,89.92
+2025-12-06,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,2,9100,Cancelled,ORD-DEC-0051,Murshid,319,3,0.95,3.57,2.5,7.12,17.83,0,89.36
+2025-12-13,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,3,9400,Packed,ORD-DEC-0052,Murshid,316,3,0.95,3.57,2.5,7.12,17.83,0,88.52
+2025-12-13,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,1,9800,Packed,ORD-DEC-0053,Hakeem,12,3,0.95,3.57,2.5,7.12,17.83,1,3.36
+2025-12-24,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,9,9200,Delivered,ORD-DEC-0054,Mr.Ilham,14,3,0.95,3.57,2.5,7.12,17.83,1,3.92
+2025-12-27,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,3,8200,Shipped,ORD-DEC-0055,Murshid,12,3,0.95,3.57,2.5,7.12,17.83,1,3.36
+2025-12-29,DC-1008,Probiotic 50 Billion CFU Capsules,Health & Supplements,2,8500,Pending,ORD-DEC-0056,Murshid,301,3,0.95,3.57,2.5,7.12,17.83,0,84.31
+2025-12-12,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,7,7100,Packed,ORD-DEC-0057,Nazlin,106,6,0.95,6.57,2.77,11.16,50.58,0,16.13
+2025-12-15,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,10,8100,Packed,ORD-DEC-0058,Murshid,96,6,0.95,6.57,2.77,11.16,50.58,0,14.61
+2025-12-19,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,10,7000,Packed,ORD-DEC-0059,Nazlin,86,6,0.95,6.57,2.77,11.16,50.58,0,13.09
+2025-12-19,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,3,8200,Packed,ORD-DEC-0060,Murshid,83,6,0.95,6.57,2.77,11.16,50.58,0,12.63
+2025-12-25,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,8,7000,Delivered,ORD-DEC-0061,Mr.Ilham,75,6,0.95,6.57,2.77,11.16,50.58,0,11.42
+2025-12-29,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,5,7800,Delivered,ORD-DEC-0062,Mr.Ilham,70,6,0.95,6.57,2.77,11.16,50.58,0,10.65
+2025-12-31,DC-1009,Omega-3 Fish Oil Softgels,Health & Supplements,3,8200,Packed,ORD-DEC-0063,Hakeem,34,6,0.95,6.57,2.77,11.16,50.58,1,5.18
+2025-12-05,DC-1010,Zinc Picolinate 50mg Tablets,Health & Supplements,5,4300,Packed,ORD-DEC-0064,Mr.Ilham,208,4,0.95,7.25,1.48,4.87,33.87,0,28.69
+2025-12-14,DC-1010,Zinc Picolinate 50mg Tablets,Health & Supplements,7,4100,Shipped,ORD-DEC-0065,Nazlin,201,4,0.95,7.25,1.48,4.87,33.87,0,27.72
+2025-12-22,DC-1010,Zinc Picolinate 50mg Tablets,Health & Supplements,8,3900,Packed,ORD-DEC-0066,Mr.Ilham,193,4,0.95,7.25,1.48,4.87,33.87,0,26.62
+2025-12-26,DC-1010,Zinc Picolinate 50mg Tablets,Health & Supplements,9,4200,Packed,ORD-DEC-0067,Murshid,184,4,0.95,7.25,1.48,4.87,33.87,0,25.38
+2025-12-07,DC-1011,Magnesium Glycinate 400mg,Health & Supplements,3,4600,Pending,ORD-DEC-0068,Hakeem,237,3,0.95,4.4,1.5,4.27,17.47,0,53.86
+2025-12-14,DC-1011,Magnesium Glycinate 400mg,Health & Supplements,7,4800,Shipped,ORD-DEC-0069,Hakeem,230,3,0.95,4.4,1.5,4.27,17.47,0,52.27
+2025-12-21,DC-1011,Magnesium Glycinate 400mg,Health & Supplements,3,4700,Delivered,ORD-DEC-0070,Mr.Ilham,227,3,0.95,4.4,1.5,4.27,17.47,0,51.59
+2025-12-24,DC-1011,Magnesium Glycinate 400mg,Health & Supplements,4,4600,Pending,ORD-DEC-0071,Nazlin,223,3,0.95,4.4,1.5,4.27,17.47,0,50.68
+2025-12-27,DC-1011,Magnesium Glycinate 400mg,Health & Supplements,5,4800,Packed,ORD-DEC-0072,Hakeem,9,3,0.95,4.4,1.5,4.27,17.47,1,2.05
+2025-12-13,DC-1012,Vitamin D3 5000IU Capsules,Health & Supplements,2,5600,Delivered,ORD-DEC-0073,Mr.Ilham,240,3,0.95,5.0,3.56,10.14,25.14,0,48.0
+2025-12-16,DC-1012,Vitamin D3 5000IU Capsules,Health & Supplements,3,4800,Packed,ORD-DEC-0074,Murshid,237,3,0.95,5.0,3.56,10.14,25.14,0,47.4
+2025-12-29,DC-1012,Vitamin D3 5000IU Capsules,Health & Supplements,10,4800,Packed,ORD-DEC-0075,Nazlin,227,3,0.95,5.0,3.56,10.14,25.14,0,45.4
+2025-12-03,DC-1013,Zinc Picolinate 50mg Tablets,Health & Supplements,5,4800,Packed,ORD-DEC-0076,Nazlin,180,7,0.95,6.4,1.5,6.53,51.33,0,28.12
+2025-12-05,DC-1013,Zinc Picolinate 50mg Tablets,Health & Supplements,7,4800,Delivered,ORD-DEC-0077,Hakeem,173,7,0.95,6.4,1.5,6.53,51.33,0,27.03
+2025-12-13,DC-1013,Zinc Picolinate 50mg Tablets,Health & Supplements,6,4300,Packed,ORD-DEC-0078,Murshid,167,7,0.95,6.4,1.5,6.53,51.33,0,26.09
+2025-12-20,DC-1013,Zinc Picolinate 50mg Tablets,Health & Supplements,5,4700,Packed,ORD-DEC-0079,Mr.Ilham,162,7,0.95,6.4,1.5,6.53,51.33,0,25.31
+2025-12-23,DC-1013,Zinc Picolinate 50mg Tablets,Health & Supplements,9,4700,Shipped,ORD-DEC-0080,Mr.Ilham,153,7,0.95,6.4,1.5,6.53,51.33,0,23.91
+2025-12-06,DC-1014,Probiotic 50 Billion CFU Capsules,Health & Supplements,3,9900,Delivered,ORD-DEC-0081,Mr.Ilham,96,3,0.95,4.0,1.58,4.5,16.5,0,24.0
+2025-12-12,DC-1014,Probiotic 50 Billion CFU Capsules,Health & Supplements,2,8600,Pending,ORD-DEC-0082,Mr.Ilham,94,3,0.95,4.0,1.58,4.5,16.5,0,23.5
+2025-12-13,DC-1014,Probiotic 50 Billion CFU Capsules,Health & Supplements,6,9500,Packed,ORD-DEC-0083,Hakeem,88,3,0.95,4.0,1.58,4.5,16.5,0,22.0
+2025-12-14,DC-1014,Probiotic 50 Billion CFU Capsules,Health & Supplements,5,9800,Shipped,ORD-DEC-0084,Mr.Ilham,83,3,0.95,4.0,1.58,4.5,16.5,0,20.75
+2025-12-03,DC-1015,Ashwagandha Root Extract 600mg,Health & Supplements,6,7500,Packed,ORD-DEC-0085,Mr.Ilham,243,3,0.95,8.0,1.41,4.02,28.02,0,30.38
+2025-12-13,DC-1015,Ashwagandha Root Extract 600mg,Health & Supplements,9,7400,Shipped,ORD-DEC-0086,Mr.Ilham,234,3,0.95,8.0,1.41,4.02,28.02,0,29.25
+2025-12-14,DC-1015,Ashwagandha Root Extract 600mg,Health & Supplements,9,7000,Packed,ORD-DEC-0087,Nazlin,20,3,0.95,8.0,1.41,4.02,28.02,1,2.5
+2025-12-08,DC-1016,Collagen Peptides Powder 500g,Health & Supplements,5,5500,Packed,ORD-DEC-0088,Murshid,145,7,0.95,6.67,1.25,5.44,52.13,0,21.74
+2025-12-14,DC-1016,Collagen Peptides Powder 500g,Health & Supplements,8,5800,Packed,ORD-DEC-0089,Hakeem,137,7,0.95,6.67,1.25,5.44,52.13,0,20.54
+2025-12-20,DC-1016,Collagen Peptides Powder 500g,Health & Supplements,7,5900,Pending,ORD-DEC-0090,Nazlin,130,7,0.95,6.67,1.25,5.44,52.13,0,19.49
+2025-12-03,DC-1017,Probiotic 50 Billion CFU Capsules,Health & Supplements,9,8900,Shipped,ORD-DEC-0091,Murshid,33,7,0.95,6.0,2.55,11.1,53.1,1,5.5
+2025-12-04,DC-1017,Probiotic 50 Billion CFU Capsules,Health & Supplements,7,9600,Shipped,ORD-DEC-0092,Murshid,182,7,0.95,6.0,2.55,11.1,53.1,0,30.33
+2025-12-04,DC-1017,Probiotic 50 Billion CFU Capsules,Health & Supplements,2,9700,Delivered,ORD-DEC-0093,Murshid,180,7,0.95,6.0,2.55,11.1,53.1,0,30.0
+2025-12-08,DC-1017,Probiotic 50 Billion CFU Capsules,Health & Supplements,6,8800,Packed,ORD-DEC-0094,Nazlin,174,7,0.95,6.0,2.55,11.1,53.1,0,29.0
+2025-12-07,DC-1018,Zinc Picolinate 50mg Tablets,Health & Supplements,5,5600,Packed,ORD-DEC-0095,Mr.Ilham,12,4,0.95,7.5,1.8,5.92,35.92,1,1.6
+2025-12-14,DC-1018,Zinc Picolinate 50mg Tablets,Health & Supplements,7,6300,Shipped,ORD-DEC-0096,Mr.Ilham,202,4,0.95,7.5,1.8,5.92,35.92,0,26.93
+2025-12-23,DC-1018,Zinc Picolinate 50mg Tablets,Health & Supplements,10,5700,Shipped,ORD-DEC-0097,Nazlin,192,4,0.95,7.5,1.8,5.92,35.92,0,25.6
+2025-12-30,DC-1018,Zinc Picolinate 50mg Tablets,Health & Supplements,8,6200,Pending,ORD-DEC-0098,Hakeem,184,4,0.95,7.5,1.8,5.92,35.92,0,24.53
+2025-12-05,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,4,3000,Packed,ORD-DEC-0099,Nazlin,226,4,0.95,7.71,3.06,10.07,40.91,0,29.31
+2025-12-08,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,10,2800,Delivered,ORD-DEC-0100,Mr.Ilham,216,4,0.95,7.71,3.06,10.07,40.91,0,28.02
+2025-12-21,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,10,3200,Packed,ORD-DEC-0101,Hakeem,206,4,0.95,7.71,3.06,10.07,40.91,0,26.72
+2025-12-23,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,10,3000,Packed,ORD-DEC-0102,Hakeem,196,4,0.95,7.71,3.06,10.07,40.91,0,25.42
+2025-12-28,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,9,2900,Shipped,ORD-DEC-0103,Hakeem,187,4,0.95,7.71,3.06,10.07,40.91,0,24.25
+2025-12-30,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,2,2800,Packed,ORD-DEC-0104,Murshid,185,4,0.95,7.71,3.06,10.07,40.91,0,23.99
+2025-12-30,DC-1019,Vitamin D3 5000IU Capsules,Health & Supplements,9,2800,Delivered,ORD-DEC-0105,Nazlin,176,4,0.95,7.71,3.06,10.07,40.91,0,22.83
+2025-12-11,DC-1020,Probiotic 50 Billion CFU Capsules,Health & Supplements,3,4500,Packed,ORD-DEC-0106,Mr.Ilham,257,4,0.95,5.8,3.43,11.28,34.48,0,44.31
+2025-12-20,DC-1020,Probiotic 50 Billion CFU Capsules,Health & Supplements,10,4800,Packed,ORD-DEC-0107,Hakeem,247,4,0.95,5.8,3.43,11.28,34.48,0,42.59
+2025-12-20,DC-1020,Probiotic 50 Billion CFU Capsules,Health & Supplements,1,4500,Delivered,ORD-DEC-0108,Hakeem,246,4,0.95,5.8,3.43,11.28,34.48,0,42.41
+2025-12-25,DC-1020,Probiotic 50 Billion CFU Capsules,Health & Supplements,6,4400,Cancelled,ORD-DEC-0109,Murshid,240,4,0.95,5.8,3.43,11.28,34.48,0,41.38
+2025-12-31,DC-1020,Probiotic 50 Billion CFU Capsules,Health & Supplements,9,4500,Shipped,ORD-DEC-0110,Murshid,231,4,0.95,5.8,3.43,11.28,34.48,0,39.83
+2025-12-03,DC-1021,Vitamin D3 5000IU Capsules,Health & Supplements,6,5700,Delivered,ORD-DEC-0111,Hakeem,15,5,0.95,3.75,1.92,7.06,25.81,1,4.0
+2025-12-06,DC-1021,Vitamin D3 5000IU Capsules,Health & Supplements,3,5600,Packed,ORD-DEC-0112,Nazlin,14,5,0.95,3.75,1.92,7.06,25.81,1,3.73
+2025-12-21,DC-1021,Vitamin D3 5000IU Capsules,Health & Supplements,1,5500,Packed,ORD-DEC-0113,Murshid,231,5,0.95,3.75,1.92,7.06,25.81,0,61.6
+2025-12-29,DC-1021,Vitamin D3 5000IU Capsules,Health & Supplements,5,5500,Cancelled,ORD-DEC-0114,Hakeem,12,5,0.95,3.75,1.92,7.06,25.81,1,3.2
+2025-12-13,DC-1022,Ashwagandha Root Extract 600mg,Health & Supplements,7,7700,Cancelled,ORD-DEC-0115,Hakeem,226,5,0.95,6.8,2.23,8.2,42.2,0,33.24
+2025-12-15,DC-1022,Ashwagandha Root Extract 600mg,Health & Supplements,7,7400,Shipped,ORD-DEC-0116,Hakeem,219,5,0.95,6.8,2.23,8.2,42.2,0,32.21
+2025-12-23,DC-1022,Ashwagandha Root Extract 600mg,Health & Supplements,7,6800,Delivered,ORD-DEC-0117,Nazlin,212,5,0.95,6.8,2.23,8.2,42.2,0,31.18
+2025-12-23,DC-1022,Ashwagandha Root Extract 600mg,Health & Supplements,3,6900,Shipped,ORD-DEC-0118,Nazlin,209,5,0.95,6.8,2.23,8.2,42.2,0,30.74
+2025-12-27,DC-1022,Ashwagandha Root Extract 600mg,Health & Supplements,10,7800,Shipped,ORD-DEC-0119,Murshid,199,5,0.95,6.8,2.23,8.2,42.2,0,29.26
+2025-12-07,DC-1023,Omega-3 Fish Oil Softgels,Health & Supplements,5,5000,Packed,ORD-DEC-0120,Hakeem,80,5,0.95,5.0,2.0,7.36,32.36,0,16.0
+2025-12-23,DC-1023,Omega-3 Fish Oil Softgels,Health & Supplements,4,5600,Packed,ORD-DEC-0121,Mr.Ilham,76,5,0.95,5.0,2.0,7.36,32.36,0,15.2
+2025-12-23,DC-1023,Omega-3 Fish Oil Softgels,Health & Supplements,2,5600,Packed,ORD-DEC-0122,Hakeem,74,5,0.95,5.0,2.0,7.36,32.36,0,14.8
+2025-12-25,DC-1023,Omega-3 Fish Oil Softgels,Health & Supplements,8,5800,Packed,ORD-DEC-0123,Mr.Ilham,66,5,0.95,5.0,2.0,7.36,32.36,0,13.2
+2025-12-27,DC-1023,Omega-3 Fish Oil Softgels,Health & Supplements,6,5100,Packed,ORD-DEC-0124,Murshid,60,5,0.95,5.0,2.0,7.36,32.36,0,12.0
+2025-12-02,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,9,4400,Cancelled,ORD-DEC-0125,Nazlin,12,3,0.95,5.29,2.49,7.09,22.96,1,2.27
+2025-12-11,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,1,4900,Packed,ORD-DEC-0126,Murshid,152,3,0.95,5.29,2.49,7.09,22.96,0,28.73
+2025-12-15,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,6,4800,Packed,ORD-DEC-0127,Murshid,146,3,0.95,5.29,2.49,7.09,22.96,0,27.6
+2025-12-23,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,4,4600,Packed,ORD-DEC-0128,Nazlin,142,3,0.95,5.29,2.49,7.09,22.96,0,26.84
+2025-12-28,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,8,5100,Packed,ORD-DEC-0129,Hakeem,134,3,0.95,5.29,2.49,7.09,22.96,0,25.33
+2025-12-30,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,4,4200,Shipped,ORD-DEC-0130,Mr.Ilham,130,3,0.95,5.29,2.49,7.09,22.96,0,24.57
+2025-12-31,DC-1024,Magnesium Glycinate 400mg,Health & Supplements,5,4800,Delivered,ORD-DEC-0131,Mr.Ilham,125,3,0.95,5.29,2.49,7.09,22.96,0,23.63
+2025-12-01,DC-1025,Car Dash Cam 1080P HD,Automotive,9,12200,Packed,ORD-DEC-0132,Murshid,137,4,0.95,6.5,3.28,10.79,36.79,0,21.08
+2025-12-01,DC-1025,Car Dash Cam 1080P HD,Automotive,1,13700,Delivered,ORD-DEC-0133,Hakeem,136,4,0.95,6.5,3.28,10.79,36.79,0,20.92
+2025-12-24,DC-1025,Car Dash Cam 1080P HD,Automotive,7,14000,Packed,ORD-DEC-0134,Murshid,129,4,0.95,6.5,3.28,10.79,36.79,0,19.85
+2025-12-25,DC-1025,Car Dash Cam 1080P HD,Automotive,9,13000,Packed,ORD-DEC-0135,Murshid,120,4,0.95,6.5,3.28,10.79,36.79,0,18.46
+2025-12-07,DC-1026,Car Dash Cam 1080P HD,Automotive,3,12600,Packed,ORD-DEC-0136,Mr.Ilham,23,6,0.95,5.5,2.63,10.6,43.6,1,4.18
+2025-12-16,DC-1026,Car Dash Cam 1080P HD,Automotive,8,11500,Shipped,ORD-DEC-0137,Hakeem,75,6,0.95,5.5,2.63,10.6,43.6,0,13.64
+2025-12-23,DC-1026,Car Dash Cam 1080P HD,Automotive,1,11700,Shipped,ORD-DEC-0138,Mr.Ilham,74,6,0.95,5.5,2.63,10.6,43.6,0,13.45
+2025-12-23,DC-1026,Car Dash Cam 1080P HD,Automotive,6,11600,Shipped,ORD-DEC-0139,Hakeem,68,6,0.95,5.5,2.63,10.6,43.6,0,12.36
+2025-12-25,DC-1026,Car Dash Cam 1080P HD,Automotive,8,12300,Shipped,ORD-DEC-0140,Murshid,20,6,0.95,5.5,2.63,10.6,43.6,1,3.64
+2025-12-28,DC-1026,Car Dash Cam 1080P HD,Automotive,7,11500,Delivered,ORD-DEC-0141,Murshid,22,6,0.95,5.5,2.63,10.6,43.6,1,4.0
+2025-12-15,DC-1027,Car Seat Back Organizer,Automotive,6,6100,Shipped,ORD-DEC-0142,Mr.Ilham,34,7,0.95,4.67,1.89,8.23,40.92,1,7.28
+2025-12-24,DC-1027,Car Seat Back Organizer,Automotive,6,5900,Shipped,ORD-DEC-0143,Nazlin,278,7,0.95,4.67,1.89,8.23,40.92,0,59.53
+2025-12-29,DC-1027,Car Seat Back Organizer,Automotive,2,5800,Delivered,ORD-DEC-0144,Hakeem,33,7,0.95,4.67,1.89,8.23,40.92,1,7.07
+2025-12-01,DC-1028,USB Car Charger Fast Charging 65W,Automotive,9,4100,Cancelled,ORD-DEC-0145,Murshid,301,3,0.95,3.5,3.2,9.12,19.62,0,86.0
+2025-12-07,DC-1028,USB Car Charger Fast Charging 65W,Automotive,2,3700,Shipped,ORD-DEC-0146,Murshid,299,3,0.95,3.5,3.2,9.12,19.62,0,85.43
+2025-12-19,DC-1028,USB Car Charger Fast Charging 65W,Automotive,1,4000,Cancelled,ORD-DEC-0147,Hakeem,298,3,0.95,3.5,3.2,9.12,19.62,0,85.14
+2025-12-19,DC-1028,USB Car Charger Fast Charging 65W,Automotive,2,4100,Packed,ORD-DEC-0148,Murshid,296,3,0.95,3.5,3.2,9.12,19.62,0,84.57
+2025-12-01,DC-1029,USB Car Charger Fast Charging 65W,Automotive,9,2100,Shipped,ORD-DEC-0149,Nazlin,237,5,0.95,6.29,3.01,11.07,42.52,0,37.68
+2025-12-06,DC-1029,USB Car Charger Fast Charging 65W,Automotive,5,2100,Cancelled,ORD-DEC-0150,Murshid,232,5,0.95,6.29,3.01,11.07,42.52,0,36.88
+2025-12-06,DC-1029,USB Car Charger Fast Charging 65W,Automotive,6,2100,Packed,ORD-DEC-0151,Hakeem,226,5,0.95,6.29,3.01,11.07,42.52,0,35.93
+2025-12-07,DC-1029,USB Car Charger Fast Charging 65W,Automotive,9,1800,Delivered,ORD-DEC-0152,Nazlin,27,5,0.95,6.29,3.01,11.07,42.52,1,4.29
+2025-12-12,DC-1029,USB Car Charger Fast Charging 65W,Automotive,1,2100,Shipped,ORD-DEC-0153,Hakeem,216,5,0.95,6.29,3.01,11.07,42.52,0,34.34
+2025-12-13,DC-1029,USB Car Charger Fast Charging 65W,Automotive,4,1800,Delivered,ORD-DEC-0154,Nazlin,212,5,0.95,6.29,3.01,11.07,42.52,0,33.7
+2025-12-15,DC-1029,USB Car Charger Fast Charging 65W,Automotive,10,1900,Packed,ORD-DEC-0155,Nazlin,202,5,0.95,6.29,3.01,11.07,42.52,0,32.11
+2025-12-02,DC-1030,Car Phone Mount Magnetic,Automotive,2,2400,Shipped,ORD-DEC-0156,Nazlin,5,3,0.95,3.75,2.05,5.84,17.09,1,1.33
+2025-12-05,DC-1030,Car Phone Mount Magnetic,Automotive,4,2100,Delivered,ORD-DEC-0157,Nazlin,180,3,0.95,3.75,2.05,5.84,17.09,0,48.0
+2025-12-11,DC-1030,Car Phone Mount Magnetic,Automotive,7,2000,Delivered,ORD-DEC-0158,Mr.Ilham,173,3,0.95,3.75,2.05,5.84,17.09,0,46.13
+2025-12-15,DC-1030,Car Phone Mount Magnetic,Automotive,2,2200,Shipped,ORD-DEC-0159,Murshid,11,3,0.95,3.75,2.05,5.84,17.09,1,2.93
+2025-12-11,DC-1031,USB Car Charger Fast Charging 65W,Automotive,5,3500,Cancelled,ORD-DEC-0160,Mr.Ilham,269,4,0.95,4.17,3.48,11.45,28.13,0,64.51
+2025-12-17,DC-1031,USB Car Charger Fast Charging 65W,Automotive,10,4100,Delivered,ORD-DEC-0161,Mr.Ilham,259,4,0.95,4.17,3.48,11.45,28.13,0,62.11
+2025-12-20,DC-1031,USB Car Charger Fast Charging 65W,Automotive,1,3500,Shipped,ORD-DEC-0162,Nazlin,258,4,0.95,4.17,3.48,11.45,28.13,0,61.87
+2025-12-23,DC-1031,USB Car Charger Fast Charging 65W,Automotive,7,3600,Packed,ORD-DEC-0163,Hakeem,251,4,0.95,4.17,3.48,11.45,28.13,0,60.19
+2025-12-24,DC-1031,USB Car Charger Fast Charging 65W,Automotive,1,3800,Delivered,ORD-DEC-0164,Murshid,250,4,0.95,4.17,3.48,11.45,28.13,0,59.95
+2025-12-25,DC-1031,USB Car Charger Fast Charging 65W,Automotive,1,3600,Delivered,ORD-DEC-0165,Hakeem,249,4,0.95,4.17,3.48,11.45,28.13,0,59.71
+2025-12-13,DC-1032,Windshield Sun Shade Foldable,Automotive,1,2200,Shipped,ORD-DEC-0166,Mr.Ilham,169,6,0.95,3.67,3.77,15.19,37.21,0,46.05
+2025-12-17,DC-1032,Windshield Sun Shade Foldable,Automotive,1,2400,Delivered,ORD-DEC-0167,Mr.Ilham,168,6,0.95,3.67,3.77,15.19,37.21,0,45.78
+2025-12-21,DC-1032,Windshield Sun Shade Foldable,Automotive,9,2300,Cancelled,ORD-DEC-0168,Mr.Ilham,159,6,0.95,3.67,3.77,15.19,37.21,0,43.32
+2025-12-02,DC-1033,Car Dash Cam 1080P HD,Automotive,1,8500,Packed,ORD-DEC-0169,Murshid,27,4,0.95,5.5,2.75,9.05,31.05,1,4.91
+2025-12-03,DC-1033,Car Dash Cam 1080P HD,Automotive,6,10000,Delivered,ORD-DEC-0170,Murshid,150,4,0.95,5.5,2.75,9.05,31.05,0,27.27
+2025-12-14,DC-1033,Car Dash Cam 1080P HD,Automotive,7,9900,Pending,ORD-DEC-0171,Mr.Ilham,143,4,0.95,5.5,2.75,9.05,31.05,0,26.0
+2025-12-24,DC-1033,Car Dash Cam 1080P HD,Automotive,4,8600,Packed,ORD-DEC-0172,Hakeem,139,4,0.95,5.5,2.75,9.05,31.05,0,25.27
+2025-12-24,DC-1033,Car Dash Cam 1080P HD,Automotive,10,9500,Packed,ORD-DEC-0173,Murshid,22,4,0.95,5.5,2.75,9.05,31.05,1,4.0
+2025-12-31,DC-1033,Car Dash Cam 1080P HD,Automotive,5,8400,Packed,ORD-DEC-0174,Mr.Ilham,18,4,0.95,5.5,2.75,9.05,31.05,1,3.27
+2025-12-01,DC-1034,USB Car Charger Fast Charging 65W,Automotive,2,3500,Shipped,ORD-DEC-0175,Hakeem,173,7,0.95,6.0,2.83,12.32,54.32,0,28.83
+2025-12-16,DC-1034,USB Car Charger Fast Charging 65W,Automotive,10,3700,Packed,ORD-DEC-0176,Hakeem,163,7,0.95,6.0,2.83,12.32,54.32,0,27.17
+2025-12-17,DC-1034,USB Car Charger Fast Charging 65W,Automotive,4,3600,Packed,ORD-DEC-0177,Murshid,159,7,0.95,6.0,2.83,12.32,54.32,0,26.5
+2025-12-26,DC-1034,USB Car Charger Fast Charging 65W,Automotive,8,3400,Packed,ORD-DEC-0178,Mr.Ilham,151,7,0.95,6.0,2.83,12.32,54.32,0,25.17
+2025-12-27,DC-1034,USB Car Charger Fast Charging 65W,Automotive,6,3600,Pending,ORD-DEC-0179,Mr.Ilham,145,7,0.95,6.0,2.83,12.32,54.32,0,24.17
+2025-12-02,DC-1035,Car Phone Mount Magnetic,Automotive,8,4400,Packed,ORD-DEC-0180,Mr.Ilham,132,7,0.95,4.25,2.28,9.92,39.67,0,31.06
+2025-12-02,DC-1035,Car Phone Mount Magnetic,Automotive,4,4300,Delivered,ORD-DEC-0181,Hakeem,128,7,0.95,4.25,2.28,9.92,39.67,0,30.12
+2025-12-15,DC-1035,Car Phone Mount Magnetic,Automotive,3,4400,Packed,ORD-DEC-0182,Murshid,125,7,0.95,4.25,2.28,9.92,39.67,0,29.41
+2025-12-17,DC-1035,Car Phone Mount Magnetic,Automotive,2,4600,Packed,ORD-DEC-0183,Hakeem,123,7,0.95,4.25,2.28,9.92,39.67,0,28.94
+2025-12-05,DC-1036,Car Phone Mount Magnetic,Automotive,5,2700,Delivered,ORD-DEC-0184,Hakeem,90,4,0.95,6.5,3.15,10.36,36.36,0,13.85
+2025-12-06,DC-1036,Car Phone Mount Magnetic,Automotive,9,2300,Packed,ORD-DEC-0185,Murshid,81,4,0.95,6.5,3.15,10.36,36.36,0,12.46
+2025-12-14,DC-1036,Car Phone Mount Magnetic,Automotive,10,2400,Packed,ORD-DEC-0186,Hakeem,71,4,0.95,6.5,3.15,10.36,36.36,0,10.92
+2025-12-23,DC-1036,Car Phone Mount Magnetic,Automotive,1,2600,Pending,ORD-DEC-0187,Murshid,70,4,0.95,6.5,3.15,10.36,36.36,0,10.77
+2025-12-26,DC-1036,Car Phone Mount Magnetic,Automotive,9,2400,Shipped,ORD-DEC-0188,Nazlin,61,4,0.95,6.5,3.15,10.36,36.36,0,9.38
+2025-12-30,DC-1036,Car Phone Mount Magnetic,Automotive,5,2400,Pending,ORD-DEC-0189,Nazlin,56,4,0.95,6.5,3.15,10.36,36.36,0,8.62
+2025-12-04,DC-1037,Car Dash Cam 1080P HD,Automotive,1,11800,Packed,ORD-DEC-0190,Mr.Ilham,35,6,0.95,6.25,3.34,13.46,50.96,1,5.6
+2025-12-07,DC-1037,Car Dash Cam 1080P HD,Automotive,8,11300,Packed,ORD-DEC-0191,Murshid,72,6,0.95,6.25,3.34,13.46,50.96,0,11.52
+2025-12-08,DC-1037,Car Dash Cam 1080P HD,Automotive,10,11500,Shipped,ORD-DEC-0192,Murshid,62,6,0.95,6.25,3.34,13.46,50.96,0,9.92
+2025-12-08,DC-1037,Car Dash Cam 1080P HD,Automotive,6,13300,Packed,ORD-DEC-0193,Murshid,56,6,0.95,6.25,3.34,13.46,50.96,0,8.96
+2025-12-01,DC-1038,Memory Foam Car Neck Pillow,Automotive,6,2600,Pending,ORD-DEC-0194,Mr.Ilham,324,3,0.95,6.0,2.88,8.21,26.21,0,54.0
+2025-12-08,DC-1038,Memory Foam Car Neck Pillow,Automotive,4,2500,Shipped,ORD-DEC-0195,Mr.Ilham,14,3,0.95,6.0,2.88,8.21,26.21,1,2.33
+2025-12-14,DC-1038,Memory Foam Car Neck Pillow,Automotive,10,2900,Pending,ORD-DEC-0196,Hakeem,310,3,0.95,6.0,2.88,8.21,26.21,0,51.67
+2025-12-21,DC-1038,Memory Foam Car Neck Pillow,Automotive,2,2700,Shipped,ORD-DEC-0197,Murshid,308,3,0.95,6.0,2.88,8.21,26.21,0,51.33
+2025-12-23,DC-1038,Memory Foam Car Neck Pillow,Automotive,9,2900,Shipped,ORD-DEC-0198,Murshid,299,3,0.95,6.0,2.88,8.21,26.21,0,49.83
+2025-12-29,DC-1038,Memory Foam Car Neck Pillow,Automotive,8,2900,Delivered,ORD-DEC-0199,Nazlin,7,3,0.95,6.0,2.88,8.21,26.21,1,1.17
+2025-12-30,DC-1038,Memory Foam Car Neck Pillow,Automotive,3,2900,Cancelled,ORD-DEC-0200,Hakeem,288,3,0.95,6.0,2.88,8.21,26.21,0,48.0
+2025-12-07,DC-1039,Car Dash Cam 1080P HD,Automotive,1,14000,Packed,ORD-DEC-0201,Murshid,201,4,0.95,4.29,3.19,10.5,27.66,0,46.85
+2025-12-18,DC-1039,Car Dash Cam 1080P HD,Automotive,4,13300,Packed,ORD-DEC-0202,Hakeem,197,4,0.95,4.29,3.19,10.5,27.66,0,45.92
+2025-12-22,DC-1039,Car Dash Cam 1080P HD,Automotive,4,14400,Packed,ORD-DEC-0203,Nazlin,19,4,0.95,4.29,3.19,10.5,27.66,1,4.43
+2025-12-22,DC-1039,Car Dash Cam 1080P HD,Automotive,1,15300,Packed,ORD-DEC-0204,Nazlin,192,4,0.95,4.29,3.19,10.5,27.66,0,44.76
+2025-12-24,DC-1039,Car Dash Cam 1080P HD,Automotive,9,12800,Packed,ORD-DEC-0205,Mr.Ilham,20,4,0.95,4.29,3.19,10.5,27.66,1,4.66
+2025-12-25,DC-1039,Car Dash Cam 1080P HD,Automotive,9,14800,Packed,ORD-DEC-0206,Murshid,174,4,0.95,4.29,3.19,10.5,27.66,0,40.56
+2025-12-27,DC-1039,Car Dash Cam 1080P HD,Automotive,2,13000,Pending,ORD-DEC-0207,Murshid,172,4,0.95,4.29,3.19,10.5,27.66,0,40.09
+2025-12-10,DC-1040,Car Phone Mount Magnetic,Automotive,4,3500,Shipped,ORD-DEC-0208,Nazlin,192,3,0.95,4.25,1.48,4.22,16.97,0,45.18
+2025-12-23,DC-1040,Car Phone Mount Magnetic,Automotive,6,3600,Packed,ORD-DEC-0209,Mr.Ilham,13,3,0.95,4.25,1.48,4.22,16.97,1,3.06
+2025-12-25,DC-1040,Car Phone Mount Magnetic,Automotive,2,3400,Delivered,ORD-DEC-0210,Nazlin,184,3,0.95,4.25,1.48,4.22,16.97,0,43.29
+2025-12-30,DC-1040,Car Phone Mount Magnetic,Automotive,5,3600,Packed,ORD-DEC-0211,Murshid,179,3,0.95,4.25,1.48,4.22,16.97,0,42.12
+2025-12-02,DC-1041,Car Phone Mount Magnetic,Automotive,7,2600,Delivered,ORD-DEC-0212,Nazlin,79,7,0.95,5.67,3.04,13.23,52.92,0,13.93
+2025-12-06,DC-1041,Car Phone Mount Magnetic,Automotive,3,2800,Delivered,ORD-DEC-0213,Mr.Ilham,76,7,0.95,5.67,3.04,13.23,52.92,0,13.4
+2025-12-07,DC-1041,Car Phone Mount Magnetic,Automotive,8,2800,Packed,ORD-DEC-0214,Murshid,68,7,0.95,5.67,3.04,13.23,52.92,0,11.99
+2025-12-11,DC-1041,Car Phone Mount Magnetic,Automotive,1,2700,Cancelled,ORD-DEC-0215,Nazlin,67,7,0.95,5.67,3.04,13.23,52.92,0,11.82
+2025-12-18,DC-1041,Car Phone Mount Magnetic,Automotive,10,2700,Packed,ORD-DEC-0216,Nazlin,57,7,0.95,5.67,3.04,13.23,52.92,0,10.05
+2025-12-23,DC-1041,Car Phone Mount Magnetic,Automotive,5,2400,Delivered,ORD-DEC-0217,Hakeem,52,7,0.95,5.67,3.04,13.23,52.92,0,9.17
+2025-12-07,DC-1042,Windshield Sun Shade Foldable,Automotive,2,2900,Packed,ORD-DEC-0218,Mr.Ilham,230,5,0.95,3.8,1.94,7.14,26.14,0,60.53
+2025-12-22,DC-1042,Windshield Sun Shade Foldable,Automotive,5,2900,Shipped,ORD-DEC-0219,Nazlin,225,5,0.95,3.8,1.94,7.14,26.14,0,59.21
+2025-12-27,DC-1042,Windshield Sun Shade Foldable,Automotive,2,2800,Packed,ORD-DEC-0220,Murshid,223,5,0.95,3.8,1.94,7.14,26.14,0,58.68
+2025-12-28,DC-1042,Windshield Sun Shade Foldable,Automotive,3,2500,Packed,ORD-DEC-0221,Mr.Ilham,7,5,0.95,3.8,1.94,7.14,26.14,1,1.84
+2025-12-29,DC-1042,Windshield Sun Shade Foldable,Automotive,7,2800,Pending,ORD-DEC-0222,Murshid,213,5,0.95,3.8,1.94,7.14,26.14,0,56.05
+2025-12-01,DC-1043,Portable Electric Air Pump 12V,Automotive,4,5200,Pending,ORD-DEC-0223,Murshid,149,7,0.95,4.0,1.87,8.14,36.14,0,37.25
+2025-12-06,DC-1043,Portable Electric Air Pump 12V,Automotive,5,4500,Shipped,ORD-DEC-0224,Mr.Ilham,144,7,0.95,4.0,1.87,8.14,36.14,0,36.0
+2025-12-27,DC-1043,Portable Electric Air Pump 12V,Automotive,1,4800,Packed,ORD-DEC-0225,Mr.Ilham,143,7,0.95,4.0,1.87,8.14,36.14,0,35.75
+2025-12-28,DC-1043,Portable Electric Air Pump 12V,Automotive,6,4500,Delivered,ORD-DEC-0226,Murshid,137,7,0.95,4.0,1.87,8.14,36.14,0,34.25
+2025-12-06,DC-1044,Car Seat Back Organizer,Automotive,6,4200,Packed,ORD-DEC-0227,Hakeem,190,3,0.95,4.75,1.64,4.67,18.92,0,40.0
+2025-12-13,DC-1044,Car Seat Back Organizer,Automotive,6,4400,Shipped,ORD-DEC-0228,Murshid,184,3,0.95,4.75,1.64,4.67,18.92,0,38.74
+2025-12-14,DC-1044,Car Seat Back Organizer,Automotive,5,4100,Packed,ORD-DEC-0999,Nazlin,185,3,0.95,4.75,1.64,4.67,18.92,0,38.95
+2025-12-19,DC-1044,Car Seat Back Organizer,Automotive,2,4000,Shipped,ORD-DEC-0229,Murshid,182,3,0.95,4.75,1.64,4.67,18.92,0,38.32
+2025-12-11,DC-1045,Car Seat Back Organizer,Automotive,8,5000,Shipped,ORD-DEC-0230,Murshid,8,4,0.95,6.29,1.83,6.02,31.18,1,1.27
+2025-12-17,DC-1045,Car Seat Back Organizer,Automotive,6,4700,Shipped,ORD-DEC-0231,Hakeem,329,4,0.95,6.29,1.83,6.02,31.18,0,52.31
+2025-12-25,DC-1045,Car Seat Back Organizer,Automotive,9,4500,Packed,ORD-DEC-0232,Murshid,320,4,0.95,6.29,1.83,6.02,31.18,0,50.87
+2025-12-27,DC-1045,Car Seat Back Organizer,Automotive,6,4300,Pending,ORD-DEC-0233,Nazlin,314,4,0.95,6.29,1.83,6.02,31.18,0,49.92
+2025-12-28,DC-1045,Car Seat Back Organizer,Automotive,3,4800,Delivered,ORD-DEC-0234,Murshid,311,4,0.95,6.29,1.83,6.02,31.18,0,49.44
+2025-12-28,DC-1045,Car Seat Back Organizer,Automotive,7,4500,Packed,ORD-DEC-0235,Hakeem,304,4,0.95,6.29,1.83,6.02,31.18,0,48.33
+2025-12-30,DC-1045,Car Seat Back Organizer,Automotive,5,4600,Delivered,ORD-DEC-0236,Hakeem,299,4,0.95,6.29,1.83,6.02,31.18,0,47.54
+2025-12-04,DC-1046,Windshield Sun Shade Foldable,Automotive,2,1200,Packed,ORD-DEC-0237,Nazlin,28,5,0.95,4.43,3.11,11.44,33.59,1,6.32
+2025-12-09,DC-1046,Windshield Sun Shade Foldable,Automotive,1,1200,Cancelled,ORD-DEC-0238,Mr.Ilham,148,5,0.95,4.43,3.11,11.44,33.59,0,33.41
+2025-12-15,DC-1046,Windshield Sun Shade Foldable,Automotive,9,1300,Shipped,ORD-DEC-0239,Nazlin,27,5,0.95,4.43,3.11,11.44,33.59,1,6.09
+2025-12-18,DC-1046,Windshield Sun Shade Foldable,Automotive,2,1100,Delivered,ORD-DEC-0240,Hakeem,137,5,0.95,4.43,3.11,11.44,33.59,0,30.93
+2025-12-20,DC-1046,Windshield Sun Shade Foldable,Automotive,5,1200,Packed,ORD-DEC-0241,Hakeem,132,5,0.95,4.43,3.11,11.44,33.59,0,29.8
+2025-12-24,DC-1046,Windshield Sun Shade Foldable,Automotive,3,1200,Shipped,ORD-DEC-0242,Hakeem,129,5,0.95,4.43,3.11,11.44,33.59,0,29.12
+2025-12-24,DC-1046,Windshield Sun Shade Foldable,Automotive,9,1100,Packed,ORD-DEC-0243,Hakeem,120,5,0.95,4.43,3.11,11.44,33.59,0,27.09
+2025-12-19,DC-1047,Car Dash Cam 1080P HD,Automotive,8,13500,Pending,ORD-DEC-0244,Murshid,189,3,0.95,7.0,1.41,4.02,25.02,0,27.0
+2025-12-21,DC-1047,Car Dash Cam 1080P HD,Automotive,5,11200,Shipped,ORD-DEC-0245,Hakeem,7,3,0.95,7.0,1.41,4.02,25.02,1,1.0
+2025-12-30,DC-1047,Car Dash Cam 1080P HD,Automotive,8,12000,Cancelled,ORD-DEC-0246,Nazlin,176,3,0.95,7.0,1.41,4.02,25.02,0,25.14
+2025-12-10,DC-1048,Car Seat Back Organizer,Automotive,10,5700,Shipped,ORD-DEC-0247,Murshid,88,7,0.95,5.75,3.49,15.19,55.44,0,15.3
+2025-12-15,DC-1048,Car Seat Back Organizer,Automotive,8,5900,Packed,ORD-DEC-0248,Mr.Ilham,80,7,0.95,5.75,3.49,15.19,55.44,0,13.91
+2025-12-27,DC-1048,Car Seat Back Organizer,Automotive,1,5600,Shipped,ORD-DEC-0249,Mr.Ilham,79,7,0.95,5.75,3.49,15.19,55.44,0,13.74
+2025-12-30,DC-1048,Car Seat Back Organizer,Automotive,4,6400,Packed,ORD-DEC-0250,Mr.Ilham,75,7,0.95,5.75,3.49,15.19,55.44,0,13.04
+2025-12-07,DC-1049,USB Car Charger Fast Charging 65W,Automotive,7,2500,Cancelled,ORD-DEC-0251,Hakeem,87,5,0.95,5.25,2.28,8.39,34.64,0,16.57
+2025-12-15,DC-1049,USB Car Charger Fast Charging 65W,Automotive,3,2700,Packed,ORD-DEC-0252,Nazlin,84,5,0.95,5.25,2.28,8.39,34.64,0,16.0
+2025-12-21,DC-1049,USB Car Charger Fast Charging 65W,Automotive,3,2900,Packed,ORD-DEC-0253,Mr.Ilham,81,5,0.95,5.25,2.28,8.39,34.64,0,15.43
+2025-12-22,DC-1049,USB Car Charger Fast Charging 65W,Automotive,8,2500,Cancelled,ORD-DEC-0254,Hakeem,73,5,0.95,5.25,2.28,8.39,34.64,0,13.9
+2025-12-10,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,9,12100,Packed,ORD-DEC-0255,Nazlin,185,7,0.95,5.14,3.27,14.23,50.21,0,35.99
+2025-12-12,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,5,10700,Packed,ORD-DEC-0256,Mr.Ilham,180,7,0.95,5.14,3.27,14.23,50.21,0,35.02
+2025-12-15,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,1,11000,Packed,ORD-DEC-0257,Hakeem,179,7,0.95,5.14,3.27,14.23,50.21,0,34.82
+2025-12-20,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,1,12200,Shipped,ORD-DEC-0258,Nazlin,178,7,0.95,5.14,3.27,14.23,50.21,0,34.63
+2025-12-22,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,10,10900,Packed,ORD-DEC-0259,Mr.Ilham,168,7,0.95,5.14,3.27,14.23,50.21,0,32.68
+2025-12-27,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,6,11500,Pending,ORD-DEC-0260,Mr.Ilham,162,7,0.95,5.14,3.27,14.23,50.21,0,31.52
+2025-12-28,DC-1050,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,4,11700,Delivered,ORD-DEC-0261,Murshid,158,7,0.95,5.14,3.27,14.23,50.21,0,30.74
+2025-12-12,DC-1051,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,4,6200,Packed,ORD-DEC-0262,Nazlin,345,5,0.95,5.2,2.14,7.87,33.87,0,66.35
+2025-12-16,DC-1051,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,7,5200,Delivered,ORD-DEC-0263,Nazlin,338,5,0.95,5.2,2.14,7.87,33.87,0,65.0
+2025-12-22,DC-1051,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,8,6100,Cancelled,ORD-DEC-0264,Hakeem,23,5,0.95,5.2,2.14,7.87,33.87,1,4.42
+2025-12-24,DC-1051,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,2,5700,Packed,ORD-DEC-0265,Nazlin,328,5,0.95,5.2,2.14,7.87,33.87,0,63.08
+2025-12-27,DC-1051,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,5,6200,Shipped,ORD-DEC-0266,Hakeem,323,5,0.95,5.2,2.14,7.87,33.87,0,62.12
+2025-12-10,DC-1052,Vacuum Food Sealer Machine,Kitchen & Home,5,5700,Delivered,ORD-DEC-0267,Murshid,134,3,0.95,4.25,1.92,5.47,18.22,0,31.53
+2025-12-15,DC-1052,Vacuum Food Sealer Machine,Kitchen & Home,5,6100,Shipped,ORD-DEC-0268,Mr.Ilham,129,3,0.95,4.25,1.92,5.47,18.22,0,30.35
+2025-12-24,DC-1052,Vacuum Food Sealer Machine,Kitchen & Home,1,6100,Packed,ORD-DEC-0269,Hakeem,128,3,0.95,4.25,1.92,5.47,18.22,0,30.12
+2025-12-24,DC-1052,Vacuum Food Sealer Machine,Kitchen & Home,6,5800,Shipped,ORD-DEC-0270,Mr.Ilham,122,3,0.95,4.25,1.92,5.47,18.22,0,28.71
+2025-12-04,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,1,9400,Packed,ORD-DEC-0271,Mr.Ilham,232,5,0.95,6.71,2.71,9.97,43.52,0,34.58
+2025-12-04,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,5,9300,Shipped,ORD-DEC-0272,Murshid,227,5,0.95,6.71,2.71,9.97,43.52,0,33.83
+2025-12-06,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,8,8600,Pending,ORD-DEC-0273,Nazlin,219,5,0.95,6.71,2.71,9.97,43.52,0,32.64
+2025-12-08,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,8,9600,Pending,ORD-DEC-0274,Mr.Ilham,211,5,0.95,6.71,2.71,9.97,43.52,0,31.45
+2025-12-18,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,10,8900,Shipped,ORD-DEC-0275,Murshid,201,5,0.95,6.71,2.71,9.97,43.52,0,29.96
+2025-12-20,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,7,9700,Pending,ORD-DEC-0276,Hakeem,11,5,0.95,6.71,2.71,9.97,43.52,1,1.64
+2025-12-25,DC-1053,Stainless Steel Salad Bowl Set,Kitchen & Home,8,9700,Delivered,ORD-DEC-0277,Murshid,186,5,0.95,6.71,2.71,9.97,43.52,0,27.72
+2025-12-05,DC-1054,Bamboo Cutting Board Set 3pcs,Kitchen & Home,8,3600,Packed,ORD-DEC-0278,Nazlin,110,4,0.95,7.33,0.94,3.09,32.41,0,15.01
+2025-12-25,DC-1054,Bamboo Cutting Board Set 3pcs,Kitchen & Home,8,3900,Shipped,ORD-DEC-0279,Nazlin,102,4,0.95,7.33,0.94,3.09,32.41,0,13.92
+2025-12-29,DC-1054,Bamboo Cutting Board Set 3pcs,Kitchen & Home,6,3600,Packed,ORD-DEC-0280,Nazlin,96,4,0.95,7.33,0.94,3.09,32.41,0,13.1
+2025-12-05,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,7,2700,Shipped,ORD-DEC-0281,Hakeem,116,6,0.95,4.71,2.43,9.79,38.05,0,24.63
+2025-12-06,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,3,2700,Packed,ORD-DEC-0282,Hakeem,113,6,0.95,4.71,2.43,9.79,38.05,0,23.99
+2025-12-16,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,4,2600,Packed,ORD-DEC-0283,Nazlin,16,6,0.95,4.71,2.43,9.79,38.05,1,3.4
+2025-12-23,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,3,2600,Packed,ORD-DEC-0284,Nazlin,106,6,0.95,4.71,2.43,9.79,38.05,0,22.51
+2025-12-23,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,8,2300,Shipped,ORD-DEC-0285,Mr.Ilham,98,6,0.95,4.71,2.43,9.79,38.05,0,20.81
+2025-12-31,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,7,2400,Delivered,ORD-DEC-0286,Murshid,91,6,0.95,4.71,2.43,9.79,38.05,0,19.32
+2025-12-31,DC-1055,Silicone Baking Mat Non-Stick Set,Kitchen & Home,1,2700,Shipped,ORD-DEC-0287,Murshid,24,6,0.95,4.71,2.43,9.79,38.05,1,5.1
+2025-12-10,DC-1056,Silicone Baking Mat Non-Stick Set,Kitchen & Home,1,5500,Packed,ORD-DEC-0288,Murshid,336,4,0.95,5.0,2.9,9.54,29.54,0,67.2
+2025-12-20,DC-1056,Silicone Baking Mat Non-Stick Set,Kitchen & Home,10,5700,Packed,ORD-DEC-0289,Mr.Ilham,326,4,0.95,5.0,2.9,9.54,29.54,0,65.2
+2025-12-20,DC-1056,Silicone Baking Mat Non-Stick Set,Kitchen & Home,5,5400,Shipped,ORD-DEC-0290,Mr.Ilham,321,4,0.95,5.0,2.9,9.54,29.54,0,64.2
+2025-12-25,DC-1056,Silicone Baking Mat Non-Stick Set,Kitchen & Home,5,5600,Packed,ORD-DEC-0291,Nazlin,316,4,0.95,5.0,2.9,9.54,29.54,0,63.2
+2025-12-29,DC-1056,Silicone Baking Mat Non-Stick Set,Kitchen & Home,4,5300,Pending,ORD-DEC-0292,Murshid,312,4,0.95,5.0,2.9,9.54,29.54,0,62.4
+2025-12-17,DC-1057,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,1,10400,Delivered,ORD-DEC-0293,Hakeem,243,7,0.95,4.5,3.04,13.23,44.73,0,54.0
+2025-12-19,DC-1057,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,2,10600,Delivered,ORD-DEC-0294,Mr.Ilham,16,7,0.95,4.5,3.04,13.23,44.73,1,3.56
+2025-12-20,DC-1057,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,8,10800,Packed,ORD-DEC-0295,Murshid,233,7,0.95,4.5,3.04,13.23,44.73,0,51.78
+2025-12-23,DC-1057,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,7,10400,Packed,ORD-DEC-0296,Murshid,226,7,0.95,4.5,3.04,13.23,44.73,0,50.22
+2025-12-01,DC-1058,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,10,8000,Packed,ORD-DEC-0297,Murshid,219,7,0.95,10.0,0.0,0.0,70.0,0,21.9
+2025-12-06,DC-1058,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,10,8800,Packed,ORD-DEC-0298,Mr.Ilham,209,7,0.95,10.0,0.0,0.0,70.0,0,20.9
+2025-12-09,DC-1058,Electric Kettle 1.7L Cordless Glass,Kitchen & Home,10,8300,Shipped,ORD-DEC-0299,Mr.Ilham,199,7,0.95,10.0,0.0,0.0,70.0,0,19.9
+2025-12-03,DC-1059,Automatic Electric Wine Aerator Pourer,Kitchen & Home,10,4500,Cancelled,ORD-DEC-0300,Murshid,205,7,0.95,7.4,2.06,8.97,60.77,0,27.7
+2025-12-07,DC-1059,Automatic Electric Wine Aerator Pourer,Kitchen & Home,7,4700,Delivered,ORD-DEC-0301,Mr.Ilham,198,7,0.95,7.4,2.06,8.97,60.77,0,26.76
+2025-12-08,DC-1059,Automatic Electric Wine Aerator Pourer,Kitchen & Home,9,5200,Shipped,ORD-DEC-0302,Hakeem,189,7,0.95,7.4,2.06,8.97,60.77,0,25.54
+2025-12-19,DC-1059,Automatic Electric Wine Aerator Pourer,Kitchen & Home,4,5100,Cancelled,ORD-DEC-0303,Mr.Ilham,41,7,0.95,7.4,2.06,8.97,60.77,1,5.54
+2025-12-20,DC-1059,Automatic Electric Wine Aerator Pourer,Kitchen & Home,7,5200,Packed,ORD-DEC-0304,Hakeem,178,7,0.95,7.4,2.06,8.97,60.77,0,24.05
+2025-12-05,DC-1060,Bamboo Cutting Board Set 3pcs,Kitchen & Home,8,7200,Packed,ORD-DEC-0305,Mr.Ilham,342,5,0.95,6.0,2.0,7.36,37.36,0,57.0
+2025-12-30,DC-1060,Bamboo Cutting Board Set 3pcs,Kitchen & Home,4,7700,Packed,ORD-DEC-0306,Mr.Ilham,12,5,0.95,6.0,2.0,7.36,37.36,1,2.0
+2025-12-18,DC-1061,Automatic Electric Wine Aerator Pourer,Kitchen & Home,4,8000,Pending,ORD-DEC-0307,Nazlin,221,5,0.95,6.25,3.9,14.35,45.6,0,35.36
+2025-12-21,DC-1061,Automatic Electric Wine Aerator Pourer,Kitchen & Home,1,8300,Shipped,ORD-DEC-0308,Murshid,220,5,0.95,6.25,3.9,14.35,45.6,0,35.2
+2025-12-23,DC-1061,Automatic Electric Wine Aerator Pourer,Kitchen & Home,10,7800,Packed,ORD-DEC-0309,Nazlin,210,5,0.95,6.25,3.9,14.35,45.6,0,33.6
+2025-12-25,DC-1061,Automatic Electric Wine Aerator Pourer,Kitchen & Home,10,7100,Packed,ORD-DEC-0310,Mr.Ilham,200,5,0.95,6.25,3.9,14.35,45.6,0,32.0
+2025-12-07,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,3,11600,Delivered,ORD-DEC-0311,Nazlin,263,6,0.95,5.33,2.36,9.51,41.49,0,49.34
+2025-12-11,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,6,13100,Shipped,ORD-DEC-0312,Mr.Ilham,257,6,0.95,5.33,2.36,9.51,41.49,0,48.22
+2025-12-13,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,9,13700,Packed,ORD-DEC-0313,Hakeem,248,6,0.95,5.33,2.36,9.51,41.49,0,46.53
+2025-12-18,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,7,12600,Packed,ORD-DEC-0314,Hakeem,241,6,0.95,5.33,2.36,9.51,41.49,0,45.22
+2025-12-23,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,2,11800,Shipped,ORD-DEC-0315,Mr.Ilham,239,6,0.95,5.33,2.36,9.51,41.49,0,44.84
+2025-12-29,DC-1062,Vacuum Food Sealer Machine,Kitchen & Home,5,11700,Packed,ORD-DEC-0316,Nazlin,234,6,0.95,5.33,2.36,9.51,41.49,0,43.9
+2025-12-14,DC-1063,Silicone Baking Mat Non-Stick Set,Kitchen & Home,6,3700,Packed,ORD-DEC-0317,Nazlin,191,4,0.95,5.0,1.73,5.69,25.69,0,38.2
+2025-12-21,DC-1063,Silicone Baking Mat Non-Stick Set,Kitchen & Home,6,3500,Pending,ORD-DEC-0318,Nazlin,185,4,0.95,5.0,1.73,5.69,25.69,0,37.0
+2025-12-25,DC-1063,Silicone Baking Mat Non-Stick Set,Kitchen & Home,2,3300,Packed,ORD-DEC-0319,Nazlin,183,4,0.95,5.0,1.73,5.69,25.69,0,36.6
+2025-12-26,DC-1063,Silicone Baking Mat Non-Stick Set,Kitchen & Home,6,3400,Shipped,ORD-DEC-0320,Mr.Ilham,10,4,0.95,5.0,1.73,5.69,25.69,1,2.0
+2025-12-07,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,9,4400,Packed,ORD-DEC-0321,Hakeem,253,3,0.95,5.14,2.17,6.18,21.6,0,49.22
+2025-12-07,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,4,4200,Shipped,ORD-DEC-0322,Hakeem,249,3,0.95,5.14,2.17,6.18,21.6,0,48.44
+2025-12-17,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,6,3800,Shipped,ORD-DEC-0323,Hakeem,243,3,0.95,5.14,2.17,6.18,21.6,0,47.28
+2025-12-20,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,7,4100,Packed,ORD-DEC-0324,Murshid,236,3,0.95,5.14,2.17,6.18,21.6,0,45.91
+2025-12-21,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,2,4300,Delivered,ORD-DEC-0325,Mr.Ilham,14,3,0.95,5.14,2.17,6.18,21.6,1,2.72
+2025-12-21,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,4,3800,Shipped,ORD-DEC-0326,Hakeem,230,3,0.95,5.14,2.17,6.18,21.6,0,44.75
+2025-12-29,DC-1064,Silicone Baking Mat Non-Stick Set,Kitchen & Home,4,4400,Packed,ORD-DEC-0327,Murshid,226,3,0.95,5.14,2.17,6.18,21.6,0,43.97
+2025-12-01,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,7,7400,Packed,ORD-DEC-0328,Hakeem,15,4,0.95,6.29,2.25,7.4,32.56,1,2.38
+2025-12-05,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,2,7700,Packed,ORD-DEC-0329,Mr.Ilham,199,4,0.95,6.29,2.25,7.4,32.56,0,31.64
+2025-12-12,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,6,6400,Shipped,ORD-DEC-0330,Nazlin,193,4,0.95,6.29,2.25,7.4,32.56,0,30.68
+2025-12-13,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,7,7500,Shipped,ORD-DEC-0331,Nazlin,186,4,0.95,6.29,2.25,7.4,32.56,0,29.57
+2025-12-23,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,10,7200,Pending,ORD-DEC-0332,Murshid,23,4,0.95,6.29,2.25,7.4,32.56,1,3.66
+2025-12-25,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,7,7700,Shipped,ORD-DEC-0333,Nazlin,169,4,0.95,6.29,2.25,7.4,32.56,0,26.87
+2025-12-26,DC-1065,Bamboo Cutting Board Set 3pcs,Kitchen & Home,5,7300,Packed,ORD-DEC-0334,Murshid,13,4,0.95,6.29,2.25,7.4,32.56,1,2.07
+2025-12-01,DC-1066,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,6,2400,Packed,ORD-DEC-0335,Nazlin,302,3,0.95,4.5,1.5,4.27,17.77,0,67.11
+2025-12-07,DC-1066,Revolving Spice Rack Organizer 24 Slots,Kitchen & Home,3,2300,Pending,ORD-DEC-0336,Mr.Ilham,10,3,0.95,4.5,1.5,4.27,17.77,1,2.22
+2025-12-01,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,4,3900,Shipped,ORD-DEC-0337,Murshid,20,3,0.95,6.5,1.89,5.39,24.89,1,3.08
+2025-12-01,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,9,4000,Packed,ORD-DEC-0338,Hakeem,150,3,0.95,6.5,1.89,5.39,24.89,0,23.08
+2025-12-05,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,5,3800,Packed,ORD-DEC-0339,Murshid,145,3,0.95,6.5,1.89,5.39,24.89,0,22.31
+2025-12-05,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,8,4100,Packed,ORD-DEC-0340,Hakeem,137,3,0.95,6.5,1.89,5.39,24.89,0,21.08
+2025-12-07,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,8,3700,Shipped,ORD-DEC-0341,Mr.Ilham,129,3,0.95,6.5,1.89,5.39,24.89,0,19.85
+2025-12-14,DC-1067,Bamboo Cutting Board Set 3pcs,Kitchen & Home,5,3800,Pending,ORD-DEC-0342,Mr.Ilham,124,3,0.95,6.5,1.89,5.39,24.89,0,19.08
+2025-12-15,DC-1068,Stainless Steel Salad Bowl Set,Kitchen & Home,6,4300,Packed,ORD-DEC-0343,Hakeem,311,7,0.95,3.25,1.64,7.14,29.89,0,95.69
+2025-12-23,DC-1068,Stainless Steel Salad Bowl Set,Kitchen & Home,2,4600,Delivered,ORD-DEC-0344,Murshid,309,7,0.95,3.25,1.64,7.14,29.89,0,95.08
+2025-12-23,DC-1068,Stainless Steel Salad Bowl Set,Kitchen & Home,3,4800,Shipped,ORD-DEC-0345,Murshid,306,7,0.95,3.25,1.64,7.14,29.89,0,94.15
+2025-12-31,DC-1068,Stainless Steel Salad Bowl Set,Kitchen & Home,2,4300,Pending,ORD-DEC-0346,Mr.Ilham,304,7,0.95,3.25,1.64,7.14,29.89,0,93.54
+2025-12-02,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,10,5200,Delivered,ORD-DEC-0347,Hakeem,101,6,0.95,6.29,3.57,14.38,52.12,0,16.06
+2025-12-09,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,5,5300,Packed,ORD-DEC-0348,Hakeem,96,6,0.95,6.29,3.57,14.38,52.12,0,15.26
+2025-12-15,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,10,5400,Delivered,ORD-DEC-0349,Hakeem,86,6,0.95,6.29,3.57,14.38,52.12,0,13.67
+2025-12-20,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,1,4600,Pending,ORD-DEC-0350,Murshid,85,6,0.95,6.29,3.57,14.38,52.12,0,13.51
+2025-12-21,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,6,5500,Delivered,ORD-DEC-0351,Murshid,79,6,0.95,6.29,3.57,14.38,52.12,0,12.56
+2025-12-23,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,10,4700,Pending,ORD-DEC-0352,Murshid,69,6,0.95,6.29,3.57,14.38,52.12,0,10.97
+2025-12-30,DC-1069,Bamboo Cutting Board Set 3pcs,Kitchen & Home,2,5400,Packed,ORD-DEC-0353,Hakeem,67,6,0.95,6.29,3.57,14.38,52.12,0,10.65
+2025-12-13,DC-1070,Bamboo Cutting Board Set 3pcs,Kitchen & Home,4,7000,Shipped,ORD-DEC-0354,Mr.Ilham,3,4,0.95,3.0,1.0,3.29,15.29,1,1.0
+2025-12-14,DC-1070,Bamboo Cutting Board Set 3pcs,Kitchen & Home,2,6600,Shipped,ORD-DEC-0355,Nazlin,298,4,0.95,3.0,1.0,3.29,15.29,0,99.33
+2025-12-07,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,2,9400,Delivered,ORD-DEC-0356,Mr.Ilham,208,6,0.95,4.33,4.03,16.24,42.22,0,48.04
+2025-12-14,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,2,8500,Packed,ORD-DEC-0357,Mr.Ilham,33,6,0.95,4.33,4.03,16.24,42.22,1,7.62
+2025-12-17,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,10,9400,Pending,ORD-DEC-0358,Nazlin,196,6,0.95,4.33,4.03,16.24,42.22,0,45.27
+2025-12-24,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,10,9900,Packed,ORD-DEC-0359,Murshid,186,6,0.95,4.33,4.03,16.24,42.22,0,42.96
+2025-12-25,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,1,9400,Cancelled,ORD-DEC-0360,Nazlin,185,6,0.95,4.33,4.03,16.24,42.22,0,42.73
+2025-12-31,DC-1071,Vacuum Food Sealer Machine,Kitchen & Home,1,9900,Pending,ORD-DEC-0361,Nazlin,184,6,0.95,4.33,4.03,16.24,42.22,0,42.49
+2025-12-23,DC-1072,Automatic Electric Wine Aerator Pourer,Kitchen & Home,7,4900,Delivered,ORD-DEC-0362,Murshid,220,3,0.95,6.0,2.12,6.04,24.04,0,36.67
+2025-12-24,DC-1072,Automatic Electric Wine Aerator Pourer,Kitchen & Home,4,4700,Shipped,ORD-DEC-0363,Hakeem,216,3,0.95,6.0,2.12,6.04,24.04,0,36.0
+2025-12-27,DC-1072,Automatic Electric Wine Aerator Pourer,Kitchen & Home,9,4400,Pending,ORD-DEC-0364,Mr.Ilham,207,3,0.95,6.0,2.12,6.04,24.04,0,34.5
+2025-12-28,DC-1072,Automatic Electric Wine Aerator Pourer,Kitchen & Home,4,5000,Packed,ORD-DEC-0365,Mr.Ilham,203,3,0.95,6.0,2.12,6.04,24.04,0,33.83
+2025-12-05,DC-1073,Silicone Baking Mat Non-Stick Set,Kitchen & Home,7,4700,Packed,ORD-DEC-0366,Murshid,172,5,0.95,7.4,2.94,10.81,47.81,0,23.24
+2025-12-08,DC-1073,Silicone Baking Mat Non-Stick Set,Kitchen & Home,2,4600,Packed,ORD-DEC-0367,Mr.Ilham,31,5,0.95,7.4,2.94,10.81,47.81,1,4.19
+2025-12-19,DC-1073,Silicone Baking Mat Non-Stick Set,Kitchen & Home,8,4600,Delivered,ORD-DEC-0368,Mr.Ilham,162,5,0.95,7.4,2.94,10.81,47.81,0,21.89
+2025-12-24,DC-1073,Silicone Baking Mat Non-Stick Set,Kitchen & Home,10,4300,Shipped,ORD-DEC-0369,Hakeem,35,5,0.95,7.4,2.94,10.81,47.81,1,4.73
+2025-12-27,DC-1073,Silicone Baking Mat Non-Stick Set,Kitchen & Home,10,5000,Packed,ORD-DEC-0370,Mr.Ilham,142,5,0.95,7.4,2.94,10.81,47.81,0,19.19
+2025-12-09,DC-1074,Automatic Electric Wine Aerator Pourer,Kitchen & Home,7,6400,Delivered,ORD-DEC-0371,Murshid,146,6,0.95,7.5,0.5,2.01,47.01,0,19.47
+2025-12-31,DC-1074,Automatic Electric Wine Aerator Pourer,Kitchen & Home,8,5500,Shipped,ORD-DEC-0372,Nazlin,138,6,0.95,7.5,0.5,2.01,47.01,0,18.4
+2025-12-12,DC-1075,RGB LED Strip Lights App Control 5m,General,6,6700,Packed,ORD-DEC-0373,Hakeem,10,3,0.95,6.33,2.05,5.84,24.83,1,1.58
+2025-12-26,DC-1075,RGB LED Strip Lights App Control 5m,General,9,6700,Packed,ORD-DEC-0374,Mr.Ilham,298,3,0.95,6.33,2.05,5.84,24.83,0,47.08
+2025-12-27,DC-1075,RGB LED Strip Lights App Control 5m,General,4,6200,Packed,ORD-DEC-0375,Murshid,294,3,0.95,6.33,2.05,5.84,24.83,0,46.45
+2025-12-14,DC-1076,RGB LED Strip Lights App Control 5m,General,6,5300,Packed,ORD-DEC-0376,Murshid,151,5,0.95,6.17,2.11,7.76,38.61,0,24.47
+2025-12-16,DC-1076,RGB LED Strip Lights App Control 5m,General,8,5300,Shipped,ORD-DEC-0377,Murshid,143,5,0.95,6.17,2.11,7.76,38.61,0,23.18
+2025-12-23,DC-1076,RGB LED Strip Lights App Control 5m,General,7,4900,Packed,ORD-DEC-0378,Hakeem,136,5,0.95,6.17,2.11,7.76,38.61,0,22.04
+2025-12-24,DC-1076,RGB LED Strip Lights App Control 5m,General,4,4700,Packed,ORD-DEC-0379,Hakeem,132,5,0.95,6.17,2.11,7.76,38.61,0,21.39
+2025-12-25,DC-1076,RGB LED Strip Lights App Control 5m,General,9,5000,Packed,ORD-DEC-0380,Mr.Ilham,123,5,0.95,6.17,2.11,7.76,38.61,0,19.94
+2025-12-28,DC-1076,RGB LED Strip Lights App Control 5m,General,3,4600,Shipped,ORD-DEC-0381,Nazlin,120,5,0.95,6.17,2.11,7.76,38.61,0,19.45
+2025-12-09,DC-1077,Wireless Earbuds Noise Cancelling,General,3,8400,Shipped,ORD-DEC-0382,Murshid,236,4,0.95,4.75,1.3,4.28,23.28,0,49.68
+2025-12-09,DC-1077,Wireless Earbuds Noise Cancelling,General,4,8400,Packed,ORD-DEC-0383,Murshid,232,4,0.95,4.75,1.3,4.28,23.28,0,48.84
+2025-12-23,DC-1077,Wireless Earbuds Noise Cancelling,General,6,8800,Delivered,ORD-DEC-0384,Mr.Ilham,226,4,0.95,4.75,1.3,4.28,23.28,0,47.58
+2025-12-30,DC-1077,Wireless Earbuds Noise Cancelling,General,6,8100,Packed,ORD-DEC-0385,Hakeem,220,4,0.95,4.75,1.3,4.28,23.28,0,46.32
+2025-12-05,DC-1078,Smart LED Bulb Dimmable WiFi,General,2,4900,Pending,ORD-DEC-0386,Nazlin,26,4,0.95,5.75,3.27,10.76,33.76,1,4.52
+2025-12-13,DC-1078,Smart LED Bulb Dimmable WiFi,General,9,4300,Shipped,ORD-DEC-0387,Mr.Ilham,125,4,0.95,5.75,3.27,10.76,33.76,0,21.74
+2025-12-15,DC-1078,Smart LED Bulb Dimmable WiFi,General,9,4200,Pending,ORD-DEC-0388,Nazlin,116,4,0.95,5.75,3.27,10.76,33.76,0,20.17
+2025-12-22,DC-1078,Smart LED Bulb Dimmable WiFi,General,3,4700,Packed,ORD-DEC-0389,Murshid,113,4,0.95,5.75,3.27,10.76,33.76,0,19.65
+2025-12-04,DC-1079,Smart Plug WiFi Energy Monitor,General,8,3300,Packed,ORD-DEC-0390,Murshid,9,5,0.95,5.67,2.62,9.64,37.99,1,1.59
+2025-12-23,DC-1079,Smart Plug WiFi Energy Monitor,General,2,3900,Shipped,ORD-DEC-0391,Mr.Ilham,336,5,0.95,5.67,2.62,9.64,37.99,0,59.26
+2025-12-27,DC-1079,Smart Plug WiFi Energy Monitor,General,7,3700,Shipped,ORD-DEC-0392,Nazlin,329,5,0.95,5.67,2.62,9.64,37.99,0,58.02
+2025-12-15,DC-1080,Mini Projector Portable 1080P,General,8,18900,Shipped,ORD-DEC-0393,Mr.Ilham,93,3,0.95,6.14,3.14,8.95,27.37,0,15.15
+2025-12-16,DC-1080,Mini Projector Portable 1080P,General,1,17100,Packed,ORD-DEC-0394,Hakeem,92,3,0.95,6.14,3.14,8.95,27.37,0,14.98
+2025-12-19,DC-1080,Mini Projector Portable 1080P,General,9,19000,Shipped,ORD-DEC-0395,Nazlin,83,3,0.95,6.14,3.14,8.95,27.37,0,13.52
+2025-12-21,DC-1080,Mini Projector Portable 1080P,General,9,18300,Delivered,ORD-DEC-0396,Hakeem,74,3,0.95,6.14,3.14,8.95,27.37,0,12.05
+2025-12-23,DC-1080,Mini Projector Portable 1080P,General,3,19800,Packed,ORD-DEC-0397,Hakeem,71,3,0.95,6.14,3.14,8.95,27.37,0,11.56
+2025-12-27,DC-1080,Mini Projector Portable 1080P,General,4,20000,Packed,ORD-DEC-0398,Nazlin,67,3,0.95,6.14,3.14,8.95,27.37,0,10.91
+2025-12-30,DC-1080,Mini Projector Portable 1080P,General,9,17200,Packed,ORD-DEC-0399,Mr.Ilham,58,3,0.95,6.14,3.14,8.95,27.37,0,9.45
+2025-12-08,DC-1081,Mini Projector Portable 1080P,General,8,27400,Shipped,ORD-DEC-0400,Mr.Ilham,338,3,0.95,4.33,2.56,7.29,20.28,0,78.06
+2025-12-09,DC-1081,Mini Projector Portable 1080P,General,2,26200,Cancelled,ORD-DEC-0401,Mr.Ilham,336,3,0.95,4.33,2.56,7.29,20.28,0,77.6
+2025-12-13,DC-1081,Mini Projector Portable 1080P,General,7,27100,Packed,ORD-DEC-0402,Mr.Ilham,329,3,0.95,4.33,2.56,7.29,20.28,0,75.98
+2025-12-14,DC-1081,Mini Projector Portable 1080P,General,5,25600,Packed,ORD-DEC-0403,Mr.Ilham,324,3,0.95,4.33,2.56,7.29,20.28,0,74.83
+2025-12-21,DC-1081,Mini Projector Portable 1080P,General,3,26800,Cancelled,ORD-DEC-0404,Nazlin,321,3,0.95,4.33,2.56,7.29,20.28,0,74.13
+2025-12-25,DC-1081,Mini Projector Portable 1080P,General,1,27300,Packed,ORD-DEC-0405,Murshid,320,3,0.95,4.33,2.56,7.29,20.28,0,73.9
+2025-12-10,DC-1082,RGB LED Strip Lights App Control 5m,General,3,7200,Delivered,ORD-DEC-0406,Murshid,24,7,0.95,3.67,1.7,7.4,33.09,1,6.54
+2025-12-12,DC-1082,RGB LED Strip Lights App Control 5m,General,2,6600,Shipped,ORD-DEC-0407,Hakeem,295,7,0.95,3.67,1.7,7.4,33.09,0,80.38
+2025-12-15,DC-1082,RGB LED Strip Lights App Control 5m,General,6,6600,Shipped,ORD-DEC-0408,Mr.Ilham,17,7,0.95,3.67,1.7,7.4,33.09,1,4.63
+2025-12-02,DC-1083,RGB LED Strip Lights App Control 5m,General,6,3100,Packed,ORD-DEC-0409,Mr.Ilham,285,4,0.95,4.33,1.8,5.92,23.24,0,65.82
+2025-12-05,DC-1083,RGB LED Strip Lights App Control 5m,General,2,2700,Pending,ORD-DEC-0410,Mr.Ilham,5,4,0.95,4.33,1.8,5.92,23.24,1,1.15
+2025-12-06,DC-1083,RGB LED Strip Lights App Control 5m,General,2,2900,Delivered,ORD-DEC-0411,Nazlin,281,4,0.95,4.33,1.8,5.92,23.24,0,64.9
+2025-12-11,DC-1083,RGB LED Strip Lights App Control 5m,General,4,2700,Shipped,ORD-DEC-0412,Murshid,277,4,0.95,4.33,1.8,5.92,23.24,0,63.97
+2025-12-12,DC-1083,RGB LED Strip Lights App Control 5m,General,6,3100,Shipped,ORD-DEC-0413,Hakeem,271,4,0.95,4.33,1.8,5.92,23.24,0,62.59
+2025-12-19,DC-1083,RGB LED Strip Lights App Control 5m,General,6,2700,Packed,ORD-DEC-0414,Hakeem,265,4,0.95,4.33,1.8,5.92,23.24,0,61.2
+2025-12-02,DC-1084,Portable Bluetooth Speaker Waterproof,General,10,9000,Delivered,ORD-DEC-0415,Hakeem,287,6,0.95,9.0,1.0,4.03,58.03,0,31.89
+2025-12-25,DC-1084,Portable Bluetooth Speaker Waterproof,General,8,10100,Packed,ORD-DEC-0416,Hakeem,279,6,0.95,9.0,1.0,4.03,58.03,0,31.0
+2025-12-06,DC-1085,Mini Projector Portable 1080P,General,1,18600,Pending,ORD-DEC-0417,Murshid,331,6,0.95,5.0,2.35,9.47,39.47,0,66.2
+2025-12-08,DC-1085,Mini Projector Portable 1080P,General,6,19000,Shipped,ORD-DEC-0418,Mr.Ilham,325,6,0.95,5.0,2.35,9.47,39.47,0,65.0
+2025-12-20,DC-1085,Mini Projector Portable 1080P,General,6,17300,Shipped,ORD-DEC-0419,Mr.Ilham,20,6,0.95,5.0,2.35,9.47,39.47,1,4.0
+2025-12-24,DC-1085,Mini Projector Portable 1080P,General,7,16400,Packed,ORD-DEC-0420,Murshid,23,6,0.95,5.0,2.35,9.47,39.47,1,4.6
+2025-12-02,DC-1086,RGB LED Strip Lights App Control 5m,General,5,3700,Shipped,ORD-DEC-0421,Nazlin,333,6,0.95,5.14,3.0,12.09,42.93,0,64.79
+2025-12-02,DC-1086,RGB LED Strip Lights App Control 5m,General,3,3400,Cancelled,ORD-DEC-0422,Murshid,330,6,0.95,5.14,3.0,12.09,42.93,0,64.2
+2025-12-02,DC-1086,RGB LED Strip Lights App Control 5m,General,4,3100,Delivered,ORD-DEC-0423,Mr.Ilham,326,6,0.95,5.14,3.0,12.09,42.93,0,63.42
+2025-12-04,DC-1086,RGB LED Strip Lights App Control 5m,General,4,3300,Packed,ORD-DEC-0424,Hakeem,322,6,0.95,5.14,3.0,12.09,42.93,0,62.65
+2025-12-06,DC-1086,RGB LED Strip Lights App Control 5m,General,10,3700,Delivered,ORD-DEC-0425,Mr.Ilham,312,6,0.95,5.14,3.0,12.09,42.93,0,60.7
+2025-12-29,DC-1086,RGB LED Strip Lights App Control 5m,General,1,3500,Delivered,ORD-DEC-0426,Nazlin,311,6,0.95,5.14,3.0,12.09,42.93,0,60.51
+2025-12-31,DC-1086,RGB LED Strip Lights App Control 5m,General,9,3400,Delivered,ORD-DEC-0427,Mr.Ilham,302,6,0.95,5.14,3.0,12.09,42.93,0,58.75
+2025-12-11,DC-1087,RGB LED Strip Lights App Control 5m,General,4,5300,Packed,ORD-DEC-0428,Hakeem,202,5,0.95,4.57,1.4,5.15,28.0,0,44.2
+2025-12-11,DC-1087,RGB LED Strip Lights App Control 5m,General,5,4700,Pending,ORD-DEC-0429,Nazlin,197,5,0.95,4.57,1.4,5.15,28.0,0,43.11
+2025-12-12,DC-1087,RGB LED Strip Lights App Control 5m,General,7,5000,Shipped,ORD-DEC-0430,Nazlin,25,5,0.95,4.57,1.4,5.15,28.0,1,5.47
+2025-12-14,DC-1087,RGB LED Strip Lights App Control 5m,General,5,4600,Delivered,ORD-DEC-0431,Murshid,185,5,0.95,4.57,1.4,5.15,28.0,0,40.48
+2025-12-24,DC-1087,RGB LED Strip Lights App Control 5m,General,4,4400,Shipped,ORD-DEC-0432,Murshid,181,5,0.95,4.57,1.4,5.15,28.0,0,39.61
+2025-12-25,DC-1087,RGB LED Strip Lights App Control 5m,General,5,4700,Packed,ORD-DEC-0433,Mr.Ilham,176,5,0.95,4.57,1.4,5.15,28.0,0,38.51
+2025-12-27,DC-1087,RGB LED Strip Lights App Control 5m,General,2,5100,Packed,ORD-DEC-0434,Mr.Ilham,20,5,0.95,4.57,1.4,5.15,28.0,1,4.38
+2025-12-16,DC-1088,Mini Projector Portable 1080P,General,9,19800,Delivered,ORD-DEC-0435,Mr.Ilham,193,6,0.95,7.67,1.6,6.45,52.47,0,25.16
+2025-12-22,DC-1088,Mini Projector Portable 1080P,General,10,19900,Delivered,ORD-DEC-0436,Hakeem,183,6,0.95,7.67,1.6,6.45,52.47,0,23.86
+2025-12-23,DC-1088,Mini Projector Portable 1080P,General,5,20200,Pending,ORD-DEC-0437,Murshid,178,6,0.95,7.67,1.6,6.45,52.47,0,23.21
+2025-12-24,DC-1088,Mini Projector Portable 1080P,General,7,21100,Shipped,ORD-DEC-0438,Hakeem,171,6,0.95,7.67,1.6,6.45,52.47,0,22.29
+2025-12-24,DC-1088,Mini Projector Portable 1080P,General,8,19100,Shipped,ORD-DEC-0439,Murshid,163,6,0.95,7.67,1.6,6.45,52.47,0,21.25
+2025-12-25,DC-1088,Mini Projector Portable 1080P,General,7,17600,Shipped,ORD-DEC-0440,Mr.Ilham,156,6,0.95,7.67,1.6,6.45,52.47,0,20.34
+2025-12-16,DC-1089,Mini Projector Portable 1080P,General,1,15400,Packed,ORD-DEC-0441,Murshid,12,4,0.95,5.0,4.0,13.16,33.16,1,2.4
+2025-12-30,DC-1089,Mini Projector Portable 1080P,General,9,15600,Delivered,ORD-DEC-0442,Hakeem,319,4,0.95,5.0,4.0,13.16,33.16,0,63.8
+2025-12-17,DC-1090,Foldable Phone Stand Adjustable,General,10,1900,Shipped,ORD-DEC-0443,Hakeem,135,3,0.95,9.5,0.5,1.42,29.92,0,14.21
+2025-12-28,DC-1090,Foldable Phone Stand Adjustable,General,9,1800,Delivered,ORD-DEC-0444,Hakeem,126,3,0.95,9.5,0.5,1.42,29.92,0,13.26
+2025-12-06,DC-1091,RGB LED Strip Lights App Control 5m,General,6,4800,Packed,ORD-DEC-0445,Nazlin,152,3,0.95,6.0,2.56,7.29,25.29,0,25.33
+2025-12-07,DC-1091,RGB LED Strip Lights App Control 5m,General,6,4500,Delivered,ORD-DEC-0446,Nazlin,146,3,0.95,6.0,2.56,7.29,25.29,0,24.33
+2025-12-07,DC-1091,RGB LED Strip Lights App Control 5m,General,5,4300,Packed,ORD-DEC-0447,Mr.Ilham,141,3,0.95,6.0,2.56,7.29,25.29,0,23.5
+2025-12-09,DC-1091,RGB LED Strip Lights App Control 5m,General,2,4700,Cancelled,ORD-DEC-0448,Mr.Ilham,139,3,0.95,6.0,2.56,7.29,25.29,0,23.17
+2025-12-20,DC-1091,RGB LED Strip Lights App Control 5m,General,10,4300,Delivered,ORD-DEC-0449,Hakeem,129,3,0.95,6.0,2.56,7.29,25.29,0,21.5
+2025-12-25,DC-1091,RGB LED Strip Lights App Control 5m,General,4,4600,Packed,ORD-DEC-0450,Hakeem,125,3,0.95,6.0,2.56,7.29,25.29,0,20.83
+2025-12-28,DC-1091,RGB LED Strip Lights App Control 5m,General,9,4800,Delivered,ORD-DEC-0451,Murshid,7,3,0.95,6.0,2.56,7.29,25.29,1,1.17
+2025-12-11,DC-1092,RGB LED Strip Lights App Control 5m,General,10,6300,Packed,ORD-DEC-0452,Nazlin,275,6,0.95,7.43,2.19,8.82,53.4,0,37.01
+2025-12-11,DC-1092,RGB LED Strip Lights App Control 5m,General,7,6500,Packed,ORD-DEC-0453,Mr.Ilham,268,6,0.95,7.43,2.19,8.82,53.4,0,36.07
+2025-12-18,DC-1092,RGB LED Strip Lights App Control 5m,General,8,6500,Delivered,ORD-DEC-0994,Hakeem,272,6,0.95,7.43,2.19,8.82,53.4,0,36.61
+2025-12-22,DC-1092,RGB LED Strip Lights App Control 5m,General,3,5700,Packed,ORD-DEC-0454,Murshid,265,6,0.95,7.43,2.19,8.82,53.4,0,35.67
+2025-12-25,DC-1092,RGB LED Strip Lights App Control 5m,General,9,5800,Shipped,ORD-DEC-0455,Nazlin,256,6,0.95,7.43,2.19,8.82,53.4,0,34.45
+2025-12-28,DC-1092,RGB LED Strip Lights App Control 5m,General,6,6100,Shipped,ORD-DEC-0456,Murshid,250,6,0.95,7.43,2.19,8.82,53.4,0,33.65
+2025-12-31,DC-1092,RGB LED Strip Lights App Control 5m,General,9,5800,Shipped,ORD-DEC-0457,Murshid,241,6,0.95,7.43,2.19,8.82,53.4,0,32.44
+2025-12-13,DC-1093,Portable Bluetooth Speaker Waterproof,General,4,4900,Shipped,ORD-DEC-0458,Murshid,12,7,0.95,5.4,3.14,13.67,51.47,1,2.22
+2025-12-14,DC-1093,Portable Bluetooth Speaker Waterproof,General,9,5100,Packed,ORD-DEC-0459,Nazlin,234,7,0.95,5.4,3.14,13.67,51.47,0,43.33
+2025-12-20,DC-1093,Portable Bluetooth Speaker Waterproof,General,1,4900,Packed,ORD-DEC-0460,Mr.Ilham,233,7,0.95,5.4,3.14,13.67,51.47,0,43.15
+2025-12-24,DC-1093,Portable Bluetooth Speaker Waterproof,General,4,5200,Packed,ORD-DEC-0461,Mr.Ilham,229,7,0.95,5.4,3.14,13.67,51.47,0,42.41
+2025-12-26,DC-1093,Portable Bluetooth Speaker Waterproof,General,9,5400,Pending,ORD-DEC-0462,Mr.Ilham,220,7,0.95,5.4,3.14,13.67,51.47,0,40.74
+2025-12-12,DC-1094,Wireless Earbuds Noise Cancelling,General,10,7800,Packed,ORD-DEC-0463,Hakeem,253,3,0.95,6.75,2.95,8.41,28.66,0,37.48
+2025-12-23,DC-1094,Wireless Earbuds Noise Cancelling,General,7,6700,Shipped,ORD-DEC-0464,Mr.Ilham,246,3,0.95,6.75,2.95,8.41,28.66,0,36.44
+2025-12-24,DC-1094,Wireless Earbuds Noise Cancelling,General,2,6800,Shipped,ORD-DEC-0465,Murshid,244,3,0.95,6.75,2.95,8.41,28.66,0,36.15
+2025-12-26,DC-1094,Wireless Earbuds Noise Cancelling,General,8,7000,Packed,ORD-DEC-0466,Murshid,236,3,0.95,6.75,2.95,8.41,28.66,0,34.96
+2025-12-06,DC-1095,Wireless Earbuds Noise Cancelling,General,4,13400,Shipped,ORD-DEC-0467,Mr.Ilham,315,4,0.95,6.67,2.43,7.99,34.67,0,47.23
+2025-12-07,DC-1095,Wireless Earbuds Noise Cancelling,General,9,13900,Packed,ORD-DEC-0468,Mr.Ilham,306,4,0.95,6.67,2.43,7.99,34.67,0,45.88
+2025-12-10,DC-1095,Wireless Earbuds Noise Cancelling,General,10,12300,Packed,ORD-DEC-0469,Hakeem,296,4,0.95,6.67,2.43,7.99,34.67,0,44.38
+2025-12-15,DC-1095,Wireless Earbuds Noise Cancelling,General,5,12200,Packed,ORD-DEC-0470,Hakeem,291,4,0.95,6.67,2.43,7.99,34.67,0,43.63
+2025-12-25,DC-1095,Wireless Earbuds Noise Cancelling,General,8,14000,Packed,ORD-DEC-0471,Mr.Ilham,283,4,0.95,6.67,2.43,7.99,34.67,0,42.43
+2025-12-31,DC-1095,Wireless Earbuds Noise Cancelling,General,4,14500,Packed,ORD-DEC-0472,Nazlin,279,4,0.95,6.67,2.43,7.99,34.67,0,41.83
+2025-12-07,DC-1096,Smart Plug WiFi Energy Monitor,General,8,3100,Delivered,ORD-DEC-0473,Murshid,152,7,0.95,5.5,2.5,10.88,49.38,0,27.64
+2025-12-26,DC-1096,Smart Plug WiFi Energy Monitor,General,3,3400,Pending,ORD-DEC-0474,Hakeem,149,7,0.95,5.5,2.5,10.88,49.38,0,27.09
+2025-12-04,DC-1097,Smart LED Bulb Dimmable WiFi,General,6,2100,Packed,ORD-DEC-0475,Nazlin,328,7,0.95,6.4,3.01,13.1,57.9,0,51.25
+2025-12-05,DC-1097,Smart LED Bulb Dimmable WiFi,General,1,2000,Packed,ORD-DEC-0476,Murshid,327,7,0.95,6.4,3.01,13.1,57.9,0,51.09
+2025-12-20,DC-1097,Smart LED Bulb Dimmable WiFi,General,10,1800,Shipped,ORD-DEC-0477,Murshid,317,7,0.95,6.4,3.01,13.1,57.9,0,49.53
+2025-12-22,DC-1097,Smart LED Bulb Dimmable WiFi,General,8,2000,Packed,ORD-DEC-0478,Hakeem,309,7,0.95,6.4,3.01,13.1,57.9,0,48.28
+2025-12-28,DC-1097,Smart LED Bulb Dimmable WiFi,General,7,1800,Delivered,ORD-DEC-0479,Nazlin,302,7,0.95,6.4,3.01,13.1,57.9,0,47.19
+2025-12-06,DC-1098,Wireless Earbuds Noise Cancelling,General,9,9300,Shipped,ORD-DEC-0480,Nazlin,119,7,0.95,5.0,3.16,13.75,48.75,0,23.8
+2025-12-07,DC-1098,Wireless Earbuds Noise Cancelling,General,6,9900,Shipped,ORD-DEC-0481,Murshid,19,7,0.95,5.0,3.16,13.75,48.75,1,3.8
+2025-12-08,DC-1098,Wireless Earbuds Noise Cancelling,General,2,10700,Shipped,ORD-DEC-0482,Nazlin,111,7,0.95,5.0,3.16,13.75,48.75,0,22.2
+2025-12-08,DC-1098,Wireless Earbuds Noise Cancelling,General,2,10100,Packed,ORD-DEC-0483,Hakeem,109,7,0.95,5.0,3.16,13.75,48.75,0,21.8
+2025-12-11,DC-1098,Wireless Earbuds Noise Cancelling,General,2,11000,Shipped,ORD-DEC-0484,Nazlin,107,7,0.95,5.0,3.16,13.75,48.75,0,21.4
+2025-12-23,DC-1098,Wireless Earbuds Noise Cancelling,General,4,10600,Pending,ORD-DEC-0485,Mr.Ilham,103,7,0.95,5.0,3.16,13.75,48.75,0,20.6
+2025-12-25,DC-1098,Wireless Earbuds Noise Cancelling,General,10,9300,Packed,ORD-DEC-0486,Murshid,93,7,0.95,5.0,3.16,13.75,48.75,0,18.6
+2025-12-01,DC-1099,Cable Management Box Organizer,General,5,3300,Cancelled,ORD-DEC-0487,Murshid,126,4,0.95,5.75,3.27,10.76,33.76,0,21.91
+2025-12-07,DC-1099,Cable Management Box Organizer,General,1,3800,Shipped,ORD-DEC-0488,Murshid,125,4,0.95,5.75,3.27,10.76,33.76,0,21.74
+2025-12-12,DC-1099,Cable Management Box Organizer,General,7,3400,Shipped,ORD-DEC-0489,Nazlin,14,4,0.95,5.75,3.27,10.76,33.76,1,2.43
+2025-12-30,DC-1099,Cable Management Box Organizer,General,10,3300,Packed,ORD-DEC-0490,Nazlin,108,4,0.95,5.75,3.27,10.76,33.76,0,18.78
+2025-12-10,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,1,14300,Delivered,ORD-DEC-0491,Nazlin,162,5,0.95,3.71,1.67,6.14,24.69,0,43.67
+2025-12-14,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,6,14500,Pending,ORD-DEC-0492,Hakeem,20,5,0.95,3.71,1.67,6.14,24.69,1,5.39
+2025-12-23,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,5,16400,Delivered,ORD-DEC-0493,Hakeem,151,5,0.95,3.71,1.67,6.14,24.69,0,40.7
+2025-12-24,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,4,15400,Shipped,ORD-DEC-0494,Murshid,147,5,0.95,3.71,1.67,6.14,24.69,0,39.62
+2025-12-24,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,5,16000,Delivered,ORD-DEC-0495,Mr.Ilham,142,5,0.95,3.71,1.67,6.14,24.69,0,38.27
+2025-12-24,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,3,16500,Pending,ORD-DEC-0496,Murshid,139,5,0.95,3.71,1.67,6.14,24.69,0,37.47
+2025-12-29,DC-1100,Noise Cancelling Headphones Over-Ear,Electronics,2,15700,Packed,ORD-DEC-0497,Murshid,137,5,0.95,3.71,1.67,6.14,24.69,0,36.93
+2025-12-06,DC-1101,Digital Drawing Tablet 10inch,Electronics,3,8400,Pending,ORD-DEC-0498,Murshid,7,5,0.95,2.67,0.47,1.73,15.08,1,2.62
+2025-12-13,DC-1101,Digital Drawing Tablet 10inch,Electronics,2,8500,Shipped,ORD-DEC-0499,Hakeem,4,5,0.95,2.67,0.47,1.73,15.08,1,1.5
+2025-12-17,DC-1101,Digital Drawing Tablet 10inch,Electronics,3,8600,Delivered,ORD-DEC-0500,Nazlin,146,5,0.95,2.67,0.47,1.73,15.08,0,54.68
+2025-12-01,DC-1102,Smart Watch Fitness Tracker HR,Electronics,5,11400,Pending,ORD-DEC-0501,Mr.Ilham,276,3,0.95,3.5,2.22,6.33,16.83,0,78.86
+2025-12-03,DC-1102,Smart Watch Fitness Tracker HR,Electronics,1,10900,Shipped,ORD-DEC-0502,Murshid,275,3,0.95,3.5,2.22,6.33,16.83,0,78.57
+2025-12-15,DC-1102,Smart Watch Fitness Tracker HR,Electronics,1,11500,Packed,ORD-DEC-0503,Mr.Ilham,274,3,0.95,3.5,2.22,6.33,16.83,0,78.29
+2025-12-24,DC-1102,Smart Watch Fitness Tracker HR,Electronics,6,11400,Packed,ORD-DEC-0504,Nazlin,268,3,0.95,3.5,2.22,6.33,16.83,0,76.57
+2025-12-26,DC-1102,Smart Watch Fitness Tracker HR,Electronics,2,11400,Packed,ORD-DEC-0505,Murshid,266,3,0.95,3.5,2.22,6.33,16.83,0,76.0
+2025-12-28,DC-1102,Smart Watch Fitness Tracker HR,Electronics,6,11100,Packed,ORD-DEC-0506,Mr.Ilham,260,3,0.95,3.5,2.22,6.33,16.83,0,74.29
+2025-12-03,DC-1103,USB-C Hub 7-in-1 Multiport Adapter,Electronics,8,11800,Shipped,ORD-DEC-0507,Mr.Ilham,331,7,0.95,8.0,1.22,5.31,61.31,0,41.38
+2025-12-23,DC-1103,USB-C Hub 7-in-1 Multiport Adapter,Electronics,9,11200,Packed,ORD-DEC-0508,Nazlin,322,7,0.95,8.0,1.22,5.31,61.31,0,40.25
+2025-12-25,DC-1103,USB-C Hub 7-in-1 Multiport Adapter,Electronics,6,10000,Delivered,ORD-DEC-0509,Hakeem,316,7,0.95,8.0,1.22,5.31,61.31,0,39.5
+2025-12-27,DC-1103,USB-C Hub 7-in-1 Multiport Adapter,Electronics,9,10300,Packed,ORD-DEC-0510,Mr.Ilham,307,7,0.95,8.0,1.22,5.31,61.31,0,38.38
+2025-12-04,DC-1104,Wireless Charging Pad 15W Fast,Electronics,3,3900,Packed,ORD-DEC-0511,Nazlin,34,7,0.95,4.2,3.06,13.32,42.72,1,8.1
+2025-12-06,DC-1104,Wireless Charging Pad 15W Fast,Electronics,4,4000,Packed,ORD-DEC-0512,Mr.Ilham,174,7,0.95,4.2,3.06,13.32,42.72,0,41.43
+2025-12-12,DC-1104,Wireless Charging Pad 15W Fast,Electronics,10,3800,Shipped,ORD-DEC-0513,Nazlin,164,7,0.95,4.2,3.06,13.32,42.72,0,39.05
+2025-12-15,DC-1104,Wireless Charging Pad 15W Fast,Electronics,3,3500,Shipped,ORD-DEC-0514,Murshid,161,7,0.95,4.2,3.06,13.32,42.72,0,38.33
+2025-12-26,DC-1104,Wireless Charging Pad 15W Fast,Electronics,1,4100,Shipped,ORD-DEC-0515,Murshid,160,7,0.95,4.2,3.06,13.32,42.72,0,38.1
+2025-12-03,DC-1105,Webcam HD 1080P Auto Focus,Electronics,1,13400,Delivered,ORD-DEC-0516,Nazlin,187,5,0.95,1.67,0.47,1.73,10.08,0,111.98
+2025-12-17,DC-1105,Webcam HD 1080P Auto Focus,Electronics,2,11300,Packed,ORD-DEC-0517,Nazlin,185,5,0.95,1.67,0.47,1.73,10.08,0,110.78
+2025-12-25,DC-1105,Webcam HD 1080P Auto Focus,Electronics,2,12600,Delivered,ORD-DEC-0518,Mr.Ilham,183,5,0.95,1.67,0.47,1.73,10.08,0,109.58
+2025-12-12,DC-1106,Mechanical Keyboard Backlit Compact,Electronics,8,16500,Pending,ORD-DEC-0519,Nazlin,340,3,0.95,5.25,1.92,5.47,21.22,0,64.76
+2025-12-25,DC-1106,Mechanical Keyboard Backlit Compact,Electronics,3,16400,Shipped,ORD-DEC-0520,Murshid,337,3,0.95,5.25,1.92,5.47,21.22,0,64.19
+2025-12-25,DC-1106,Mechanical Keyboard Backlit Compact,Electronics,4,15800,Packed,ORD-DEC-0521,Murshid,333,3,0.95,5.25,1.92,5.47,21.22,0,63.43
+2025-12-25,DC-1106,Mechanical Keyboard Backlit Compact,Electronics,6,17300,Shipped,ORD-DEC-0522,Mr.Ilham,327,3,0.95,5.25,1.92,5.47,21.22,0,62.29
+2025-12-01,DC-1107,Webcam HD 1080P Auto Focus,Electronics,2,11700,Shipped,ORD-DEC-0523,Murshid,316,5,0.95,3.0,3.52,12.95,27.95,0,105.33
+2025-12-01,DC-1107,Webcam HD 1080P Auto Focus,Electronics,1,10900,Shipped,ORD-DEC-0524,Murshid,15,5,0.95,3.0,3.52,12.95,27.95,1,5.0
+2025-12-12,DC-1107,Webcam HD 1080P Auto Focus,Electronics,1,10100,Shipped,ORD-DEC-0525,Nazlin,314,5,0.95,3.0,3.52,12.95,27.95,0,104.67
+2025-12-19,DC-1107,Webcam HD 1080P Auto Focus,Electronics,10,10500,Packed,ORD-DEC-0526,Hakeem,304,5,0.95,3.0,3.52,12.95,27.95,0,101.33
+2025-12-27,DC-1107,Webcam HD 1080P Auto Focus,Electronics,1,11300,Shipped,ORD-DEC-0527,Mr.Ilham,303,5,0.95,3.0,3.52,12.95,27.95,0,101.0
+2025-12-06,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,4,19600,Packed,ORD-DEC-0528,Mr.Ilham,155,7,0.95,5.5,2.55,11.1,49.6,0,28.18
+2025-12-06,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,2,20500,Packed,ORD-DEC-0529,Mr.Ilham,153,7,0.95,5.5,2.55,11.1,49.6,0,27.82
+2025-12-08,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,3,17400,Packed,ORD-DEC-0530,Nazlin,150,7,0.95,5.5,2.55,11.1,49.6,0,27.27
+2025-12-15,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,8,20000,Packed,ORD-DEC-0531,Mr.Ilham,142,7,0.95,5.5,2.55,11.1,49.6,0,25.82
+2025-12-21,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,7,20400,Packed,ORD-DEC-0532,Murshid,135,7,0.95,5.5,2.55,11.1,49.6,0,24.55
+2025-12-24,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,10,19300,Packed,ORD-DEC-0533,Hakeem,125,7,0.95,5.5,2.55,11.1,49.6,0,22.73
+2025-12-28,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,6,18400,Pending,ORD-DEC-0534,Hakeem,119,7,0.95,5.5,2.55,11.1,49.6,0,21.64
+2025-12-29,DC-1108,Mechanical Keyboard Backlit Compact,Electronics,4,20700,Packed,ORD-DEC-0995,Mr.Ilham,156,7,0.95,5.5,2.55,11.1,49.6,0,28.36
+2025-12-05,DC-1109,Portable SSD 500GB USB-C,Electronics,4,25100,Delivered,ORD-DEC-0535,Murshid,340,3,0.95,5.5,2.69,7.66,24.16,0,61.82
+2025-12-08,DC-1109,Portable SSD 500GB USB-C,Electronics,3,21600,Packed,ORD-DEC-0536,Mr.Ilham,337,3,0.95,5.5,2.69,7.66,24.16,0,61.27
+2025-12-09,DC-1109,Portable SSD 500GB USB-C,Electronics,5,24500,Delivered,ORD-DEC-0537,Mr.Ilham,332,3,0.95,5.5,2.69,7.66,24.16,0,60.36
+2025-12-21,DC-1109,Portable SSD 500GB USB-C,Electronics,10,21500,Shipped,ORD-DEC-0538,Murshid,9,3,0.95,5.5,2.69,7.66,24.16,1,1.64
+2025-12-03,DC-1110,Portable SSD 500GB USB-C,Electronics,6,12800,Delivered,ORD-DEC-0539,Hakeem,81,4,0.95,3.0,2.07,6.81,18.81,0,27.0
+2025-12-07,DC-1110,Portable SSD 500GB USB-C,Electronics,1,13200,Cancelled,ORD-DEC-0540,Murshid,80,4,0.95,3.0,2.07,6.81,18.81,0,26.67
+2025-12-11,DC-1110,Portable SSD 500GB USB-C,Electronics,1,11400,Pending,ORD-DEC-0541,Mr.Ilham,79,4,0.95,3.0,2.07,6.81,18.81,0,26.33
+2025-12-11,DC-1110,Portable SSD 500GB USB-C,Electronics,1,12600,Packed,ORD-DEC-0542,Murshid,78,4,0.95,3.0,2.07,6.81,18.81,0,26.0
+2025-12-12,DC-1110,Portable SSD 500GB USB-C,Electronics,3,11700,Packed,ORD-DEC-0543,Nazlin,75,4,0.95,3.0,2.07,6.81,18.81,0,25.0
+2025-12-24,DC-1110,Portable SSD 500GB USB-C,Electronics,3,13100,Packed,ORD-DEC-0544,Nazlin,72,4,0.95,3.0,2.07,6.81,18.81,0,24.0
+2025-12-25,DC-1110,Portable SSD 500GB USB-C,Electronics,6,12700,Packed,ORD-DEC-0545,Murshid,66,4,0.95,3.0,2.07,6.81,18.81,0,22.0
+2025-12-02,DC-1111,Portable SSD 500GB USB-C,Electronics,6,13700,Shipped,ORD-DEC-0546,Nazlin,105,3,0.95,5.0,2.16,6.15,21.15,0,21.0
+2025-12-21,DC-1111,Portable SSD 500GB USB-C,Electronics,7,13300,Packed,ORD-DEC-0547,Murshid,98,3,0.95,5.0,2.16,6.15,21.15,0,19.6
+2025-12-21,DC-1111,Portable SSD 500GB USB-C,Electronics,2,12700,Packed,ORD-DEC-0548,Hakeem,96,3,0.95,5.0,2.16,6.15,21.15,0,19.2
+2025-12-01,DC-1112,Mechanical Keyboard Backlit Compact,Electronics,4,13700,Packed,ORD-DEC-0549,Hakeem,224,5,0.95,2.67,1.25,4.6,17.95,0,83.9
+2025-12-24,DC-1112,Mechanical Keyboard Backlit Compact,Electronics,1,14800,Shipped,ORD-DEC-0550,Mr.Ilham,15,5,0.95,2.67,1.25,4.6,17.95,1,5.62
+2025-12-25,DC-1112,Mechanical Keyboard Backlit Compact,Electronics,3,15200,Shipped,ORD-DEC-0551,Hakeem,16,5,0.95,2.67,1.25,4.6,17.95,1,5.99
+2025-12-13,DC-1113,Webcam HD 1080P Auto Focus,Electronics,9,14200,Packed,ORD-DEC-0552,Nazlin,159,5,0.95,6.5,2.5,9.2,41.7,0,24.46
+2025-12-25,DC-1113,Webcam HD 1080P Auto Focus,Electronics,4,15300,Delivered,ORD-DEC-0553,Hakeem,155,5,0.95,6.5,2.5,9.2,41.7,0,23.85
+2025-12-13,DC-1114,Webcam HD 1080P Auto Focus,Electronics,3,15000,Packed,ORD-DEC-0554,Nazlin,254,5,0.95,2.0,0.89,3.27,13.27,0,127.0
+2025-12-20,DC-1114,Webcam HD 1080P Auto Focus,Electronics,1,15000,Delivered,ORD-DEC-0555,Mr.Ilham,253,5,0.95,2.0,0.89,3.27,13.27,0,126.5
+2025-12-24,DC-1114,Webcam HD 1080P Auto Focus,Electronics,2,15100,Packed,ORD-DEC-0556,Hakeem,251,5,0.95,2.0,0.89,3.27,13.27,0,125.5
+2025-12-29,DC-1114,Webcam HD 1080P Auto Focus,Electronics,1,14500,Packed,ORD-DEC-0557,Mr.Ilham,250,5,0.95,2.0,0.89,3.27,13.27,0,125.0
+2025-12-30,DC-1114,Webcam HD 1080P Auto Focus,Electronics,3,15800,Delivered,ORD-DEC-0558,Mr.Ilham,247,5,0.95,2.0,0.89,3.27,13.27,0,123.5
+2025-12-06,DC-1115,Smart Watch Fitness Tracker HR,Electronics,8,8800,Packed,ORD-DEC-0559,Murshid,245,3,0.95,7.29,2.71,7.72,29.59,0,33.61
+2025-12-08,DC-1115,Smart Watch Fitness Tracker HR,Electronics,5,9900,Shipped,ORD-DEC-0560,Mr.Ilham,240,3,0.95,7.29,2.71,7.72,29.59,0,32.92
+2025-12-10,DC-1115,Smart Watch Fitness Tracker HR,Electronics,10,10200,Shipped,ORD-DEC-0561,Mr.Ilham,230,3,0.95,7.29,2.71,7.72,29.59,0,31.55
+2025-12-18,DC-1115,Smart Watch Fitness Tracker HR,Electronics,3,9000,Delivered,ORD-DEC-0562,Mr.Ilham,11,3,0.95,7.29,2.71,7.72,29.59,1,1.51
+2025-12-19,DC-1115,Smart Watch Fitness Tracker HR,Electronics,10,9400,Delivered,ORD-DEC-0563,Hakeem,217,3,0.95,7.29,2.71,7.72,29.59,0,29.77
+2025-12-23,DC-1115,Smart Watch Fitness Tracker HR,Electronics,10,10400,Packed,ORD-DEC-0564,Mr.Ilham,207,3,0.95,7.29,2.71,7.72,29.59,0,28.4
+2025-12-31,DC-1115,Smart Watch Fitness Tracker HR,Electronics,5,9700,Delivered,ORD-DEC-0565,Murshid,202,3,0.95,7.29,2.71,7.72,29.59,0,27.71
+2025-12-05,DC-1116,Wireless Charging Pad 15W Fast,Electronics,2,7400,Pending,ORD-DEC-0566,Mr.Ilham,109,6,0.95,4.67,3.09,12.45,40.47,0,23.34
+2025-12-16,DC-1116,Wireless Charging Pad 15W Fast,Electronics,9,8100,Packed,ORD-DEC-0567,Murshid,100,6,0.95,4.67,3.09,12.45,40.47,0,21.41
+2025-12-19,DC-1116,Wireless Charging Pad 15W Fast,Electronics,3,8000,Delivered,ORD-DEC-0568,Nazlin,97,6,0.95,4.67,3.09,12.45,40.47,0,20.77
+2025-12-03,DC-1117,Portable SSD 500GB USB-C,Electronics,6,10700,Packed,ORD-DEC-0569,Murshid,242,3,0.95,4.0,2.16,6.15,18.15,0,60.5
+2025-12-04,DC-1117,Portable SSD 500GB USB-C,Electronics,5,11300,Shipped,ORD-DEC-0570,Hakeem,237,3,0.95,4.0,2.16,6.15,18.15,0,59.25
+2025-12-24,DC-1117,Portable SSD 500GB USB-C,Electronics,1,10300,Packed,ORD-DEC-0571,Murshid,236,3,0.95,4.0,2.16,6.15,18.15,0,59.0
+2025-12-12,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,2,11300,Packed,ORD-DEC-0572,Murshid,179,5,0.95,4.33,1.37,5.04,26.69,0,41.34
+2025-12-13,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,4,13000,Shipped,ORD-DEC-0573,Nazlin,175,5,0.95,4.33,1.37,5.04,26.69,0,40.42
+2025-12-22,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,6,11500,Delivered,ORD-DEC-0574,Murshid,20,5,0.95,4.33,1.37,5.04,26.69,1,4.62
+2025-12-28,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,4,13400,Cancelled,ORD-DEC-0575,Nazlin,23,5,0.95,4.33,1.37,5.04,26.69,1,5.31
+2025-12-29,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,6,13200,Shipped,ORD-DEC-0576,Nazlin,12,5,0.95,4.33,1.37,5.04,26.69,1,2.77
+2025-12-31,DC-1118,Noise Cancelling Headphones Over-Ear,Electronics,4,13000,Packed,ORD-DEC-0577,Hakeem,155,5,0.95,4.33,1.37,5.04,26.69,0,35.8
+2025-12-01,DC-1119,Mechanical Keyboard Backlit Compact,Electronics,4,17600,Delivered,ORD-DEC-0578,Murshid,209,7,0.95,3.0,1.0,4.35,25.35,0,69.67
+2025-12-25,DC-1119,Mechanical Keyboard Backlit Compact,Electronics,2,20200,Shipped,ORD-DEC-0579,Nazlin,207,7,0.95,3.0,1.0,4.35,25.35,0,69.0
+2025-12-03,DC-1120,Digital Drawing Tablet 10inch,Electronics,3,13400,Pending,ORD-DEC-0580,Hakeem,20,3,0.95,6.0,3.08,8.78,26.78,1,3.33
+2025-12-24,DC-1120,Digital Drawing Tablet 10inch,Electronics,8,13500,Packed,ORD-DEC-0581,Mr.Ilham,254,3,0.95,6.0,3.08,8.78,26.78,0,42.33
+2025-12-24,DC-1120,Digital Drawing Tablet 10inch,Electronics,10,14200,Delivered,ORD-DEC-0582,Nazlin,244,3,0.95,6.0,3.08,8.78,26.78,0,40.67
+2025-12-28,DC-1120,Digital Drawing Tablet 10inch,Electronics,3,14500,Packed,ORD-DEC-0583,Mr.Ilham,241,3,0.95,6.0,3.08,8.78,26.78,0,40.17
+2025-12-14,DC-1121,Wireless Charging Pad 15W Fast,Electronics,4,3900,Delivered,ORD-DEC-0584,Hakeem,152,4,0.95,5.8,1.94,6.38,29.58,0,26.21
+2025-12-15,DC-1121,Wireless Charging Pad 15W Fast,Electronics,5,3500,Packed,ORD-DEC-0585,Nazlin,147,4,0.95,5.8,1.94,6.38,29.58,0,25.34
+2025-12-23,DC-1121,Wireless Charging Pad 15W Fast,Electronics,9,3900,Delivered,ORD-DEC-0586,Hakeem,138,4,0.95,5.8,1.94,6.38,29.58,0,23.79
+2025-12-24,DC-1121,Wireless Charging Pad 15W Fast,Electronics,4,3500,Packed,ORD-DEC-0587,Nazlin,134,4,0.95,5.8,1.94,6.38,29.58,0,23.1
+2025-12-24,DC-1121,Wireless Charging Pad 15W Fast,Electronics,7,3800,Shipped,ORD-DEC-0588,Nazlin,127,4,0.95,5.8,1.94,6.38,29.58,0,21.9
+2025-12-02,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,9,9400,Packed,ORD-DEC-0589,Nazlin,240,7,0.95,7.0,2.73,11.88,60.88,0,34.29
+2025-12-03,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,7,10500,Shipped,ORD-DEC-0590,Hakeem,233,7,0.95,7.0,2.73,11.88,60.88,0,33.29
+2025-12-05,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,10,8800,Packed,ORD-DEC-0591,Murshid,223,7,0.95,7.0,2.73,11.88,60.88,0,31.86
+2025-12-07,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,8,10500,Shipped,ORD-DEC-0592,Nazlin,215,7,0.95,7.0,2.73,11.88,60.88,0,30.71
+2025-12-24,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,2,9200,Packed,ORD-DEC-0593,Nazlin,213,7,0.95,7.0,2.73,11.88,60.88,0,30.43
+2025-12-25,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,4,9300,Delivered,ORD-DEC-0594,Nazlin,28,7,0.95,7.0,2.73,11.88,60.88,1,4.0
+2025-12-27,DC-1122,USB-C Hub 7-in-1 Multiport Adapter,Electronics,9,8900,Shipped,ORD-DEC-0595,Nazlin,200,7,0.95,7.0,2.73,11.88,60.88,0,28.57
+2025-12-02,DC-1123,Mechanical Keyboard Backlit Compact,Electronics,1,18700,Pending,ORD-DEC-0596,Hakeem,87,4,0.95,1.75,0.83,2.73,9.73,0,49.71
+2025-12-05,DC-1123,Mechanical Keyboard Backlit Compact,Electronics,3,17300,Shipped,ORD-DEC-0597,Hakeem,84,4,0.95,1.75,0.83,2.73,9.73,0,48.0
+2025-12-10,DC-1123,Mechanical Keyboard Backlit Compact,Electronics,1,17600,Packed,ORD-DEC-0598,Mr.Ilham,83,4,0.95,1.75,0.83,2.73,9.73,0,47.43
+2025-12-26,DC-1123,Mechanical Keyboard Backlit Compact,Electronics,2,20500,Packed,ORD-DEC-0599,Hakeem,81,4,0.95,1.75,0.83,2.73,9.73,0,46.29
+2025-12-01,DC-1124,USB-C Hub 7-in-1 Multiport Adapter,Electronics,10,9600,Pending,ORD-DEC-0600,Mr.Ilham,301,5,0.95,4.75,3.56,13.09,36.84,0,63.37
+2025-12-03,DC-1124,USB-C Hub 7-in-1 Multiport Adapter,Electronics,6,9000,Delivered,ORD-DEC-0601,Hakeem,295,5,0.95,4.75,3.56,13.09,36.84,0,62.11
+2025-12-21,DC-1124,USB-C Hub 7-in-1 Multiport Adapter,Electronics,1,9200,Packed,ORD-DEC-0602,Murshid,294,5,0.95,4.75,3.56,13.09,36.84,0,61.89
+2025-12-21,DC-1124,USB-C Hub 7-in-1 Multiport Adapter,Electronics,2,9300,Packed,ORD-DEC-0603,Hakeem,292,5,0.95,4.75,3.56,13.09,36.84,0,61.47
+2025-12-08,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,5,9100,Shipped,ORD-DEC-0604,Nazlin,324,4,0.95,6.0,1.63,5.36,29.36,0,54.0
+2025-12-10,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,7,9300,Delivered,ORD-DEC-0605,Hakeem,317,4,0.95,6.0,1.63,5.36,29.36,0,52.83
+2025-12-15,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,4,9500,Shipped,ORD-DEC-0606,Hakeem,313,4,0.95,6.0,1.63,5.36,29.36,0,52.17
+2025-12-24,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,5,9200,Packed,ORD-DEC-0607,Nazlin,308,4,0.95,6.0,1.63,5.36,29.36,0,51.33
+2025-12-26,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,6,9600,Delivered,ORD-DEC-0608,Hakeem,302,4,0.95,6.0,1.63,5.36,29.36,0,50.33
+2025-12-28,DC-1125,LED Vanity Mirror Lighted 10x,Beauty_Health,9,8800,Shipped,ORD-DEC-0609,Mr.Ilham,293,4,0.95,6.0,1.63,5.36,29.36,0,48.83
+2025-12-12,DC-1126,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,5,7400,Shipped,ORD-DEC-0610,Hakeem,234,3,0.95,5.0,2.45,6.98,21.98,0,46.8
+2025-12-18,DC-1126,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,2,8200,Packed,ORD-DEC-0611,Mr.Ilham,232,3,0.95,5.0,2.45,6.98,21.98,0,46.4
+2025-12-31,DC-1126,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,8,8400,Pending,ORD-DEC-0612,Murshid,224,3,0.95,5.0,2.45,6.98,21.98,0,44.8
+2025-12-14,DC-1127,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,3,15000,Pending,ORD-DEC-1000,Murshid,130,7,0.95,3.0,1.63,7.09,28.09,0,43.33
+2025-12-21,DC-1127,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,5,16300,Shipped,ORD-DEC-0613,Mr.Ilham,132,7,0.95,3.0,1.63,7.09,28.09,0,44.0
+2025-12-24,DC-1127,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,1,16500,Packed,ORD-DEC-0614,Hakeem,131,7,0.95,3.0,1.63,7.09,28.09,0,43.67
+2025-12-23,DC-1128,IPL Hair Removal Device Permanent,Beauty_Health,8,11700,Packed,ORD-DEC-0615,Hakeem,107,4,0.95,5.6,2.73,8.98,31.38,0,19.11
+2025-12-24,DC-1128,IPL Hair Removal Device Permanent,Beauty_Health,6,11300,Packed,ORD-DEC-0616,Nazlin,101,4,0.95,5.6,2.73,8.98,31.38,0,18.04
+2025-12-24,DC-1128,IPL Hair Removal Device Permanent,Beauty_Health,3,12100,Packed,ORD-DEC-0617,Murshid,98,4,0.95,5.6,2.73,8.98,31.38,0,17.5
+2025-12-26,DC-1128,IPL Hair Removal Device Permanent,Beauty_Health,2,11100,Shipped,ORD-DEC-0618,Murshid,96,4,0.95,5.6,2.73,8.98,31.38,0,17.14
+2025-12-31,DC-1128,IPL Hair Removal Device Permanent,Beauty_Health,9,13000,Shipped,ORD-DEC-0619,Mr.Ilham,87,4,0.95,5.6,2.73,8.98,31.38,0,15.54
+2025-12-03,DC-1129,Jade Gua Sha Facial Tool Set,Beauty_Health,5,3500,Shipped,ORD-DEC-0620,Murshid,140,6,0.95,6.4,2.24,9.03,47.43,0,21.88
+2025-12-13,DC-1129,Jade Gua Sha Facial Tool Set,Beauty_Health,10,3800,Pending,ORD-DEC-0621,Nazlin,130,6,0.95,6.4,2.24,9.03,47.43,0,20.31
+2025-12-23,DC-1129,Jade Gua Sha Facial Tool Set,Beauty_Health,5,3800,Shipped,ORD-DEC-0622,Hakeem,125,6,0.95,6.4,2.24,9.03,47.43,0,19.53
+2025-12-27,DC-1129,Jade Gua Sha Facial Tool Set,Beauty_Health,8,3300,Packed,ORD-DEC-0623,Murshid,117,6,0.95,6.4,2.24,9.03,47.43,0,18.28
+2025-12-29,DC-1129,Jade Gua Sha Facial Tool Set,Beauty_Health,4,3600,Packed,ORD-DEC-0624,Mr.Ilham,113,6,0.95,6.4,2.24,9.03,47.43,0,17.66
+2025-12-15,DC-1130,LED Vanity Mirror Lighted 10x,Beauty_Health,10,7400,Shipped,ORD-DEC-0625,Mr.Ilham,16,5,0.95,8.0,2.0,7.36,47.36,1,2.0
+2025-12-25,DC-1130,LED Vanity Mirror Lighted 10x,Beauty_Health,6,7600,Delivered,ORD-DEC-0626,Hakeem,102,5,0.95,8.0,2.0,7.36,47.36,0,12.75
+2025-12-02,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,2,13700,Shipped,ORD-DEC-0627,Murshid,190,5,0.95,4.29,3.1,11.4,32.85,0,44.29
+2025-12-05,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,5,13200,Delivered,ORD-DEC-0628,Murshid,185,5,0.95,4.29,3.1,11.4,32.85,0,43.12
+2025-12-06,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,1,14700,Packed,ORD-DEC-0629,Hakeem,184,5,0.95,4.29,3.1,11.4,32.85,0,42.89
+2025-12-06,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,4,14300,Packed,ORD-DEC-0630,Hakeem,29,5,0.95,4.29,3.1,11.4,32.85,1,6.76
+2025-12-17,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,10,13000,Packed,ORD-DEC-0631,Murshid,170,5,0.95,4.29,3.1,11.4,32.85,0,39.63
+2025-12-24,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,7,13200,Pending,ORD-DEC-0632,Murshid,163,5,0.95,4.29,3.1,11.4,32.85,0,38.0
+2025-12-28,DC-1131,IPL Hair Removal Device Permanent,Beauty_Health,1,15500,Shipped,ORD-DEC-0633,Murshid,22,5,0.95,4.29,3.1,11.4,32.85,1,5.13
+2025-12-07,DC-1132,Jade Gua Sha Facial Tool Set,Beauty_Health,7,7300,Shipped,ORD-DEC-0634,Nazlin,15,3,0.95,5.5,1.5,4.27,20.77,1,2.73
+2025-12-14,DC-1132,Jade Gua Sha Facial Tool Set,Beauty_Health,6,6300,Pending,ORD-DEC-0635,Murshid,248,3,0.95,5.5,1.5,4.27,20.77,0,45.09
+2025-12-29,DC-1132,Jade Gua Sha Facial Tool Set,Beauty_Health,6,6400,Packed,ORD-DEC-0636,Hakeem,242,3,0.95,5.5,1.5,4.27,20.77,0,44.0
+2025-12-31,DC-1132,Jade Gua Sha Facial Tool Set,Beauty_Health,3,6500,Packed,ORD-DEC-0637,Murshid,239,3,0.95,5.5,1.5,4.27,20.77,0,43.45
+2025-12-01,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,4,8000,Packed,ORD-DEC-0638,Mr.Ilham,32,6,0.95,5.57,2.72,10.96,44.38,1,5.75
+2025-12-02,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,9,8700,Delivered,ORD-DEC-0639,Hakeem,312,6,0.95,5.57,2.72,10.96,44.38,0,56.01
+2025-12-03,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,6,8200,Delivered,ORD-DEC-0640,Mr.Ilham,306,6,0.95,5.57,2.72,10.96,44.38,0,54.94
+2025-12-11,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,4,9400,Shipped,ORD-DEC-0641,Murshid,302,6,0.95,5.57,2.72,10.96,44.38,0,54.22
+2025-12-21,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,10,9600,Packed,ORD-DEC-0642,Nazlin,292,6,0.95,5.57,2.72,10.96,44.38,0,52.42
+2025-12-25,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,4,8300,Delivered,ORD-DEC-0643,Murshid,288,6,0.95,5.57,2.72,10.96,44.38,0,51.71
+2025-12-29,DC-1133,IPL Hair Removal Device Permanent,Beauty_Health,2,8400,Pending,ORD-DEC-0644,Nazlin,12,6,0.95,5.57,2.72,10.96,44.38,1,2.15
+2025-12-06,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,3,4300,Shipped,ORD-DEC-0645,Murshid,188,6,0.95,7.29,2.05,8.26,52.0,0,25.79
+2025-12-14,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,7,5000,Packed,ORD-DEC-0646,Mr.Ilham,181,6,0.95,7.29,2.05,8.26,52.0,0,24.83
+2025-12-17,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,10,5000,Packed,ORD-DEC-0647,Mr.Ilham,171,6,0.95,7.29,2.05,8.26,52.0,0,23.46
+2025-12-20,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,9,4200,Shipped,ORD-DEC-0648,Hakeem,162,6,0.95,7.29,2.05,8.26,52.0,0,22.22
+2025-12-23,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,8,4400,Shipped,ORD-DEC-0649,Mr.Ilham,154,6,0.95,7.29,2.05,8.26,52.0,0,21.12
+2025-12-23,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,7,4300,Shipped,ORD-DEC-0650,Mr.Ilham,147,6,0.95,7.29,2.05,8.26,52.0,0,20.16
+2025-12-31,DC-1134,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,7,4300,Packed,ORD-DEC-0651,Nazlin,140,6,0.95,7.29,2.05,8.26,52.0,0,19.2
+2025-12-05,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,3,9600,Pending,ORD-DEC-0652,Hakeem,109,4,0.95,5.33,2.43,7.99,29.31,0,20.45
+2025-12-07,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,3,10200,Packed,ORD-DEC-0653,Murshid,106,4,0.95,5.33,2.43,7.99,29.31,0,19.89
+2025-12-07,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,9,10800,Delivered,ORD-DEC-0654,Murshid,97,4,0.95,5.33,2.43,7.99,29.31,0,18.2
+2025-12-18,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,3,9800,Shipped,ORD-DEC-0655,Nazlin,94,4,0.95,5.33,2.43,7.99,29.31,0,17.64
+2025-12-23,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,7,10800,Packed,ORD-DEC-0656,Murshid,87,4,0.95,5.33,2.43,7.99,29.31,0,16.32
+2025-12-26,DC-1135,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,7,10000,Packed,ORD-DEC-0657,Mr.Ilham,17,4,0.95,5.33,2.43,7.99,29.31,1,3.19
+2025-12-05,DC-1136,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,5,3600,Packed,ORD-DEC-0658,Nazlin,172,4,0.95,6.0,2.83,9.31,33.31,0,28.67
+2025-12-07,DC-1136,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,8,3800,Packed,ORD-DEC-0659,Hakeem,164,4,0.95,6.0,2.83,9.31,33.31,0,27.33
+2025-12-13,DC-1136,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,9,3400,Cancelled,ORD-DEC-0660,Mr.Ilham,155,4,0.95,6.0,2.83,9.31,33.31,0,25.83
+2025-12-23,DC-1136,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,1,3600,Delivered,ORD-DEC-0661,Mr.Ilham,154,4,0.95,6.0,2.83,9.31,33.31,0,25.67
+2025-12-24,DC-1136,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,7,3600,Shipped,ORD-DEC-0662,Nazlin,147,4,0.95,6.0,2.83,9.31,33.31,0,24.5
+2025-12-01,DC-1137,IPL Hair Removal Device Permanent,Beauty_Health,6,15000,Packed,ORD-DEC-0663,Mr.Ilham,18,5,0.95,5.5,1.5,5.52,33.02,1,3.27
+2025-12-13,DC-1137,IPL Hair Removal Device Permanent,Beauty_Health,3,17700,Delivered,ORD-DEC-0664,Mr.Ilham,92,5,0.95,5.5,1.5,5.52,33.02,0,16.73
+2025-12-14,DC-1137,IPL Hair Removal Device Permanent,Beauty_Health,7,17100,Packed,ORD-DEC-0993,Hakeem,21,5,0.95,5.5,1.5,5.52,33.02,1,3.82
+2025-12-20,DC-1137,IPL Hair Removal Device Permanent,Beauty_Health,6,15900,Packed,ORD-DEC-0665,Hakeem,86,5,0.95,5.5,1.5,5.52,33.02,0,15.64
+2025-12-10,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,10,8000,Packed,ORD-DEC-0666,Hakeem,20,5,0.95,7.43,2.32,8.53,45.68,1,2.69
+2025-12-13,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,4,9300,Packed,ORD-DEC-0667,Hakeem,20,5,0.95,7.43,2.32,8.53,45.68,1,2.69
+2025-12-15,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,9,9500,Shipped,ORD-DEC-0668,Mr.Ilham,186,5,0.95,7.43,2.32,8.53,45.68,0,25.03
+2025-12-17,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,4,8800,Packed,ORD-DEC-0669,Murshid,182,5,0.95,7.43,2.32,8.53,45.68,0,24.5
+2025-12-18,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,9,9500,Shipped,ORD-DEC-0670,Murshid,173,5,0.95,7.43,2.32,8.53,45.68,0,23.28
+2025-12-21,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,9,9600,Packed,ORD-DEC-0671,Mr.Ilham,164,5,0.95,7.43,2.32,8.53,45.68,0,22.07
+2025-12-25,DC-1138,Electric Face Cleansing Brush Sonic,Beauty_Health,7,8500,Packed,ORD-DEC-0672,Nazlin,157,5,0.95,7.43,2.32,8.53,45.68,0,21.13
+2025-12-18,DC-1139,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,2,13000,Shipped,ORD-DEC-0673,Mr.Ilham,92,7,0.95,5.5,3.5,15.23,53.73,0,16.73
+2025-12-20,DC-1139,Nano Ionic Hair Straightener Flat Iron,Beauty_Health,9,13400,Delivered,ORD-DEC-0674,Mr.Ilham,83,7,0.95,5.5,3.5,15.23,53.73,0,15.09
+2025-12-03,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,5,20200,Packed,ORD-DEC-0675,Murshid,160,5,0.95,7.5,1.8,6.62,44.12,0,21.33
+2025-12-03,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,9,23700,Cancelled,ORD-DEC-0676,Hakeem,151,5,0.95,7.5,1.8,6.62,44.12,0,20.13
+2025-12-19,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,9,20600,Shipped,ORD-DEC-0677,Murshid,142,5,0.95,7.5,1.8,6.62,44.12,0,18.93
+2025-12-20,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,8,19900,Pending,ORD-DEC-0678,Nazlin,134,5,0.95,7.5,1.8,6.62,44.12,0,17.87
+2025-12-23,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,5,21700,Packed,ORD-DEC-0679,Mr.Ilham,129,5,0.95,7.5,1.8,6.62,44.12,0,17.2
+2025-12-31,DC-1140,IPL Hair Removal Device Permanent,Beauty_Health,9,20900,Shipped,ORD-DEC-0680,Mr.Ilham,120,5,0.95,7.5,1.8,6.62,44.12,0,16.0
+2025-12-01,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,1,6500,Pending,ORD-DEC-0681,Mr.Ilham,276,5,0.95,7.0,3.38,12.43,47.43,0,39.43
+2025-12-07,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,9,6200,Shipped,ORD-DEC-0682,Hakeem,267,5,0.95,7.0,3.38,12.43,47.43,0,38.14
+2025-12-07,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,5,6900,Packed,ORD-DEC-0683,Nazlin,262,5,0.95,7.0,3.38,12.43,47.43,0,37.43
+2025-12-13,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,10,6900,Cancelled,ORD-DEC-0684,Nazlin,252,5,0.95,7.0,3.38,12.43,47.43,0,36.0
+2025-12-23,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,10,6300,Shipped,ORD-DEC-0685,Nazlin,242,5,0.95,7.0,3.38,12.43,47.43,0,34.57
+2025-12-25,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,10,6300,Pending,ORD-DEC-0686,Murshid,232,5,0.95,7.0,3.38,12.43,47.43,0,33.14
+2025-12-27,DC-1141,LED Vanity Mirror Lighted 10x,Beauty_Health,4,6500,Pending,ORD-DEC-0687,Hakeem,228,5,0.95,7.0,3.38,12.43,47.43,0,32.57
+2025-12-05,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,5,6800,Shipped,ORD-DEC-0688,Hakeem,234,5,0.95,4.17,1.67,6.14,26.99,0,56.12
+2025-12-08,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,5,5800,Packed,ORD-DEC-0689,Hakeem,229,5,0.95,4.17,1.67,6.14,26.99,0,54.92
+2025-12-17,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,2,5900,Packed,ORD-DEC-0690,Nazlin,227,5,0.95,4.17,1.67,6.14,26.99,0,54.44
+2025-12-19,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,3,6400,Packed,ORD-DEC-0691,Hakeem,224,5,0.95,4.17,1.67,6.14,26.99,0,53.72
+2025-12-23,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,3,5700,Packed,ORD-DEC-0692,Mr.Ilham,221,5,0.95,4.17,1.67,6.14,26.99,0,53.0
+2025-12-25,DC-1142,Jade Gua Sha Facial Tool Set,Beauty_Health,7,5600,Packed,ORD-DEC-0693,Mr.Ilham,214,5,0.95,4.17,1.67,6.14,26.99,0,51.32
+2025-12-10,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,7,6700,Delivered,ORD-DEC-0694,Hakeem,332,7,0.95,6.71,2.66,11.58,58.55,0,49.48
+2025-12-17,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,9,5700,Delivered,ORD-DEC-0695,Hakeem,323,7,0.95,6.71,2.66,11.58,58.55,0,48.14
+2025-12-19,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,8,6100,Packed,ORD-DEC-0696,Murshid,35,7,0.95,6.71,2.66,11.58,58.55,1,5.22
+2025-12-20,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,9,5900,Delivered,ORD-DEC-0697,Nazlin,30,7,0.95,6.71,2.66,11.58,58.55,1,4.47
+2025-12-20,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,5,6600,Delivered,ORD-DEC-0698,Mr.Ilham,301,7,0.95,6.71,2.66,11.58,58.55,0,44.86
+2025-12-28,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,8,5800,Shipped,ORD-DEC-0699,Hakeem,293,7,0.95,6.71,2.66,11.58,58.55,0,43.67
+2025-12-30,DC-1143,LED Vanity Mirror Lighted 10x,Beauty_Health,1,6300,Packed,ORD-DEC-0700,Murshid,292,7,0.95,6.71,2.66,11.58,58.55,0,43.52
+2025-12-01,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,9,16300,Packed,ORD-DEC-0701,Mr.Ilham,276,5,0.95,5.86,2.42,8.9,38.2,0,47.1
+2025-12-03,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,6,17000,Packed,ORD-DEC-0702,Hakeem,270,5,0.95,5.86,2.42,8.9,38.2,0,46.08
+2025-12-06,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,1,16200,Shipped,ORD-DEC-0703,Mr.Ilham,269,5,0.95,5.86,2.42,8.9,38.2,0,45.9
+2025-12-09,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,7,16000,Shipped,ORD-DEC-0704,Mr.Ilham,26,5,0.95,5.86,2.42,8.9,38.2,1,4.44
+2025-12-16,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,5,15900,Shipped,ORD-DEC-0705,Murshid,257,5,0.95,5.86,2.42,8.9,38.2,0,43.86
+2025-12-23,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,5,16200,Cancelled,ORD-DEC-0706,Mr.Ilham,252,5,0.95,5.86,2.42,8.9,38.2,0,43.0
+2025-12-27,DC-1144,IPL Hair Removal Device Permanent,Beauty_Health,8,18300,Packed,ORD-DEC-0707,Nazlin,244,5,0.95,5.86,2.42,8.9,38.2,0,41.64
+2025-12-01,DC-1145,IPL Hair Removal Device Permanent,Beauty_Health,5,21800,Packed,ORD-DEC-0708,Murshid,171,3,0.95,5.4,3.2,9.12,25.32,0,31.67
+2025-12-04,DC-1145,IPL Hair Removal Device Permanent,Beauty_Health,9,21900,Shipped,ORD-DEC-0709,Murshid,162,3,0.95,5.4,3.2,9.12,25.32,0,30.0
+2025-12-10,DC-1145,IPL Hair Removal Device Permanent,Beauty_Health,1,21900,Packed,ORD-DEC-0710,Nazlin,22,3,0.95,5.4,3.2,9.12,25.32,1,4.07
+2025-12-13,DC-1145,IPL Hair Removal Device Permanent,Beauty_Health,9,19100,Shipped,ORD-DEC-0711,Nazlin,19,3,0.95,5.4,3.2,9.12,25.32,1,3.52
+2025-12-31,DC-1145,IPL Hair Removal Device Permanent,Beauty_Health,3,19800,Pending,ORD-DEC-0712,Hakeem,9,3,0.95,5.4,3.2,9.12,25.32,1,1.67
+2025-12-03,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,6,12100,Packed,ORD-DEC-0713,Murshid,304,5,0.95,3.83,2.27,8.35,27.5,0,79.37
+2025-12-13,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,1,12700,Cancelled,ORD-DEC-0714,Nazlin,303,5,0.95,3.83,2.27,8.35,27.5,0,79.11
+2025-12-23,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,7,12000,Pending,ORD-DEC-0715,Mr.Ilham,296,5,0.95,3.83,2.27,8.35,27.5,0,77.28
+2025-12-23,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,4,12400,Packed,ORD-DEC-0716,Murshid,292,5,0.95,3.83,2.27,8.35,27.5,0,76.24
+2025-12-24,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,1,12500,Shipped,ORD-DEC-0717,Murshid,291,5,0.95,3.83,2.27,8.35,27.5,0,75.98
+2025-12-29,DC-1146,IPL Hair Removal Device Permanent,Beauty_Health,4,11900,Packed,ORD-DEC-0718,Nazlin,287,5,0.95,3.83,2.27,8.35,27.5,0,74.93
+2025-12-06,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,9,14600,Packed,ORD-DEC-0719,Nazlin,35,6,0.95,5.5,3.2,12.89,45.89,1,6.36
+2025-12-06,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,3,14100,Shipped,ORD-DEC-0720,Murshid,186,6,0.95,5.5,3.2,12.89,45.89,0,33.82
+2025-12-08,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,1,13200,Packed,ORD-DEC-0721,Hakeem,185,6,0.95,5.5,3.2,12.89,45.89,0,33.64
+2025-12-24,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,4,13200,Shipped,ORD-DEC-0722,Hakeem,181,6,0.95,5.5,3.2,12.89,45.89,0,32.91
+2025-12-25,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,6,13400,Cancelled,ORD-DEC-0723,Nazlin,175,6,0.95,5.5,3.2,12.89,45.89,0,31.82
+2025-12-25,DC-1147,LED Vanity Mirror Lighted 10x,Beauty_Health,10,13700,Pending,ORD-DEC-0724,Hakeem,11,6,0.95,5.5,3.2,12.89,45.89,1,2.0
+2025-12-03,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,1,12500,Packed,ORD-DEC-0725,Mr.Ilham,139,7,0.95,4.57,2.97,12.93,44.92,0,30.42
+2025-12-06,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,3,12300,Shipped,ORD-DEC-0726,Murshid,136,7,0.95,4.57,2.97,12.93,44.92,0,29.76
+2025-12-07,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,5,11800,Packed,ORD-DEC-0727,Nazlin,31,7,0.95,4.57,2.97,12.93,44.92,1,6.78
+2025-12-09,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,6,11100,Pending,ORD-DEC-0728,Nazlin,24,7,0.95,4.57,2.97,12.93,44.92,1,5.25
+2025-12-10,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,1,12500,Shipped,ORD-DEC-0729,Murshid,34,7,0.95,4.57,2.97,12.93,44.92,1,7.44
+2025-12-15,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,10,11100,Packed,ORD-DEC-0730,Murshid,114,7,0.95,4.57,2.97,12.93,44.92,0,24.95
+2025-12-24,DC-1148,LED Vanity Mirror Lighted 10x,Beauty_Health,6,11500,Pending,ORD-DEC-0731,Nazlin,108,7,0.95,4.57,2.97,12.93,44.92,0,23.63
+2025-12-13,DC-1149,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,10,6300,Packed,ORD-DEC-0732,Hakeem,273,6,0.95,5.67,3.3,13.3,47.32,0,48.15
+2025-12-14,DC-1149,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,5,5800,Packed,ORD-DEC-0733,Hakeem,268,6,0.95,5.67,3.3,13.3,47.32,0,47.27
+2025-12-23,DC-1149,Blackhead Remover Vacuum Pore Cleanser,Beauty_Health,2,5700,Packed,ORD-DEC-0734,Mr.Ilham,266,6,0.95,5.67,3.3,13.3,47.32,0,46.91
+2025-12-07,DC-1150,LED Headlamp Rechargeable 1000LM,Outdoor,3,7700,Shipped,ORD-DEC-0735,Hakeem,318,5,0.95,4.0,2.35,8.64,28.64,0,79.5
+2025-12-24,DC-1150,LED Headlamp Rechargeable 1000LM,Outdoor,8,6700,Delivered,ORD-DEC-0736,Mr.Ilham,310,5,0.95,4.0,2.35,8.64,28.64,0,77.5
+2025-12-24,DC-1150,LED Headlamp Rechargeable 1000LM,Outdoor,2,7100,Packed,ORD-DEC-0737,Hakeem,308,5,0.95,4.0,2.35,8.64,28.64,0,77.0
+2025-12-26,DC-1150,LED Headlamp Rechargeable 1000LM,Outdoor,3,7500,Shipped,ORD-DEC-0738,Nazlin,305,5,0.95,4.0,2.35,8.64,28.64,0,76.25
+2025-12-11,DC-1151,Portable Water Filter Straw,Outdoor,8,7000,Packed,ORD-DEC-0739,Murshid,222,3,0.95,5.8,2.56,7.29,24.69,0,38.28
+2025-12-21,DC-1151,Portable Water Filter Straw,Outdoor,9,6700,Packed,ORD-DEC-0740,Nazlin,213,3,0.95,5.8,2.56,7.29,24.69,0,36.72
+2025-12-26,DC-1151,Portable Water Filter Straw,Outdoor,6,7300,Delivered,ORD-DEC-0741,Nazlin,207,3,0.95,5.8,2.56,7.29,24.69,0,35.69
+2025-12-27,DC-1151,Portable Water Filter Straw,Outdoor,4,7200,Shipped,ORD-DEC-0742,Hakeem,14,3,0.95,5.8,2.56,7.29,24.69,1,2.41
+2025-12-27,DC-1151,Portable Water Filter Straw,Outdoor,2,7300,Pending,ORD-DEC-0743,Hakeem,201,3,0.95,5.8,2.56,7.29,24.69,0,34.66
+2025-12-08,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,4,6300,Delivered,ORD-DEC-0744,Mr.Ilham,17,5,0.95,5.29,2.71,9.97,36.42,1,3.21
+2025-12-14,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,4,6900,Delivered,ORD-DEC-0745,Nazlin,128,5,0.95,5.29,2.71,9.97,36.42,0,24.2
+2025-12-14,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,9,6700,Packed,ORD-DEC-0746,Hakeem,119,5,0.95,5.29,2.71,9.97,36.42,0,22.5
+2025-12-21,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,3,7200,Pending,ORD-DEC-0747,Mr.Ilham,116,5,0.95,5.29,2.71,9.97,36.42,0,21.93
+2025-12-23,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,10,6400,Pending,ORD-DEC-0748,Mr.Ilham,106,5,0.95,5.29,2.71,9.97,36.42,0,20.04
+2025-12-24,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,4,6100,Delivered,ORD-DEC-0749,Mr.Ilham,102,5,0.95,5.29,2.71,9.97,36.42,0,19.28
+2025-12-26,DC-1152,Outdoor Survival Multi-Tool Kit,Outdoor,3,6600,Packed,ORD-DEC-0750,Hakeem,25,5,0.95,5.29,2.71,9.97,36.42,1,4.73
+2025-12-07,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,6,9700,Packed,ORD-DEC-0751,Hakeem,17,6,0.95,3.17,1.77,7.13,26.15,1,5.36
+2025-12-15,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,5,8900,Shipped,ORD-DEC-0752,Hakeem,151,6,0.95,3.17,1.77,7.13,26.15,0,47.63
+2025-12-16,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,1,8400,Pending,ORD-DEC-0753,Nazlin,150,6,0.95,3.17,1.77,7.13,26.15,0,47.32
+2025-12-21,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,2,9100,Packed,ORD-DEC-0754,Nazlin,148,6,0.95,3.17,1.77,7.13,26.15,0,46.69
+2025-12-23,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,2,9600,Pending,ORD-DEC-0755,Nazlin,146,6,0.95,3.17,1.77,7.13,26.15,0,46.06
+2025-12-25,DC-1153,Camping Hammock Nylon Lightweight,Outdoor,3,8900,Delivered,ORD-DEC-0756,Hakeem,143,6,0.95,3.17,1.77,7.13,26.15,0,45.11
+2025-12-09,DC-1154,Outdoor Survival Multi-Tool Kit,Outdoor,8,6700,Shipped,ORD-DEC-0757,Mr.Ilham,309,4,0.95,5.75,1.79,5.89,28.89,0,53.74
+2025-12-15,DC-1154,Outdoor Survival Multi-Tool Kit,Outdoor,4,6400,Packed,ORD-DEC-0758,Murshid,305,4,0.95,5.75,1.79,5.89,28.89,0,53.04
+2025-12-24,DC-1154,Outdoor Survival Multi-Tool Kit,Outdoor,4,6400,Shipped,ORD-DEC-0759,Murshid,301,4,0.95,5.75,1.79,5.89,28.89,0,52.35
+2025-12-31,DC-1154,Outdoor Survival Multi-Tool Kit,Outdoor,7,7300,Delivered,ORD-DEC-0760,Nazlin,294,4,0.95,5.75,1.79,5.89,28.89,0,51.13
+2025-12-03,DC-1155,Compact Trekking Poles Adjustable,Outdoor,4,9000,Cancelled,ORD-DEC-0761,Mr.Ilham,18,6,0.95,6.4,2.58,10.4,48.8,1,2.81
+2025-12-04,DC-1155,Compact Trekking Poles Adjustable,Outdoor,3,9000,Delivered,ORD-DEC-0762,Mr.Ilham,251,6,0.95,6.4,2.58,10.4,48.8,0,39.22
+2025-12-05,DC-1155,Compact Trekking Poles Adjustable,Outdoor,8,9300,Packed,ORD-DEC-0763,Nazlin,243,6,0.95,6.4,2.58,10.4,48.8,0,37.97
+2025-12-14,DC-1155,Compact Trekking Poles Adjustable,Outdoor,10,10400,Packed,ORD-DEC-0764,Murshid,233,6,0.95,6.4,2.58,10.4,48.8,0,36.41
+2025-12-17,DC-1155,Compact Trekking Poles Adjustable,Outdoor,7,10600,Packed,ORD-DEC-0765,Murshid,13,6,0.95,6.4,2.58,10.4,48.8,1,2.03
+2025-12-13,DC-1156,Waterproof Hiking Backpack 40L,Outdoor,8,13900,Packed,ORD-DEC-0766,Murshid,146,7,0.95,4.0,2.55,11.1,39.1,0,36.5
+2025-12-19,DC-1156,Waterproof Hiking Backpack 40L,Outdoor,1,14000,Delivered,ORD-DEC-0767,Murshid,145,7,0.95,4.0,2.55,11.1,39.1,0,36.25
+2025-12-20,DC-1156,Waterproof Hiking Backpack 40L,Outdoor,3,13900,Shipped,ORD-DEC-0768,Mr.Ilham,142,7,0.95,4.0,2.55,11.1,39.1,0,35.5
+2025-12-23,DC-1156,Waterproof Hiking Backpack 40L,Outdoor,4,13100,Pending,ORD-DEC-0769,Hakeem,138,7,0.95,4.0,2.55,11.1,39.1,0,34.5
+2025-12-10,DC-1157,Outdoor Survival Multi-Tool Kit,Outdoor,4,6400,Packed,ORD-DEC-0770,Mr.Ilham,231,7,0.95,5.0,1.67,7.27,42.27,0,46.2
+2025-12-12,DC-1157,Outdoor Survival Multi-Tool Kit,Outdoor,5,6300,Packed,ORD-DEC-0771,Mr.Ilham,226,7,0.95,5.0,1.67,7.27,42.27,0,45.2
+2025-12-21,DC-1157,Outdoor Survival Multi-Tool Kit,Outdoor,3,6100,Packed,ORD-DEC-0772,Hakeem,223,7,0.95,5.0,1.67,7.27,42.27,0,44.6
+2025-12-24,DC-1157,Outdoor Survival Multi-Tool Kit,Outdoor,8,5900,Shipped,ORD-DEC-0773,Nazlin,215,7,0.95,5.0,1.67,7.27,42.27,0,43.0
+2025-12-25,DC-1157,Outdoor Survival Multi-Tool Kit,Outdoor,5,6100,Packed,ORD-DEC-0774,Mr.Ilham,210,7,0.95,5.0,1.67,7.27,42.27,0,42.0
+2025-12-02,DC-1158,Foldable Camping Chair Portable,Outdoor,1,5600,Shipped,ORD-DEC-0775,Nazlin,139,5,0.95,5.17,2.97,10.92,36.77,0,26.89
+2025-12-12,DC-1158,Foldable Camping Chair Portable,Outdoor,3,6300,Packed,ORD-DEC-0776,Mr.Ilham,136,5,0.95,5.17,2.97,10.92,36.77,0,26.31
+2025-12-17,DC-1158,Foldable Camping Chair Portable,Outdoor,7,5300,Packed,ORD-DEC-0777,Mr.Ilham,129,5,0.95,5.17,2.97,10.92,36.77,0,24.95
+2025-12-22,DC-1158,Foldable Camping Chair Portable,Outdoor,3,5600,Cancelled,ORD-DEC-0778,Hakeem,126,5,0.95,5.17,2.97,10.92,36.77,0,24.37
+2025-12-23,DC-1158,Foldable Camping Chair Portable,Outdoor,8,5400,Shipped,ORD-DEC-0779,Hakeem,118,5,0.95,5.17,2.97,10.92,36.77,0,22.82
+2025-12-24,DC-1158,Foldable Camping Chair Portable,Outdoor,9,6300,Shipped,ORD-DEC-0780,Mr.Ilham,109,5,0.95,5.17,2.97,10.92,36.77,0,21.08
+2025-12-04,DC-1159,Compact Trekking Poles Adjustable,Outdoor,10,9000,Packed,ORD-DEC-0781,Mr.Ilham,314,7,0.95,9.0,0.71,3.09,66.09,0,34.89
+2025-12-13,DC-1159,Compact Trekking Poles Adjustable,Outdoor,9,10900,Delivered,ORD-DEC-0782,Murshid,305,7,0.95,9.0,0.71,3.09,66.09,0,33.89
+2025-12-20,DC-1159,Compact Trekking Poles Adjustable,Outdoor,9,10100,Shipped,ORD-DEC-0783,Hakeem,296,7,0.95,9.0,0.71,3.09,66.09,0,32.89
+2025-12-28,DC-1159,Compact Trekking Poles Adjustable,Outdoor,8,10200,Packed,ORD-DEC-0784,Hakeem,288,7,0.95,9.0,0.71,3.09,66.09,0,32.0
+2025-12-07,DC-1160,Portable Water Filter Straw,Outdoor,5,5500,Packed,ORD-DEC-0785,Mr.Ilham,248,6,0.95,5.71,3.19,12.85,47.11,0,43.43
+2025-12-08,DC-1160,Portable Water Filter Straw,Outdoor,5,5300,Packed,ORD-DEC-0786,Murshid,243,6,0.95,5.71,3.19,12.85,47.11,0,42.56
+2025-12-09,DC-1160,Portable Water Filter Straw,Outdoor,9,5400,Packed,ORD-DEC-0787,Nazlin,234,6,0.95,5.71,3.19,12.85,47.11,0,40.98
+2025-12-13,DC-1160,Portable Water Filter Straw,Outdoor,8,5300,Delivered,ORD-DEC-0788,Nazlin,18,6,0.95,5.71,3.19,12.85,47.11,1,3.15
+2025-12-23,DC-1160,Portable Water Filter Straw,Outdoor,1,5200,Shipped,ORD-DEC-0789,Nazlin,225,6,0.95,5.71,3.19,12.85,47.11,0,39.4
+2025-12-23,DC-1160,Portable Water Filter Straw,Outdoor,2,5100,Shipped,ORD-DEC-0790,Nazlin,223,6,0.95,5.71,3.19,12.85,47.11,0,39.05
+2025-12-29,DC-1160,Portable Water Filter Straw,Outdoor,10,5600,Shipped,ORD-DEC-0791,Mr.Ilham,213,6,0.95,5.71,3.19,12.85,47.11,0,37.3
+2025-12-07,DC-1161,Solar Powered Lantern Collapsible,Outdoor,2,7700,Shipped,ORD-DEC-0792,Mr.Ilham,275,4,0.95,6.0,2.61,8.59,32.59,0,45.83
+2025-12-12,DC-1161,Solar Powered Lantern Collapsible,Outdoor,10,6900,Packed,ORD-DEC-0793,Hakeem,265,4,0.95,6.0,2.61,8.59,32.59,0,44.17
+2025-12-25,DC-1161,Solar Powered Lantern Collapsible,Outdoor,7,7700,Packed,ORD-DEC-0794,Murshid,258,4,0.95,6.0,2.61,8.59,32.59,0,43.0
+2025-12-25,DC-1161,Solar Powered Lantern Collapsible,Outdoor,6,8000,Packed,ORD-DEC-0795,Nazlin,252,4,0.95,6.0,2.61,8.59,32.59,0,42.0
+2025-12-28,DC-1161,Solar Powered Lantern Collapsible,Outdoor,5,7600,Pending,ORD-DEC-0796,Nazlin,28,4,0.95,6.0,2.61,8.59,32.59,1,4.67
+2025-12-05,DC-1162,Solar Powered Lantern Collapsible,Outdoor,7,7900,Packed,ORD-DEC-0797,Mr.Ilham,145,4,0.95,3.83,1.95,6.42,21.74,0,37.86
+2025-12-09,DC-1162,Solar Powered Lantern Collapsible,Outdoor,3,7900,Packed,ORD-DEC-0798,Hakeem,142,4,0.95,3.83,1.95,6.42,21.74,0,37.08
+2025-12-10,DC-1162,Solar Powered Lantern Collapsible,Outdoor,6,7200,Shipped,ORD-DEC-0799,Murshid,136,4,0.95,3.83,1.95,6.42,21.74,0,35.51
+2025-12-24,DC-1162,Solar Powered Lantern Collapsible,Outdoor,3,8600,Pending,ORD-DEC-0800,Murshid,133,4,0.95,3.83,1.95,6.42,21.74,0,34.73
+2025-12-24,DC-1162,Solar Powered Lantern Collapsible,Outdoor,2,8500,Packed,ORD-DEC-0801,Mr.Ilham,131,4,0.95,3.83,1.95,6.42,21.74,0,34.2
+2025-12-25,DC-1162,Solar Powered Lantern Collapsible,Outdoor,2,7400,Delivered,ORD-DEC-0802,Mr.Ilham,7,4,0.95,3.83,1.95,6.42,21.74,1,1.83
+2025-12-05,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,3,4400,Packed,ORD-DEC-0803,Mr.Ilham,315,7,0.95,4.57,2.77,12.06,44.05,0,68.93
+2025-12-06,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,3,4600,Delivered,ORD-DEC-0804,Mr.Ilham,34,7,0.95,4.57,2.77,12.06,44.05,1,7.44
+2025-12-18,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,10,4900,Cancelled,ORD-DEC-0805,Murshid,302,7,0.95,4.57,2.77,12.06,44.05,0,66.08
+2025-12-20,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,4,4800,Packed,ORD-DEC-0806,Mr.Ilham,13,7,0.95,4.57,2.77,12.06,44.05,1,2.84
+2025-12-20,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,4,4700,Shipped,ORD-DEC-0807,Nazlin,294,7,0.95,4.57,2.77,12.06,44.05,0,64.33
+2025-12-24,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,7,4400,Shipped,ORD-DEC-0808,Mr.Ilham,287,7,0.95,4.57,2.77,12.06,44.05,0,62.8
+2025-12-27,DC-1163,LED Headlamp Rechargeable 1000LM,Outdoor,1,5000,Packed,ORD-DEC-0809,Hakeem,286,7,0.95,4.57,2.77,12.06,44.05,0,62.58
+2025-12-02,DC-1164,Portable Water Filter Straw,Outdoor,1,3200,Packed,ORD-DEC-0810,Mr.Ilham,14,4,0.95,5.57,2.61,8.59,30.87,1,2.51
+2025-12-11,DC-1164,Portable Water Filter Straw,Outdoor,9,3100,Packed,ORD-DEC-0811,Mr.Ilham,161,4,0.95,5.57,2.61,8.59,30.87,0,28.9
+2025-12-16,DC-1164,Portable Water Filter Straw,Outdoor,6,3100,Packed,ORD-DEC-0812,Nazlin,18,4,0.95,5.57,2.61,8.59,30.87,1,3.23
+2025-12-16,DC-1164,Portable Water Filter Straw,Outdoor,4,2900,Packed,ORD-DEC-0813,Murshid,151,4,0.95,5.57,2.61,8.59,30.87,0,27.11
+2025-12-22,DC-1164,Portable Water Filter Straw,Outdoor,5,2700,Shipped,ORD-DEC-0814,Hakeem,146,4,0.95,5.57,2.61,8.59,30.87,0,26.21
+2025-12-23,DC-1164,Portable Water Filter Straw,Outdoor,5,3200,Delivered,ORD-DEC-0815,Mr.Ilham,141,4,0.95,5.57,2.61,8.59,30.87,0,25.31
+2025-12-23,DC-1164,Portable Water Filter Straw,Outdoor,9,2700,Shipped,ORD-DEC-0816,Mr.Ilham,132,4,0.95,5.57,2.61,8.59,30.87,0,23.7
+2025-12-07,DC-1165,Outdoor Survival Multi-Tool Kit,Outdoor,1,5100,Shipped,ORD-DEC-0817,Murshid,332,4,0.95,3.67,3.77,12.4,27.08,0,90.46
+2025-12-23,DC-1165,Outdoor Survival Multi-Tool Kit,Outdoor,9,4600,Delivered,ORD-DEC-0818,Murshid,323,4,0.95,3.67,3.77,12.4,27.08,0,88.01
+2025-12-28,DC-1165,Outdoor Survival Multi-Tool Kit,Outdoor,1,5300,Delivered,ORD-DEC-0819,Murshid,322,4,0.95,3.67,3.77,12.4,27.08,0,87.74
+2025-12-02,DC-1166,Waterproof Hiking Backpack 40L,Outdoor,2,6400,Packed,ORD-DEC-0820,Hakeem,245,3,0.95,4.2,2.56,7.29,19.89,0,58.33
+2025-12-23,DC-1166,Waterproof Hiking Backpack 40L,Outdoor,1,5900,Delivered,ORD-DEC-0821,Nazlin,244,3,0.95,4.2,2.56,7.29,19.89,0,58.1
+2025-12-25,DC-1166,Waterproof Hiking Backpack 40L,Outdoor,4,6400,Packed,ORD-DEC-0822,Mr.Ilham,7,3,0.95,4.2,2.56,7.29,19.89,1,1.67
+2025-12-28,DC-1166,Waterproof Hiking Backpack 40L,Outdoor,8,6700,Pending,ORD-DEC-0823,Hakeem,232,3,0.95,4.2,2.56,7.29,19.89,0,55.24
+2025-12-29,DC-1166,Waterproof Hiking Backpack 40L,Outdoor,6,5900,Pending,ORD-DEC-0824,Hakeem,226,3,0.95,4.2,2.56,7.29,19.89,0,53.81
+2025-12-05,DC-1167,Compact Trekking Poles Adjustable,Outdoor,8,10100,Packed,ORD-DEC-0825,Mr.Ilham,268,7,0.95,5.71,2.76,12.01,51.98,0,46.94
+2025-12-15,DC-1167,Compact Trekking Poles Adjustable,Outdoor,3,10200,Shipped,ORD-DEC-0826,Mr.Ilham,265,7,0.95,5.71,2.76,12.01,51.98,0,46.41
+2025-12-20,DC-1167,Compact Trekking Poles Adjustable,Outdoor,6,11000,Shipped,ORD-DEC-0827,Mr.Ilham,259,7,0.95,5.71,2.76,12.01,51.98,0,45.36
+2025-12-22,DC-1167,Compact Trekking Poles Adjustable,Outdoor,6,10600,Shipped,ORD-DEC-0828,Hakeem,14,7,0.95,5.71,2.76,12.01,51.98,1,2.45
+2025-12-24,DC-1167,Compact Trekking Poles Adjustable,Outdoor,1,9600,Shipped,ORD-DEC-0829,Hakeem,12,7,0.95,5.71,2.76,12.01,51.98,1,2.1
+2025-12-28,DC-1167,Compact Trekking Poles Adjustable,Outdoor,10,10300,Packed,ORD-DEC-0830,Nazlin,242,7,0.95,5.71,2.76,12.01,51.98,0,42.38
+2025-12-30,DC-1167,Compact Trekking Poles Adjustable,Outdoor,6,9900,Pending,ORD-DEC-0831,Mr.Ilham,236,7,0.95,5.71,2.76,12.01,51.98,0,41.33
+2025-12-02,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,1,6300,Shipped,ORD-DEC-0832,Nazlin,214,6,0.95,6.0,2.93,11.81,47.81,0,35.67
+2025-12-02,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,5,6200,Pending,ORD-DEC-0833,Hakeem,209,6,0.95,6.0,2.93,11.81,47.81,0,34.83
+2025-12-06,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,5,6300,Pending,ORD-DEC-0834,Mr.Ilham,204,6,0.95,6.0,2.93,11.81,47.81,0,34.0
+2025-12-08,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,10,5400,Cancelled,ORD-DEC-0835,Hakeem,11,6,0.95,6.0,2.93,11.81,47.81,1,1.83
+2025-12-23,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,6,6200,Packed,ORD-DEC-0836,Mr.Ilham,37,6,0.95,6.0,2.93,11.81,47.81,1,6.17
+2025-12-23,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,10,6200,Shipped,ORD-DEC-0837,Nazlin,178,6,0.95,6.0,2.93,11.81,47.81,0,29.67
+2025-12-28,DC-1168,LED Headlamp Rechargeable 1000LM,Outdoor,5,6200,Cancelled,ORD-DEC-0838,Nazlin,173,6,0.95,6.0,2.93,11.81,47.81,0,28.83
+2025-12-07,DC-1169,Compact Trekking Poles Adjustable,Outdoor,3,8700,Shipped,ORD-DEC-0839,Mr.Ilham,127,6,0.95,7.29,2.25,9.07,52.81,0,17.42
+2025-12-07,DC-1169,Compact Trekking Poles Adjustable,Outdoor,8,9700,Packed,ORD-DEC-0840,Nazlin,119,6,0.95,7.29,2.25,9.07,52.81,0,16.32
+2025-12-09,DC-1169,Compact Trekking Poles Adjustable,Outdoor,7,8700,Packed,ORD-DEC-0841,Mr.Ilham,112,6,0.95,7.29,2.25,9.07,52.81,0,15.36
+2025-12-14,DC-1169,Compact Trekking Poles Adjustable,Outdoor,10,9900,Delivered,ORD-DEC-0842,Hakeem,102,6,0.95,7.29,2.25,9.07,52.81,0,13.99
+2025-12-15,DC-1169,Compact Trekking Poles Adjustable,Outdoor,6,9500,Shipped,ORD-DEC-0843,Hakeem,96,6,0.95,7.29,2.25,9.07,52.81,0,13.17
+2025-12-24,DC-1169,Compact Trekking Poles Adjustable,Outdoor,7,9500,Packed,ORD-DEC-0844,Hakeem,89,6,0.95,7.29,2.25,9.07,52.81,0,12.21
+2025-12-24,DC-1169,Compact Trekking Poles Adjustable,Outdoor,10,8400,Packed,ORD-DEC-0845,Mr.Ilham,79,6,0.95,7.29,2.25,9.07,52.81,0,10.84
+2025-12-03,DC-1170,Camping Hammock Nylon Lightweight,Outdoor,9,7400,Packed,ORD-DEC-0846,Mr.Ilham,215,4,0.95,7.6,2.58,8.49,38.89,0,28.29
+2025-12-05,DC-1170,Camping Hammock Nylon Lightweight,Outdoor,5,7500,Delivered,ORD-DEC-0847,Nazlin,210,4,0.95,7.6,2.58,8.49,38.89,0,27.63
+2025-12-14,DC-1170,Camping Hammock Nylon Lightweight,Outdoor,10,7600,Pending,ORD-DEC-0848,Hakeem,200,4,0.95,7.6,2.58,8.49,38.89,0,26.32
+2025-12-18,DC-1170,Camping Hammock Nylon Lightweight,Outdoor,4,7600,Shipped,ORD-DEC-0849,Mr.Ilham,196,4,0.95,7.6,2.58,8.49,38.89,0,25.79
+2025-12-25,DC-1170,Camping Hammock Nylon Lightweight,Outdoor,10,8600,Packed,ORD-DEC-0850,Murshid,186,4,0.95,7.6,2.58,8.49,38.89,0,24.47
+2025-12-01,DC-1171,Foldable Camping Chair Portable,Outdoor,4,9600,Delivered,ORD-DEC-0851,Hakeem,239,3,0.95,3.8,1.83,5.21,16.61,0,62.89
+2025-12-06,DC-1171,Foldable Camping Chair Portable,Outdoor,7,10500,Cancelled,ORD-DEC-0852,Hakeem,10,3,0.95,3.8,1.83,5.21,16.61,1,2.63
+2025-12-12,DC-1171,Foldable Camping Chair Portable,Outdoor,2,9800,Packed,ORD-DEC-0853,Nazlin,4,3,0.95,3.8,1.83,5.21,16.61,1,1.05
+2025-12-21,DC-1171,Foldable Camping Chair Portable,Outdoor,2,9700,Cancelled,ORD-DEC-0854,Murshid,228,3,0.95,3.8,1.83,5.21,16.61,0,60.0
+2025-12-23,DC-1171,Foldable Camping Chair Portable,Outdoor,4,10300,Cancelled,ORD-DEC-0855,Hakeem,224,3,0.95,3.8,1.83,5.21,16.61,0,58.95
+2025-12-06,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,4,7200,Packed,ORD-DEC-0856,Murshid,295,4,0.95,5.14,1.81,5.95,26.51,0,57.39
+2025-12-06,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,4,7500,Packed,ORD-DEC-0857,Mr.Ilham,291,4,0.95,5.14,1.81,5.95,26.51,0,56.61
+2025-12-11,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,7,7100,Packed,ORD-DEC-0858,Murshid,284,4,0.95,5.14,1.81,5.95,26.51,0,55.25
+2025-12-17,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,7,7800,Delivered,ORD-DEC-0859,Mr.Ilham,277,4,0.95,5.14,1.81,5.95,26.51,0,53.89
+2025-12-25,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,5,8300,Delivered,ORD-DEC-0860,Hakeem,6,4,0.95,5.14,1.81,5.95,26.51,1,1.17
+2025-12-29,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,7,7900,Packed,ORD-DEC-0861,Hakeem,265,4,0.95,5.14,1.81,5.95,26.51,0,51.56
+2025-12-30,DC-1172,Camping Hammock Nylon Lightweight,Outdoor,2,7600,Packed,ORD-DEC-0862,Mr.Ilham,263,4,0.95,5.14,1.81,5.95,26.51,0,51.17
+2025-12-02,DC-1173,Solar Powered Lantern Collapsible,Outdoor,8,3500,Shipped,ORD-DEC-0863,Murshid,171,7,0.95,6.83,3.18,13.84,61.65,0,25.04
+2025-12-12,DC-1173,Solar Powered Lantern Collapsible,Outdoor,8,3200,Packed,ORD-DEC-0864,Nazlin,30,7,0.95,6.83,3.18,13.84,61.65,1,4.39
+2025-12-14,DC-1173,Solar Powered Lantern Collapsible,Outdoor,3,3100,Shipped,ORD-DEC-0865,Mr.Ilham,160,7,0.95,6.83,3.18,13.84,61.65,0,23.43
+2025-12-16,DC-1173,Solar Powered Lantern Collapsible,Outdoor,2,3500,Packed,ORD-DEC-0866,Mr.Ilham,158,7,0.95,6.83,3.18,13.84,61.65,0,23.13
+2025-12-17,DC-1173,Solar Powered Lantern Collapsible,Outdoor,10,3000,Shipped,ORD-DEC-0867,Mr.Ilham,148,7,0.95,6.83,3.18,13.84,61.65,0,21.67
+2025-12-22,DC-1173,Solar Powered Lantern Collapsible,Outdoor,10,3400,Pending,ORD-DEC-0868,Murshid,138,7,0.95,6.83,3.18,13.84,61.65,0,20.2
+2025-12-11,DC-1174,Compact Trekking Poles Adjustable,Outdoor,8,6300,Delivered,ORD-DEC-0869,Mr.Ilham,101,6,0.95,5.0,2.71,10.92,40.92,0,20.2
+2025-12-13,DC-1174,Compact Trekking Poles Adjustable,Outdoor,6,6400,Cancelled,ORD-DEC-0996,Mr.Ilham,90,6,0.95,5.0,2.71,10.92,40.92,0,18.0
+2025-12-25,DC-1174,Compact Trekking Poles Adjustable,Outdoor,8,6400,Shipped,ORD-DEC-0870,Hakeem,28,6,0.95,5.0,2.71,10.92,40.92,1,5.6
+2025-12-28,DC-1174,Compact Trekking Poles Adjustable,Outdoor,5,6000,Packed,ORD-DEC-0871,Mr.Ilham,88,6,0.95,5.0,2.71,10.92,40.92,0,17.6
+2025-12-28,DC-1174,Compact Trekking Poles Adjustable,Outdoor,1,6200,Packed,ORD-DEC-0872,Hakeem,87,6,0.95,5.0,2.71,10.92,40.92,0,17.4
+2025-12-31,DC-1174,Compact Trekking Poles Adjustable,Outdoor,2,5600,Shipped,ORD-DEC-0873,Murshid,85,6,0.95,5.0,2.71,10.92,40.92,0,17.0
+2025-12-02,DC-1175,Magnetic Wristband Tool Holder,Tools,3,4400,Delivered,ORD-DEC-0874,Mr.Ilham,284,7,0.95,2.2,0.98,4.27,19.67,0,129.09
+2025-12-15,DC-1175,Magnetic Wristband Tool Holder,Tools,1,4800,Shipped,ORD-DEC-0875,Murshid,283,7,0.95,2.2,0.98,4.27,19.67,0,128.64
+2025-12-19,DC-1175,Magnetic Wristband Tool Holder,Tools,3,5300,Packed,ORD-DEC-0876,Murshid,280,7,0.95,2.2,0.98,4.27,19.67,0,127.27
+2025-12-22,DC-1175,Magnetic Wristband Tool Holder,Tools,3,4400,Shipped,ORD-DEC-0877,Mr.Ilham,6,7,0.95,2.2,0.98,4.27,19.67,1,2.73
+2025-12-31,DC-1175,Magnetic Wristband Tool Holder,Tools,1,5100,Shipped,ORD-DEC-0878,Nazlin,276,7,0.95,2.2,0.98,4.27,19.67,0,125.45
+2025-12-10,DC-1176,Laser Level Self-Leveling 3-Line,Tools,2,10000,Packed,ORD-DEC-0879,Hakeem,122,7,0.95,6.0,4.0,17.41,59.41,0,20.33
+2025-12-12,DC-1176,Laser Level Self-Leveling 3-Line,Tools,10,10400,Packed,ORD-DEC-0880,Mr.Ilham,112,7,0.95,6.0,4.0,17.41,59.41,0,18.67
+2025-12-07,DC-1177,Cordless Hot Glue Gun 20W,Tools,10,5600,Delivered,ORD-DEC-0881,Mr.Ilham,293,6,0.95,5.5,4.5,18.13,51.13,0,53.27
+2025-12-24,DC-1177,Cordless Hot Glue Gun 20W,Tools,1,5600,Pending,ORD-DEC-0882,Mr.Ilham,292,6,0.95,5.5,4.5,18.13,51.13,0,53.09
+2025-12-16,DC-1178,Magnetic Wristband Tool Holder,Tools,8,4900,Packed,ORD-DEC-0883,Nazlin,301,6,0.95,6.5,1.5,6.04,45.04,0,46.31
+2025-12-20,DC-1178,Magnetic Wristband Tool Holder,Tools,5,4700,Packed,ORD-DEC-0884,Mr.Ilham,16,6,0.95,6.5,1.5,6.04,45.04,1,2.46
+2025-12-12,DC-1179,Precision Screwdriver Set 56pc Magnetic,Tools,7,8000,Shipped,ORD-DEC-0885,Murshid,249,4,0.95,3.75,2.38,7.83,22.83,0,66.4
+2025-12-15,DC-1179,Precision Screwdriver Set 56pc Magnetic,Tools,1,7900,Packed,ORD-DEC-0886,Mr.Ilham,7,4,0.95,3.75,2.38,7.83,22.83,1,1.87
+2025-12-15,DC-1179,Precision Screwdriver Set 56pc Magnetic,Tools,5,8700,Shipped,ORD-DEC-0887,Murshid,243,4,0.95,3.75,2.38,7.83,22.83,0,64.8
+2025-12-31,DC-1179,Precision Screwdriver Set 56pc Magnetic,Tools,2,9100,Delivered,ORD-DEC-0888,Mr.Ilham,241,4,0.95,3.75,2.38,7.83,22.83,0,64.27
+2025-12-01,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,10,7700,Delivered,ORD-DEC-0889,Nazlin,278,7,0.95,6.17,3.34,14.54,57.73,0,45.06
+2025-12-08,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,5,7600,Shipped,ORD-DEC-0890,Nazlin,273,7,0.95,6.17,3.34,14.54,57.73,0,44.25
+2025-12-13,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,2,8600,Packed,ORD-DEC-0891,Hakeem,47,7,0.95,6.17,3.34,14.54,57.73,1,7.62
+2025-12-21,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,2,8800,Shipped,ORD-DEC-0998,Nazlin,278,7,0.95,6.17,3.34,14.54,57.73,0,45.06
+2025-12-27,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,9,8400,Packed,ORD-DEC-0892,Nazlin,262,7,0.95,6.17,3.34,14.54,57.73,0,42.46
+2025-12-31,DC-1180,Precision Screwdriver Set 56pc Magnetic,Tools,9,8500,Pending,ORD-DEC-0893,Nazlin,253,7,0.95,6.17,3.34,14.54,57.73,0,41.0
+2025-12-08,DC-1181,Wire Stripper Crimping Tool Set,Tools,10,6600,Shipped,ORD-DEC-0894,Murshid,73,4,0.95,8.5,1.5,4.94,38.94,0,8.59
+2025-12-09,DC-1181,Wire Stripper Crimping Tool Set,Tools,7,6600,Shipped,ORD-DEC-0895,Hakeem,22,4,0.95,8.5,1.5,4.94,38.94,1,2.59
+2025-12-01,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,1,6700,Packed,ORD-DEC-0896,Murshid,284,3,0.95,5.67,2.81,8.01,25.02,0,50.09
+2025-12-04,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,6,6300,Packed,ORD-DEC-0897,Hakeem,278,3,0.95,5.67,2.81,8.01,25.02,0,49.03
+2025-12-09,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,9,6900,Packed,ORD-DEC-0898,Murshid,269,3,0.95,5.67,2.81,8.01,25.02,0,47.44
+2025-12-20,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,8,5900,Packed,ORD-DEC-0899,Nazlin,261,3,0.95,5.67,2.81,8.01,25.02,0,46.03
+2025-12-24,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,3,6500,Packed,ORD-DEC-0900,Nazlin,20,3,0.95,5.67,2.81,8.01,25.02,1,3.53
+2025-12-25,DC-1182,Precision Screwdriver Set 56pc Magnetic,Tools,7,5900,Packed,ORD-DEC-0901,Hakeem,6,3,0.95,5.67,2.81,8.01,25.02,1,1.06
+2025-12-06,DC-1183,Precision Screwdriver Set 56pc Magnetic,Tools,8,5100,Cancelled,ORD-DEC-0902,Hakeem,86,5,0.95,6.25,2.86,10.52,41.77,0,13.76
+2025-12-15,DC-1183,Precision Screwdriver Set 56pc Magnetic,Tools,10,5200,Delivered,ORD-DEC-0903,Nazlin,76,5,0.95,6.25,2.86,10.52,41.77,0,12.16
+2025-12-25,DC-1183,Precision Screwdriver Set 56pc Magnetic,Tools,3,5000,Shipped,ORD-DEC-0904,Hakeem,73,5,0.95,6.25,2.86,10.52,41.77,0,11.68
+2025-12-25,DC-1183,Precision Screwdriver Set 56pc Magnetic,Tools,4,4900,Packed,ORD-DEC-0905,Hakeem,69,5,0.95,6.25,2.86,10.52,41.77,0,11.04
+2025-12-09,DC-1184,Laser Level Self-Leveling 3-Line,Tools,8,10100,Packed,ORD-DEC-0906,Hakeem,74,7,0.95,6.71,2.12,9.23,56.2,0,11.03
+2025-12-20,DC-1184,Laser Level Self-Leveling 3-Line,Tools,8,10300,Shipped,ORD-DEC-0907,Murshid,66,7,0.95,6.71,2.12,9.23,56.2,0,9.84
+2025-12-21,DC-1184,Laser Level Self-Leveling 3-Line,Tools,4,9500,Shipped,ORD-DEC-0908,Murshid,62,7,0.95,6.71,2.12,9.23,56.2,0,9.24
+2025-12-24,DC-1184,Laser Level Self-Leveling 3-Line,Tools,8,10000,Delivered,ORD-DEC-0909,Murshid,18,7,0.95,6.71,2.12,9.23,56.2,1,2.68
+2025-12-25,DC-1184,Laser Level Self-Leveling 3-Line,Tools,3,10000,Shipped,ORD-DEC-0910,Hakeem,51,7,0.95,6.71,2.12,9.23,56.2,0,7.6
+2025-12-26,DC-1184,Laser Level Self-Leveling 3-Line,Tools,7,10200,Delivered,ORD-DEC-0911,Hakeem,15,7,0.95,6.71,2.12,9.23,56.2,1,2.24
+2025-12-31,DC-1184,Laser Level Self-Leveling 3-Line,Tools,9,9900,Cancelled,ORD-DEC-0912,Nazlin,35,7,0.95,6.71,2.12,9.23,56.2,0,5.22
+2025-12-04,DC-1185,Digital Vernier Caliper 150mm LCD,Tools,9,3400,Cancelled,ORD-DEC-0913,Murshid,10,4,0.95,3.2,2.99,9.84,22.64,1,3.12
+2025-12-05,DC-1185,Digital Vernier Caliper 150mm LCD,Tools,1,3800,Packed,ORD-DEC-0914,Nazlin,110,4,0.95,3.2,2.99,9.84,22.64,0,34.38
+2025-12-09,DC-1185,Digital Vernier Caliper 150mm LCD,Tools,2,4100,Pending,ORD-DEC-0915,Nazlin,108,4,0.95,3.2,2.99,9.84,22.64,0,33.75
+2025-12-23,DC-1185,Digital Vernier Caliper 150mm LCD,Tools,3,4000,Packed,ORD-DEC-0916,Mr.Ilham,105,4,0.95,3.2,2.99,9.84,22.64,0,32.81
+2025-12-27,DC-1185,Digital Vernier Caliper 150mm LCD,Tools,1,3600,Shipped,ORD-DEC-0917,Murshid,11,4,0.95,3.2,2.99,9.84,22.64,1,3.44
+2025-12-06,DC-1186,Mini Soldering Iron Kit 60W Adjustable,Tools,9,6200,Packed,ORD-DEC-0918,Hakeem,112,4,0.95,6.5,3.2,10.53,36.53,0,17.23
+2025-12-07,DC-1186,Mini Soldering Iron Kit 60W Adjustable,Tools,2,6200,Packed,ORD-DEC-0919,Murshid,110,4,0.95,6.5,3.2,10.53,36.53,0,16.92
+2025-12-23,DC-1186,Mini Soldering Iron Kit 60W Adjustable,Tools,10,6600,Delivered,ORD-DEC-0920,Hakeem,100,4,0.95,6.5,3.2,10.53,36.53,0,15.38
+2025-12-25,DC-1186,Mini Soldering Iron Kit 60W Adjustable,Tools,5,6000,Cancelled,ORD-DEC-0921,Mr.Ilham,27,4,0.95,6.5,3.2,10.53,36.53,1,4.15
+2025-12-04,DC-1187,Mini Soldering Iron Kit 60W Adjustable,Tools,5,4500,Shipped,ORD-DEC-0922,Murshid,82,6,0.95,7.0,1.26,5.08,47.08,0,11.71
+2025-12-14,DC-1187,Mini Soldering Iron Kit 60W Adjustable,Tools,7,4000,Delivered,ORD-DEC-0923,Hakeem,16,6,0.95,7.0,1.26,5.08,47.08,1,2.29
+2025-12-15,DC-1187,Mini Soldering Iron Kit 60W Adjustable,Tools,7,4500,Cancelled,ORD-DEC-0924,Murshid,68,6,0.95,7.0,1.26,5.08,47.08,0,9.71
+2025-12-15,DC-1187,Mini Soldering Iron Kit 60W Adjustable,Tools,9,4200,Shipped,ORD-DEC-0925,Murshid,59,6,0.95,7.0,1.26,5.08,47.08,0,8.43
+2025-12-23,DC-1187,Mini Soldering Iron Kit 60W Adjustable,Tools,7,4100,Packed,ORD-DEC-0926,Murshid,52,6,0.95,7.0,1.26,5.08,47.08,0,7.43
+2025-12-06,DC-1188,Cordless Hot Glue Gun 20W,Tools,9,5000,Packed,ORD-DEC-0927,Mr.Ilham,185,7,0.95,4.6,2.42,10.53,42.73,0,40.22
+2025-12-07,DC-1188,Cordless Hot Glue Gun 20W,Tools,5,4300,Cancelled,ORD-DEC-0928,Hakeem,180,7,0.95,4.6,2.42,10.53,42.73,0,39.13
+2025-12-11,DC-1188,Cordless Hot Glue Gun 20W,Tools,2,4700,Cancelled,ORD-DEC-0929,Hakeem,178,7,0.95,4.6,2.42,10.53,42.73,0,38.7
+2025-12-18,DC-1188,Cordless Hot Glue Gun 20W,Tools,3,4300,Packed,ORD-DEC-0930,Mr.Ilham,14,7,0.95,4.6,2.42,10.53,42.73,1,3.04
+2025-12-26,DC-1188,Cordless Hot Glue Gun 20W,Tools,4,4600,Packed,ORD-DEC-0931,Murshid,171,7,0.95,4.6,2.42,10.53,42.73,0,37.17
+2025-12-05,DC-1189,Wire Stripper Crimping Tool Set,Tools,4,5900,Shipped,ORD-DEC-0932,Hakeem,9,3,0.95,2.6,1.2,3.42,11.22,1,3.46
+2025-12-06,DC-1189,Wire Stripper Crimping Tool Set,Tools,2,5400,Shipped,ORD-DEC-0933,Mr.Ilham,168,3,0.95,2.6,1.2,3.42,11.22,0,64.62
+2025-12-14,DC-1189,Wire Stripper Crimping Tool Set,Tools,1,5500,Packed,ORD-DEC-0934,Hakeem,167,3,0.95,2.6,1.2,3.42,11.22,0,64.23
+2025-12-23,DC-1189,Wire Stripper Crimping Tool Set,Tools,2,6000,Packed,ORD-DEC-0935,Murshid,4,3,0.95,2.6,1.2,3.42,11.22,1,1.54
+2025-12-25,DC-1189,Wire Stripper Crimping Tool Set,Tools,4,5100,Packed,ORD-DEC-0936,Mr.Ilham,161,3,0.95,2.6,1.2,3.42,11.22,0,61.92
+2025-12-07,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,3,9000,Shipped,ORD-DEC-0937,Mr.Ilham,204,6,0.95,4.38,2.29,9.23,35.51,0,46.58
+2025-12-07,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,4,8700,Packed,ORD-DEC-0997,Murshid,194,6,0.95,4.38,2.29,9.23,35.51,0,44.29
+2025-12-08,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,3,9700,Packed,ORD-DEC-0938,Nazlin,201,6,0.95,4.38,2.29,9.23,35.51,0,45.89
+2025-12-10,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,5,8400,Packed,ORD-DEC-0939,Mr.Ilham,196,6,0.95,4.38,2.29,9.23,35.51,0,44.75
+2025-12-11,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,10,9700,Packed,ORD-DEC-0940,Murshid,186,6,0.95,4.38,2.29,9.23,35.51,0,42.47
+2025-12-20,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,2,9000,Delivered,ORD-DEC-0941,Nazlin,184,6,0.95,4.38,2.29,9.23,35.51,0,42.01
+2025-12-23,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,4,9500,Packed,ORD-DEC-0942,Hakeem,180,6,0.95,4.38,2.29,9.23,35.51,0,41.1
+2025-12-24,DC-1190,Mini Soldering Iron Kit 60W Adjustable,Tools,4,9900,Shipped,ORD-DEC-0943,Murshid,176,6,0.95,4.38,2.29,9.23,35.51,0,40.18
+2025-12-07,DC-1191,Cordless Hot Glue Gun 20W,Tools,5,6600,Delivered,ORD-DEC-0944,Nazlin,165,3,0.95,5.17,2.11,6.01,21.52,0,31.91
+2025-12-07,DC-1191,Cordless Hot Glue Gun 20W,Tools,5,6400,Shipped,ORD-DEC-0945,Mr.Ilham,160,3,0.95,5.17,2.11,6.01,21.52,0,30.95
+2025-12-08,DC-1191,Cordless Hot Glue Gun 20W,Tools,8,5900,Packed,ORD-DEC-0946,Nazlin,152,3,0.95,5.17,2.11,6.01,21.52,0,29.4
+2025-12-08,DC-1191,Cordless Hot Glue Gun 20W,Tools,6,5800,Shipped,ORD-DEC-0947,Nazlin,146,3,0.95,5.17,2.11,6.01,21.52,0,28.24
+2025-12-18,DC-1191,Cordless Hot Glue Gun 20W,Tools,6,5700,Packed,ORD-DEC-0948,Nazlin,140,3,0.95,5.17,2.11,6.01,21.52,0,27.08
+2025-12-25,DC-1191,Cordless Hot Glue Gun 20W,Tools,1,6400,Pending,ORD-DEC-0949,Murshid,139,3,0.95,5.17,2.11,6.01,21.52,0,26.89
+2025-12-06,DC-1192,Cordless Hot Glue Gun 20W,Tools,10,5000,Shipped,ORD-DEC-0950,Murshid,268,3,0.95,6.0,4.15,11.82,29.82,0,44.67
+2025-12-13,DC-1192,Cordless Hot Glue Gun 20W,Tools,1,5700,Packed,ORD-DEC-0951,Mr.Ilham,267,3,0.95,6.0,4.15,11.82,29.82,0,44.5
+2025-12-18,DC-1192,Cordless Hot Glue Gun 20W,Tools,8,5100,Packed,ORD-DEC-0952,Mr.Ilham,259,3,0.95,6.0,4.15,11.82,29.82,0,43.17
+2025-12-24,DC-1192,Cordless Hot Glue Gun 20W,Tools,1,5500,Packed,ORD-DEC-0953,Nazlin,18,3,0.95,6.0,4.15,11.82,29.82,1,3.0
+2025-12-30,DC-1192,Cordless Hot Glue Gun 20W,Tools,10,5500,Packed,ORD-DEC-0954,Murshid,21,3,0.95,6.0,4.15,11.82,29.82,1,3.5
+2025-12-13,DC-1193,Laser Level Self-Leveling 3-Line,Tools,2,9400,Delivered,ORD-DEC-0955,Nazlin,272,6,0.95,4.2,2.71,10.92,36.12,0,64.76
+2025-12-21,DC-1193,Laser Level Self-Leveling 3-Line,Tools,8,8400,Packed,ORD-DEC-0956,Murshid,264,6,0.95,4.2,2.71,10.92,36.12,0,62.86
+2025-12-23,DC-1193,Laser Level Self-Leveling 3-Line,Tools,2,9800,Packed,ORD-DEC-0957,Nazlin,22,6,0.95,4.2,2.71,10.92,36.12,1,5.24
+2025-12-23,DC-1193,Laser Level Self-Leveling 3-Line,Tools,2,8500,Packed,ORD-DEC-0958,Mr.Ilham,15,6,0.95,4.2,2.71,10.92,36.12,1,3.57
+2025-12-25,DC-1193,Laser Level Self-Leveling 3-Line,Tools,7,9400,Packed,ORD-DEC-0959,Murshid,27,6,0.95,4.2,2.71,10.92,36.12,1,6.43
+2025-12-06,DC-1194,Cordless Hot Glue Gun 20W,Tools,1,5600,Packed,ORD-DEC-0960,Nazlin,312,7,0.95,5.2,2.4,10.45,46.85,0,60.0
+2025-12-16,DC-1194,Cordless Hot Glue Gun 20W,Tools,8,6400,Delivered,ORD-DEC-0961,Nazlin,304,7,0.95,5.2,2.4,10.45,46.85,0,58.46
+2025-12-17,DC-1194,Cordless Hot Glue Gun 20W,Tools,7,6000,Delivered,ORD-DEC-0962,Hakeem,297,7,0.95,5.2,2.4,10.45,46.85,0,57.12
+2025-12-20,DC-1194,Cordless Hot Glue Gun 20W,Tools,5,6200,Delivered,ORD-DEC-0963,Hakeem,292,7,0.95,5.2,2.4,10.45,46.85,0,56.15
+2025-12-22,DC-1194,Cordless Hot Glue Gun 20W,Tools,5,5800,Packed,ORD-DEC-0964,Hakeem,287,7,0.95,5.2,2.4,10.45,46.85,0,55.19
+2025-12-03,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,4,7100,Packed,ORD-DEC-0965,Nazlin,124,4,0.95,4.43,1.84,6.05,23.77,0,27.99
+2025-12-07,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,7,7300,Packed,ORD-DEC-0966,Hakeem,18,4,0.95,4.43,1.84,6.05,23.77,1,4.06
+2025-12-07,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,5,6700,Packed,ORD-DEC-0967,Hakeem,112,4,0.95,4.43,1.84,6.05,23.77,0,25.28
+2025-12-09,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,3,6500,Packed,ORD-DEC-0968,Nazlin,109,4,0.95,4.43,1.84,6.05,23.77,0,24.6
+2025-12-12,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,6,6700,Packed,ORD-DEC-0969,Murshid,103,4,0.95,4.43,1.84,6.05,23.77,0,23.25
+2025-12-23,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,5,6600,Shipped,ORD-DEC-0970,Hakeem,98,4,0.95,4.43,1.84,6.05,23.77,0,22.12
+2025-12-25,DC-1195,Mini Soldering Iron Kit 60W Adjustable,Tools,1,7200,Packed,ORD-DEC-0971,Hakeem,97,4,0.95,4.43,1.84,6.05,23.77,0,21.9
+2025-12-01,DC-1196,Precision Screwdriver Set 56pc Magnetic,Tools,1,6200,Packed,ORD-DEC-0972,Nazlin,230,6,0.95,4.0,3.0,12.09,36.09,0,57.5
+2025-12-18,DC-1196,Precision Screwdriver Set 56pc Magnetic,Tools,7,6200,Delivered,ORD-DEC-0973,Hakeem,223,6,0.95,4.0,3.0,12.09,36.09,0,55.75
+2025-12-02,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,7,10800,Pending,ORD-DEC-0974,Murshid,139,5,0.95,6.29,2.66,9.78,41.23,0,22.1
+2025-12-07,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,7,10800,Packed,ORD-DEC-0975,Hakeem,132,5,0.95,6.29,2.66,9.78,41.23,0,20.99
+2025-12-18,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,7,10100,Packed,ORD-DEC-0976,Hakeem,125,5,0.95,6.29,2.66,9.78,41.23,0,19.87
+2025-12-23,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,9,9300,Delivered,ORD-DEC-0977,Nazlin,116,5,0.95,6.29,2.66,9.78,41.23,0,18.44
+2025-12-23,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,9,10100,Pending,ORD-DEC-0978,Mr.Ilham,107,5,0.95,6.29,2.66,9.78,41.23,0,17.01
+2025-12-28,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,1,9400,Packed,ORD-DEC-0979,Murshid,106,5,0.95,6.29,2.66,9.78,41.23,0,16.85
+2025-12-30,DC-1197,Cordless Electric Screwdriver Kit 3.6V,Tools,4,10200,Shipped,ORD-DEC-0980,Murshid,102,5,0.95,6.29,2.66,9.78,41.23,0,16.22
+2025-12-06,DC-1198,Cordless Hot Glue Gun 20W,Tools,9,3700,Cancelled,ORD-DEC-0981,Murshid,183,6,0.95,6.8,2.23,8.99,49.79,0,26.91
+2025-12-14,DC-1198,Cordless Hot Glue Gun 20W,Tools,9,3500,Packed,ORD-DEC-0982,Murshid,174,6,0.95,6.8,2.23,8.99,49.79,0,25.59
+2025-12-23,DC-1198,Cordless Hot Glue Gun 20W,Tools,7,3600,Pending,ORD-DEC-0983,Hakeem,167,6,0.95,6.8,2.23,8.99,49.79,0,24.56
+2025-12-29,DC-1198,Cordless Hot Glue Gun 20W,Tools,3,3200,Pending,ORD-DEC-0984,Nazlin,164,6,0.95,6.8,2.23,8.99,49.79,0,24.12
+2025-12-30,DC-1198,Cordless Hot Glue Gun 20W,Tools,6,3300,Packed,ORD-DEC-0985,Nazlin,158,6,0.95,6.8,2.23,8.99,49.79,0,23.24
+2025-12-04,DC-1199,Magnetic Wristband Tool Holder,Tools,9,5000,Shipped,ORD-DEC-0986,Murshid,242,3,0.95,6.71,2.91,8.29,28.42,0,36.07
+2025-12-05,DC-1199,Magnetic Wristband Tool Holder,Tools,5,5400,Shipped,ORD-DEC-0987,Murshid,237,3,0.95,6.71,2.91,8.29,28.42,0,35.32
+2025-12-14,DC-1199,Magnetic Wristband Tool Holder,Tools,2,5900,Packed,ORD-DEC-0988,Hakeem,24,3,0.95,6.71,2.91,8.29,28.42,1,3.58
+2025-12-16,DC-1199,Magnetic Wristband Tool Holder,Tools,10,5800,Pending,ORD-DEC-0989,Murshid,9,3,0.95,6.71,2.91,8.29,28.42,1,1.34
+2025-12-18,DC-1199,Magnetic Wristband Tool Holder,Tools,7,5000,Delivered,ORD-DEC-0990,Mr.Ilham,218,3,0.95,6.71,2.91,8.29,28.42,0,32.49
+2025-12-26,DC-1199,Magnetic Wristband Tool Holder,Tools,10,5500,Packed,ORD-DEC-0991,Murshid,12,3,0.95,6.71,2.91,8.29,28.42,1,1.79
+2025-12-26,DC-1199,Magnetic Wristband Tool Holder,Tools,4,5600,Shipped,ORD-DEC-0992,Nazlin,204,3,0.95,6.71,2.91,8.29,28.42,0,30.4

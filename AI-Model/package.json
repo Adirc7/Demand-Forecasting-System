@@ -1,0 +1,11 @@
+{
+    "name": "dropex-ai-model",
+    "version": "1.0.0",
+    "description": "AI Model Server for Dropex Smart Inventory system",
+    "scripts": {
+        "start": "uvicorn main:app --host 0.0.0.0 --port 8001 --reload",
+        "train": "echo \"Model already trained (forecast_model_v3.pkl). Implement retraining script here if needed.\""
+    },
+    "author": "",
+    "license": "ISC"
+}
