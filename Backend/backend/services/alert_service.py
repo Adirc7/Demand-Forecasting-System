@@ -9,6 +9,20 @@ import httpx, os, math
 AI_URL = os.getenv('AI_MODEL_URL', 'http://localhost:8001')
 Z = 1.645 # 95% service level
 
+
+def _to_float_safe(val, default=0.0):
+    try:
+        return float(val)
+    except (TypeError, ValueError):
+        return float(default)
+
+
+def _to_int_safe(val, default=0):
+    try:
+        return int(val)
+    except (TypeError, ValueError):
+        return int(default)
+
 import asyncio
 
 from firebase.cache import get_cached_collection
@@ -29,15 +43,16 @@ async def generate_alerts():
 
     async with httpx.AsyncClient(timeout=30.0) as client:
         for sku, prod in products.items():
-            cs = int(inventory.get(sku, {}).get('current_stock', prod.get('current_stock', 0)))
-            lt = int(prod.get('lead_time_days', 5))
+            cs = _to_int_safe(inventory.get(sku, {}).get('current_stock', prod.get('current_stock', 0)))
+            lt = _to_int_safe(prod.get('lead_time_days', 5))
             
             # Extract AI Model truths instead of re-calculating from raw sales to save API quotas
             fc = forecasts.get(sku, {})
             is_cold = fc.get('is_cold', prod.get('cold_start', True))
             
             if not is_cold:
-                avg = fc.get('forecast_30d', 0) / 30.0 if fc.get('forecast_30d', 0) > 0 else 0.01
+                forecast_30d = _to_float_safe(fc.get('forecast_30d', 0))
+                avg = forecast_30d / 30.0 if forecast_30d > 0 else 0.01
                 std = 0.5 # Default safety standard deviation assumption
                 mode, confidence = 'MODEL', fc.get('confidence', 'HIGH')
             else:
@@ -63,8 +78,8 @@ async def generate_alerts():
             
             # 1. AI FORECAST PRIORITY
             if fc and fc.get('confidence') == 'HIGH':
-                ai_7d = fc.get('forecast_7d', avg*7)
-                ai_avg = ai_7d / 7 if ai_7d > 0 else avg
+                ai_7d = _to_float_safe(fc.get('forecast_7d', avg*7))
+                ai_avg = ai_7d / 7.0 if ai_7d > 0 else avg
                 
                 proj = cs - ai_7d
                 # pyre-ignore
@@ -79,17 +94,46 @@ async def generate_alerts():
                 
             # 3. MANUAL OVERRIDE PRIORITY (Trumps everything)
             if thr.get('reorder_point') is not None:
-                rp = float(thr.get('reorder_point'))
+                rp = _to_float_safe(thr.get('reorder_point'))
                 mode = '⚙️ MANUAL OVERRIDE'
                 confidence = 'MANUAL'
                 
             flag = int(proj <= rp)
             
-            if flag and days <= lt: urgency = 'CRITICAL'
-            elif flag and days <= lt*2: urgency = 'URGENT'
+            # 4. EMERGENCY RESTOCK PRIORITY (Absolute highest priority)
+            inv_profile = inventory.get(sku, {})
+            emergency_due_str = inv_profile.get('emergency_restock_due')
+            is_emergency = False
+            emergency_days = 0
+            
+            if emergency_due_str:
+                try:
+                    # Clean the Z if present, ensure timezone info
+                    from datetime import timezone
+                    clean_str = emergency_due_str.replace('Z', '+00:00')
+                    due_date = datetime.fromisoformat(clean_str)
+                    now = datetime.now(timezone.utc)
+                    emergency_days = round((due_date - now).total_seconds() / 86400.0, 1)
+                    is_emergency = True
+                except Exception as e:
+                    print(f"DEBUG: Failed to parse emergency due date: {e}")
+                    pass
+            
+            if is_emergency:
+                urgency = 'EMERGENCY'
+                flag = 1
+                days = emergency_days
+                mode = '🚨 EMERGENCY RESTOCK'
+                confidence = 'CRITICAL OOS'
+            elif flag and cs <= 0: urgency = 'CRITICAL'
+            elif flag and days <= lt: urgency = 'URGENT'
             elif flag: urgency = 'REORDER'
             else: urgency = 'OK'
             
+            active_avg = round(fc.get('forecast_7d', avg*7)/7, 3) if (fc and fc.get('confidence') == 'HIGH') else avg
+            target_stock = rp + (active_avg * 30)
+            rec_order = int(max(0, target_stock - cs)) if flag else 0
+
             alert = {
                 'sku':sku, 'product_name':prod.get('product_name',''),
                 'category':prod.get('category',''), 'mode':mode,
@@ -97,8 +141,9 @@ async def generate_alerts():
                 'current_stock':cs, 'avg_daily_demand':round(avg, 3),
                 'days_of_stock':days, 'reorder_point':rp,
                 'reorder_flag':flag, 'urgency':urgency, 'confidence':confidence,
+                'recommended_order_quantity': rec_order,
                 'days_to_graduate': max(0, 30-prod.get('sales_day_count',0)) if is_cold else 0,
-                'acknowledged': inventory.get(sku, {}).get('acknowledged', False),
+                'acknowledged': inv_profile.get('acknowledged', False),
                 'shap_factors': fc.get('shap_factors', [])
             }
             
@@ -110,7 +155,11 @@ async def generate_alerts():
             else:
                 if flag:
                     print(f"DEBUG: Skipping Gemini for SKU {sku}. Count >= {MAX_GEMINI}")
-                alert['explanation'] = 'Stock level has fallen below the safety reorder point.'
+                
+                if is_emergency:
+                    alert['explanation'] = 'Customer backorder created during inventory shortage. Immediate restock required to fulfill order before SLA expires.'
+                else:
+                    alert['explanation'] = 'Stock level has fallen below the safety reorder point.'
                 
             results.append(alert)
 
@@ -118,8 +167,11 @@ async def generate_alerts():
         print(f"DEBUG: Executing {len(gemini_tasks)} Gemini calls concurrently...")
         explanations = await asyncio.gather(*(task[1] for task in gemini_tasks))
         for i, (alert, _) in enumerate(gemini_tasks):
-            alert['explanation'] = explanations[i]
+            if alert['urgency'] == 'EMERGENCY':
+                alert['explanation'] = 'Customer backorder created during inventory shortage. Immediate restock required to fulfill order before SLA expires.'
+            else:
+                alert['explanation'] = explanations[i]
             
-    order = {'CRITICAL':0, 'URGENT':1, 'REORDER':2, 'OK':3}
+    order = {'EMERGENCY':-1, 'CRITICAL':0, 'URGENT':1, 'REORDER':2, 'OK':3}
     results.sort(key=lambda x: (order.get(x['urgency'],4), x['days_of_stock']))
     return results

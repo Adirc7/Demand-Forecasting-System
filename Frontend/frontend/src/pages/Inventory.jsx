@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getAlerts, acknowledge_alert, setOverrideThreshold, updateInventory } from '../services/api';
+import { getAlerts, acknowledge_alert, setOverrideThreshold, updateInventory, adjustInventory } from '../services/api';
 import WhyPopup from '../components/WhyPopup';
 import './Inventory.css';
 
@@ -11,6 +11,9 @@ export default function Inventory() {
     const [hovered, setHovered] = useState(null);
     const [overrideSku, setOverrideSku] = useState(null);
     const [overrideVal, setOverrideVal] = useState('');
+    const [adjustSku, setAdjustSku] = useState(null);
+    const [adjustVal, setAdjustVal] = useState('');
+    const [adjustReason, setAdjustReason] = useState('Typo Correction');
 
     useEffect(() => { loadAlerts(); }, []);
 
@@ -36,9 +39,19 @@ export default function Inventory() {
         const qty = prompt(`🚚 TRUCK ARRIVED: Enter total physical stock received for ${sku}:`);
         if (!qty || isNaN(qty) || parseInt(qty) <= 0) return;
         
+        const price = prompt(`💰 SUPPLIER INVOICE: Enter unit price paid for ${sku} (COGS):`);
+        if (!price || isNaN(price) || parseFloat(price) < 0) {
+            setErr("Invalid supplier price. Operation cancelled.");
+            return;
+        }
+
         try {
             // Update database physically
-            await updateInventory(sku, { current_stock: current_stock + parseInt(qty), acknowledged: false });
+            await updateInventory(sku, { 
+                current_stock: current_stock + parseInt(qty), 
+                unit_price: parseFloat(price),
+                acknowledged: false 
+            });
             // ZERO-READ REMOVAL: Instantly clear the alert from the screen locally
             setAlerts(prev => prev.filter(a => a.sku !== sku));
         } catch (e) {
@@ -58,8 +71,26 @@ export default function Inventory() {
         }
     };
 
+    const handleAdjustSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const newStockVal = parseInt(adjustVal);
+            if (isNaN(newStockVal) || newStockVal < 0) {
+                setErr("Invalid stock value. Must be a non-negative number.");
+                return;
+            }
+            await adjustInventory(adjustSku.sku, newStockVal, adjustReason);
+            setAdjustSku(null);
+            setAdjustVal('');
+            await loadAlerts();
+        } catch (error) {
+            setErr("Failed to adjust stock: " + error.message);
+        }
+    };
+
     const getUrgencyBadge = (u) => {
         switch (u) {
+            case 'EMERGENCY': return { text: 'EMERGENCY', color: '#ff0055', bg: 'rgba(255,0,85,.15)' };
             case 'CRITICAL': return { text: 'CRITICAL', color: '#ef4444', bg: 'rgba(239,68,68,.1)' };
             case 'URGENT': return { text: 'URGENT', color: '#f97316', bg: 'rgba(249,115,22,.1)' };
             case 'REORDER': return { text: 'REORDER', color: '#eab308', bg: 'rgba(234,179,8,.1)' };
@@ -112,10 +143,19 @@ export default function Inventory() {
                                 </div>
                                 <div className="card-sku">{a.sku}</div>
 
-                                <div className="card-stats">
+                                <div className="card-stats" style={{ gridTemplateColumns: a.reorder_flag ? '1fr 1fr 1fr' : '1fr 1fr' }}>
                                     <div className="stat-block">
                                         <div className="stat-label-sm">Stock</div>
-                                        <div className="stat-val-sm" style={{ color: a.current_stock < a.reorder_point ? '#f97316' : '#22c55e' }}>{a.current_stock}</div>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                            <div className="stat-val-sm" style={{ color: a.current_stock < a.reorder_point ? '#f97316' : '#22c55e' }}>{a.current_stock}</div>
+                                            <button 
+                                                onClick={() => { setAdjustSku(a); setAdjustVal(a.current_stock); }}
+                                                style={{ background: 'transparent', border: 'none', color: '#94a3b8', cursor: 'pointer', fontSize: '10px' }}
+                                                title="Correct Stock Entry"
+                                            >
+                                                ✏️
+                                            </button>
+                                        </div>
                                     </div>
                                     <div className="stat-block">
                                         <div className="stat-label-sm">Days Left</div>
@@ -123,21 +163,29 @@ export default function Inventory() {
                                             {a.days_of_stock >= 999 ? '999+' : a.days_of_stock}
                                         </div>
                                     </div>
+                                    {!!a.reorder_flag && a.recommended_order_quantity > 0 && (
+                                        <div className="stat-block">
+                                            <div className="stat-label-sm" style={{ color: '#a78bfa' }}>Order Qty</div>
+                                            <div className="stat-val-sm" style={{ color: "#d8b4fe", textShadow: "0 0 10px rgba(167,139,250,.4)" }}>
+                                                +{a.recommended_order_quantity}
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
 
-                                <div className="divider" />
+                                <div className="divider" style={{ marginTop: 'auto' }} />
 
                                 <div className="card-bottom" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                     <div className="model-tag">{a.mode} • {a.confidence.split(' ')[0]}</div>
                                     <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                                         {a.acknowledged ? (
                                             <>
-                                                <div style={{ fontSize: '9px', color: '#64748b', border: '1px solid #334155', padding: '4px 8px', borderRadius: '2px', background: 'rgba(51,65,85,.1)', fontFamily: "'Orbitron', monospace", letterSpacing: '1px' }}>
+                                                <div style={{ fontSize: '9px', color: '#64748b', border: '1px solid #334155', padding: '4px 8px', borderRadius: '2px', background: 'rgba(51,65,85,.1)', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', whiteSpace: 'nowrap' }}>
                                                     ORDER PLACED ✓
                                                 </div>
                                                 <button
                                                     onClick={() => handleArrived(a.sku, a.current_stock)}
-                                                    style={{ fontSize: '9px', color: '#22c55e', border: '1px solid rgba(34,197,94,.4)', padding: '4px 8px', borderRadius: '2px', background: 'transparent', cursor: 'pointer', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', transition: 'all 0.2s', marginLeft: '8px' }}
+                                                    style={{ fontSize: '9px', color: '#22c55e', border: '1px solid rgba(34,197,94,.4)', padding: '4px 8px', borderRadius: '2px', background: 'transparent', cursor: 'pointer', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', transition: 'all 0.2s', marginLeft: '8px', whiteSpace: 'nowrap' }}
                                                     onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(34,197,94,.1)'; e.currentTarget.style.boxShadow = '0 0 8px rgba(34,197,94,.3)'; }}
                                                     onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.boxShadow = 'none'; }}
                                                 >
@@ -147,7 +195,7 @@ export default function Inventory() {
                                         ) : (
                                             <button
                                                 onClick={() => handleAcknowledge(a.sku)}
-                                                style={{ fontSize: '9px', color: '#f97316', border: '1px solid rgba(249,115,22,.4)', padding: '4px 8px', borderRadius: '2px', background: 'transparent', cursor: 'pointer', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', transition: 'all 0.2s' }}
+                                                style={{ fontSize: '9px', color: '#f97316', border: '1px solid rgba(249,115,22,.4)', padding: '4px 8px', borderRadius: '2px', background: 'transparent', cursor: 'pointer', fontFamily: "'Orbitron', monospace", letterSpacing: '1px', transition: 'all 0.2s', whiteSpace: 'nowrap' }}
                                                 onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(249,115,22,.1)'; e.currentTarget.style.boxShadow = '0 0 8px rgba(249,115,22,.3)'; }}
                                                 onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.boxShadow = 'none'; }}
                                             >
@@ -230,6 +278,72 @@ export default function Inventory() {
                                     color: "#000", fontWeight: "bold", border: "none", borderRadius: "6px", cursor: "pointer", 
                                     fontFamily: "'Space Mono', monospace", boxShadow: "0 0 15px rgba(0, 229, 255, 0.3)"
                                 }}>Save Rule</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
+
+            {adjustSku && (
+                <div style={{
+                    position: "fixed", inset: 0,
+                    background: "rgba(6, 10, 16, 0.8)", backdropFilter: "blur(6px)",
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    padding: "16px", zIndex: 9999
+                }}>
+                    <div style={{
+                        background: "linear-gradient(145deg, #0d1520 0%, #080e18 100%)",
+                        border: "1px solid rgba(0, 229, 255, 0.15)",
+                        boxShadow: "0 0 0 1px rgba(0, 229, 255, 0.15), 0 0 60px rgba(0, 229, 255, 0.08), 0 40px 80px rgba(0,0,0,0.8)",
+                        borderRadius: "16px", padding: "24px", maxWidth: "400px", width: "100%", position: "relative"
+                    }}>
+                        <button onClick={() => setAdjustSku(null)} className="absolute top-4 right-4 text-gray-500 hover:text-white">✕</button>
+                        <h3 className="text-xl font-bold text-white mb-2" style={{ fontFamily: "'Orbitron', sans-serif" }}>Adjust Stock</h3>
+                        <p className="text-sm text-gray-400 mb-4">Correct the actual physical stock for <strong>{adjustSku.sku}</strong>. This action will be logged.</p>
+                        <form onSubmit={handleAdjustSubmit}>
+                            <label style={{ display: 'block', color: '#8899aa', fontSize: '12px', marginBottom: '4px', fontFamily: "'Space Mono', monospace" }}>New Physical Stock Count (Current: {adjustSku.current_stock})</label>
+                            <input 
+                                type="number" 
+                                style={{
+                                    width: "100%", background: "#060a10", color: "#00e5ff", 
+                                    border: "1px solid rgba(0, 229, 255, 0.2)", borderRadius: "6px", 
+                                    padding: "12px", marginBottom: "16px", fontFamily: "'Space Mono', monospace",
+                                    outline: "none", boxShadow: "inset 0 2px 4px rgba(0,0,0,0.5)"
+                                }}
+                                placeholder="Exact Count"
+                                value={adjustVal}
+                                onChange={e => setAdjustVal(e.target.value)}
+                                min="0" required
+                            />
+                            
+                            <label style={{ display: 'block', color: '#8899aa', fontSize: '12px', marginBottom: '4px', fontFamily: "'Space Mono', monospace" }}>Reason for Correction</label>
+                            <select 
+                                value={adjustReason}
+                                onChange={e => setAdjustReason(e.target.value)}
+                                style={{
+                                    width: "100%", background: "#060a10", color: "#00e5ff", 
+                                    border: "1px solid rgba(0, 229, 255, 0.2)", borderRadius: "6px", 
+                                    padding: "12px", marginBottom: "24px", fontFamily: "'Space Mono', monospace",
+                                    outline: "none"
+                                }}
+                            >
+                                <option value="Typo Correction">Typo Correction</option>
+                                <option value="Damaged Goods">Damaged Goods</option>
+                                <option value="Lost / Missing">Lost / Missing</option>
+                                <option value="Found Stock">Found Stock</option>
+                                <option value="Other">Other</option>
+                            </select>
+
+                            <div style={{ display: "flex", gap: "12px" }}>
+                                <button type="button" onClick={() => setAdjustSku(null)} style={{
+                                    flex: 1, padding: "10px", background: "transparent", color: "#8899aa", 
+                                    border: "1px solid rgba(255,255,255,0.1)", borderRadius: "6px", cursor: "pointer", fontFamily: "'Space Mono', monospace"
+                                }}>Cancel</button>
+                                <button type="submit" style={{
+                                    flex: 1, padding: "10px", background: "linear-gradient(135deg, #00c8e0, #0088cc)", 
+                                    color: "#000", fontWeight: "bold", border: "none", borderRadius: "6px", cursor: "pointer", 
+                                    fontFamily: "'Space Mono', monospace", boxShadow: "0 0 15px rgba(0, 229, 255, 0.3)"
+                                }}>Save Correction</button>
                             </div>
                         </form>
                     </div>

@@ -59,12 +59,14 @@ export const triggerAdminEmail = (payload) => apiFetch('/api/v1/sales/trigger-ad
 export const getAlerts = () => apiFetch(`/api/v1/inventory/alerts?t=${Date.now()}`);
 export const getInventory = () => apiFetch('/api/v1/inventory/');
 export const updateInventory = (id, data) => apiFetch(`/api/v1/inventory/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+export const adjustInventory = (id, new_stock, reason) => apiFetch(`/api/v1/inventory/${id}/adjust`, { method: 'POST', body: JSON.stringify({ new_stock, reason }) });
 export const acknowledge_alert = (id) => apiFetch(`/api/v1/inventory/alerts/${id}/acknowledge`, { method: 'POST' });
 export const setOverrideThreshold = (id, reorder_point) => apiFetch(`/api/v1/inventory/alerts/${id}/override`, { method: 'POST', body: { reorder_point } });
 
 // M4 - Forecasts
 export const getForecasts = () => apiFetch('/api/v1/forecast/categories/');
-export const triggerRetrain = () => apiFetch('/api/v1/forecast/retrain', { method: 'POST' });
+export const getRetrainStats = () => apiFetch('/api/v1/forecast/retrain_stats');
+export const triggerRetrain = (payload) => apiFetch('/api/v1/forecast/retrain', { method: 'POST', body: JSON.stringify(payload || {}) });
 
 // M5 - Reports
 export const getReports = () => apiFetch('/api/v1/reports/');

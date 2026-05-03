@@ -217,6 +217,8 @@
     cursor: pointer;
     transition: all .25s ease;
     animation: fadeInUp .5s ease both;
+    display: flex;
+    flex-direction: column;
 }
 
 .item-card::before {
@@ -318,7 +320,8 @@
 .card-bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin-top: auto;
 }
 
 .model-tag {
