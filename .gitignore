@@ -1,0 +1,16 @@
+# Ignore Python/Node environment and build files
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+node_modules/
+dist/
+*.env
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+Backend/backend/serviceAccountKey.json
